@@ -11,7 +11,7 @@
     "icon": "",
     "php_after_publish": "",
     "add_fadein": 1,
-    "description": "",
+    "description": "Description of the \"admin view\" Locations",
     "icon_category": "",
     "icon_add": "",
     "php_after_cancel": "",
@@ -73,6 +73,9 @@
             "name": "Geography"
         },
         "addtabs2": {
+            "name": "Facilities"
+        },
+        "addtabs3": {
             "name": "Admininstration"
         }
     },
@@ -113,9 +116,9 @@
     "add_php_batchcopy": 0,
     "javascript_views_file": "",
     "add_php_batchmove": 0,
-    "add_javascript_views_footer": 0,
+    "add_javascript_views_footer": 1,
     "add_php_before_publish": 0,
-    "javascript_views_footer": "",
+    "javascript_views_footer": "jQuery(document).ready(function($){\r\n   $('#locationList tbody tr td:nth-child(3)').each(function(){\r\n      var imgPath = '<?php echo JURI::root(true). \"\/\";?>' + $(this).text();\r\n      $(this).html('<img rel=\"popover\" src=\"'+ imgPath +'\" width=\"100\" data-img=\"'+ imgPath +'\" \/>');\r\n   });\r\n   $('img[rel=popover]').popover({\r\n      html: true,\r\n      trigger: 'hover',\r\n      placement: 'bottom',\r\n      content: function(){return '<img src=\"'+$(this).data('img') + '\" \/>';}\r\n   });\r\n});",
     "add_php_after_publish": 0,
     "add_custom_button": 0,
     "add_php_before_delete": 0,
