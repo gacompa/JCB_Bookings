@@ -12,7 +12,7 @@
 	description="Enter the Longitude"
 	class="text_area"
 	message="Error! Please add the longitude here."
-	hint="The Longitude Here"
+	hint=""
 />
 ```
 
