@@ -8,11 +8,11 @@
 <field
 	type="text"
 	name="name"
-	label="Enter name of the location"
+	label="Location name"
 	size="40"
-	maxlength="50"
-	default="Some text"
-	description="Enter some description"
+	maxlength="256"
+	default=""
+	description="Enter name of location"
 	class="text_area"
 	readonly="false"
 	disabled="false"
@@ -21,7 +21,7 @@
 	validate=""
 	field=""
 	message="Error! Please add some text here."
-	hint="Your Name Here"
+	hint=""
 	autocomplete="on"
 	showon=""
 	onchange=""
@@ -30,10 +30,10 @@
 
 ## Database:
 - Data type: VARCHAR
-- Data length: 50
+- Data length: 255
 - Data default: 
 - Null switch: NULL
-- Index: KEY
+- Index: UNIQUE KEY
 - Modeling: Default
 
 > Define, capture, and control data effortlessly with this Field; the core building block of every JCB component.
