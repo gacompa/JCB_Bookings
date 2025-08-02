@@ -11,8 +11,9 @@
 	label="Latitude"
 	description="Enter the Latitude"
 	class="text_area"
+	required="true"
 	message="Error! Please add the latitude here."
-	hint="The Latitude Here"
+	hint=""
 />
 ```
 
