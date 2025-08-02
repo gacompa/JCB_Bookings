@@ -52,5 +52,95 @@
         "path": "src\/field\/f68fdba1-62f1-4396-b915-cacc79206db5",
         "settings": "src\/field\/f68fdba1-62f1-4396-b915-cacc79206db5\/item.json",
         "guid": "f68fdba1-62f1-4396-b915-cacc79206db5"
+    },
+    "096fd1f5-480a-4a8b-98cf-4fceac5e7999": {
+        "name": "Telephone",
+        "path": "src\/field\/096fd1f5-480a-4a8b-98cf-4fceac5e7999",
+        "settings": "src\/field\/096fd1f5-480a-4a8b-98cf-4fceac5e7999\/item.json",
+        "guid": "096fd1f5-480a-4a8b-98cf-4fceac5e7999"
+    },
+    "382f24f4-aea2-448e-927c-99d89bb6ed40": {
+        "name": "Long description",
+        "path": "src\/field\/382f24f4-aea2-448e-927c-99d89bb6ed40",
+        "settings": "src\/field\/382f24f4-aea2-448e-927c-99d89bb6ed40\/item.json",
+        "guid": "382f24f4-aea2-448e-927c-99d89bb6ed40"
+    },
+    "2d01d455-4120-45bf-bce3-eba4354989c0": {
+        "name": "Stop",
+        "path": "src\/field\/2d01d455-4120-45bf-bce3-eba4354989c0",
+        "settings": "src\/field\/2d01d455-4120-45bf-bce3-eba4354989c0\/item.json",
+        "guid": "2d01d455-4120-45bf-bce3-eba4354989c0"
+    },
+    "cf7146a0-8c47-4fec-9490-34287ef14408": {
+        "name": "Base",
+        "path": "src\/field\/cf7146a0-8c47-4fec-9490-34287ef14408",
+        "settings": "src\/field\/cf7146a0-8c47-4fec-9490-34287ef14408\/item.json",
+        "guid": "cf7146a0-8c47-4fec-9490-34287ef14408"
+    },
+    "3df662f4-5924-483e-8636-24c2ed4f27bf": {
+        "name": "Image",
+        "path": "src\/field\/3df662f4-5924-483e-8636-24c2ed4f27bf",
+        "settings": "src\/field\/3df662f4-5924-483e-8636-24c2ed4f27bf\/item.json",
+        "guid": "3df662f4-5924-483e-8636-24c2ed4f27bf"
+    },
+    "897b1866-93ae-4c77-9d76-2d59fe32fc83": {
+        "name": "Credits",
+        "path": "src\/field\/897b1866-93ae-4c77-9d76-2d59fe32fc83",
+        "settings": "src\/field\/897b1866-93ae-4c77-9d76-2d59fe32fc83\/item.json",
+        "guid": "897b1866-93ae-4c77-9d76-2d59fe32fc83"
+    },
+    "00ea1e01-ff68-4feb-8649-68c63d4e062c": {
+        "name": "Places inside",
+        "path": "src\/field\/00ea1e01-ff68-4feb-8649-68c63d4e062c",
+        "settings": "src\/field\/00ea1e01-ff68-4feb-8649-68c63d4e062c\/item.json",
+        "guid": "00ea1e01-ff68-4feb-8649-68c63d4e062c"
+    },
+    "aaf3f211-ba95-45cc-a2a1-881d6ea35d50": {
+        "name": "Places outside",
+        "path": "src\/field\/aaf3f211-ba95-45cc-a2a1-881d6ea35d50",
+        "settings": "src\/field\/aaf3f211-ba95-45cc-a2a1-881d6ea35d50\/item.json",
+        "guid": "aaf3f211-ba95-45cc-a2a1-881d6ea35d50"
+    },
+    "fd05b628-8b23-42fc-aacc-78ebcf96ea60": {
+        "name": "Heating",
+        "path": "src\/field\/fd05b628-8b23-42fc-aacc-78ebcf96ea60",
+        "settings": "src\/field\/fd05b628-8b23-42fc-aacc-78ebcf96ea60\/item.json",
+        "guid": "fd05b628-8b23-42fc-aacc-78ebcf96ea60"
+    },
+    "7b541f51-6f3f-4f78-a8b4-2dd3009714d7": {
+        "name": "Kitchen",
+        "path": "src\/field\/7b541f51-6f3f-4f78-a8b4-2dd3009714d7",
+        "settings": "src\/field\/7b541f51-6f3f-4f78-a8b4-2dd3009714d7\/item.json",
+        "guid": "7b541f51-6f3f-4f78-a8b4-2dd3009714d7"
+    },
+    "e984295c-77bf-437b-8361-4977646fae4c": {
+        "name": "Camp fire",
+        "path": "src\/field\/e984295c-77bf-437b-8361-4977646fae4c",
+        "settings": "src\/field\/e984295c-77bf-437b-8361-4977646fae4c\/item.json",
+        "guid": "e984295c-77bf-437b-8361-4977646fae4c"
+    },
+    "85beced9-a24c-4797-a94b-5aa7c460076e": {
+        "name": "Electricity",
+        "path": "src\/field\/85beced9-a24c-4797-a94b-5aa7c460076e",
+        "settings": "src\/field\/85beced9-a24c-4797-a94b-5aa7c460076e\/item.json",
+        "guid": "85beced9-a24c-4797-a94b-5aa7c460076e"
+    },
+    "d3a5af2d-6b37-49ba-a4b6-0940501091f8": {
+        "name": "Rest rooms",
+        "path": "src\/field\/d3a5af2d-6b37-49ba-a4b6-0940501091f8",
+        "settings": "src\/field\/d3a5af2d-6b37-49ba-a4b6-0940501091f8\/item.json",
+        "guid": "d3a5af2d-6b37-49ba-a4b6-0940501091f8"
+    },
+    "7d158094-5df6-4486-87d9-d1c3f6732ced": {
+        "name": "Availability",
+        "path": "src\/field\/7d158094-5df6-4486-87d9-d1c3f6732ced",
+        "settings": "src\/field\/7d158094-5df6-4486-87d9-d1c3f6732ced\/item.json",
+        "guid": "7d158094-5df6-4486-87d9-d1c3f6732ced"
+    },
+    "e5acc3ed-593b-4318-a3fd-47a82e47bf45": {
+        "name": "Security rules",
+        "path": "src\/field\/e5acc3ed-593b-4318-a3fd-47a82e47bf45",
+        "settings": "src\/field\/e5acc3ed-593b-4318-a3fd-47a82e47bf45\/item.json",
+        "guid": "e5acc3ed-593b-4318-a3fd-47a82e47bf45"
     }
 }
