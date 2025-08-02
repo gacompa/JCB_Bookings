@@ -1,0 +1,35 @@
+{
+    "name": "Availability",
+    "fieldtype": "ac10859b-58da-4584-9682-36a6c2c8d04d",
+    "datatype": "VARCHAR",
+    "indexes": "0",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": null,
+    "on_save_model_field": null,
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"checkboxes\"\n\tname=\"availability\"\n\tlabel=\"Select availability\"\n\toption=\"Spring\r\nSummer\r\nAutumn\r\nWinter\"\n\tdefault=\"\"\n\tdescription=\"Select the topping of your choice\"\n\trequired=\"\"\n\tclass=\"\"\n\tshowon=\"\"\n\/>",
+    "datalenght": "255",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "7d158094-5df6-4486-87d9-d1c3f6732ced",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "ac10859b-58da-4584-9682-36a6c2c8d04d",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}
