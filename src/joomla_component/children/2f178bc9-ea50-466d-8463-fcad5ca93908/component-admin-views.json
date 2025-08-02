@@ -27,18 +27,6 @@
             "filter": "2",
             "edit_create_site_view": "2",
             "order": "0"
-        },
-        "addadmin_views2": {
-            "adminview": "6bf8c6a1-36f3-4c13-b04d-89eefe322d0f",
-            "icomoon": "joomla",
-            "mainmenu": "1",
-            "dashboard_add": "1",
-            "dashboard_list": "1",
-            "history": "1",
-            "add_api": "0",
-            "filter": "2",
-            "edit_create_site_view": "2",
-            "order": "0"
         }
     },
     "@dependencies": [
@@ -59,13 +47,6 @@
         {
             "key": "guid",
             "value": "e42d4c2d-ccd3-4291-a886-6f958be29417",
-            "entity": "admin_view",
-            "table": "#__componentbuilder_admin_view",
-            "direction": "out"
-        },
-        {
-            "key": "guid",
-            "value": "6bf8c6a1-36f3-4c13-b04d-89eefe322d0f",
             "entity": "admin_view",
             "table": "#__componentbuilder_admin_view",
             "direction": "out"
