@@ -8,11 +8,11 @@
 <field
 	type="text"
 	name="group"
-	label="Enter some text"
+	label="Group"
 	size="10"
 	maxlength="50"
 	default="Some text"
-	description="Enter some description"
+	description="Enter the name of the group"
 	class="text_area"
 	readonly="false"
 	disabled="false"
