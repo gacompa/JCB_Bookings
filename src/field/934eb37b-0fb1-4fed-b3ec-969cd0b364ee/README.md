@@ -1,5 +1,5 @@
 ### JCB! Field
-# 1 stop
+# First stop
 
 > Field Type: ModalSelect
 
@@ -7,12 +7,12 @@
 ```xml
 <field
 	type="ModalSelect"
-	name="onename"
-	label="Enter some text"
+	name="first_stop"
+	label="First stop"
 	sql_title_table="#__###component###_location"
 	sql_title_column="name"
 	sql_title_key="id"
-	urlSelect="index.php?option=com_###component###&amp;view=location&amp;layout=modal&amp;tmpl=component&amp;titleKey=id"
+	urlSelect="index.php?option=com_###component###&amp;view=locations&amp;layout=modal&amp;tmpl=component&amp;titleKey=id"
 	urlNew="index.php?option=com_###component###&amp;task=targetview.add&amp;layout=modal&amp;tmpl=component"
 	urlEdit="index.php?option=com_###component###&amp;task=targetview.edit&amp;id={id}&amp;layout=modal&amp;tmpl=component"
 	titleSelect="Select Targetview"
