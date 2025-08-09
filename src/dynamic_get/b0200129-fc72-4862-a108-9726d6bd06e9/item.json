@@ -1,0 +1,56 @@
+{
+    "name": "Paths",
+    "main_source": 1,
+    "gettype": 1,
+    "php_calculation": "",
+    "php_router_parse": null,
+    "add_php_after_getitems": 0,
+    "add_php_router_parse": 0,
+    "view_selection": "a.id_code AS id_code\r\na.datefirststop AS datefirststop\r\na.first_stop AS first_stop\r\na.second_stop AS second_stop\r\na.third_stop AS third_stop\r\na.published AS published",
+    "add_php_before_getitems": 0,
+    "add_php_before_getitem": 0,
+    "add_php_after_getitem": 0,
+    "db_table_main": null,
+    "php_custom_get": null,
+    "plugin_events": null,
+    "db_selection": null,
+    "view_table_main": "e42d4c2d-ccd3-4291-a886-6f958be29417",
+    "add_php_getlistquery": 0,
+    "join_db_table": null,
+    "select_all": 0,
+    "php_before_getitem": "",
+    "getcustom": "",
+    "php_after_getitem": "",
+    "pagination": 1,
+    "php_getlistquery": "",
+    "php_before_getitems": "",
+    "filter": null,
+    "php_after_getitems": "",
+    "where": null,
+    "order": null,
+    "addcalculation": 0,
+    "group": null,
+    "global": null,
+    "guid": "b0200129-fc72-4862-a108-9726d6bd06e9",
+    "join_view_table": {
+        "join_view_table0": {
+            "view_table": "e42d4c2d-ccd3-4291-a886-6f958be29417",
+            "row_type": 1,
+            "as": "b",
+            "type": 1,
+            "on_field": "a.id_code",
+            "operator": 1,
+            "join_field": "b.id_code",
+            "selection": "b.id_code AS reservation_id_code\r\nb.datefirststop AS reservation_datefirststop\r\nb.first_stop AS reservation_first_stop\r\nb.second_stop AS reservation_second_stop\r\nb.third_stop AS reservation_third_stop"
+        }
+    },
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "e42d4c2d-ccd3-4291-a886-6f958be29417",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        }
+    ]
+}
