@@ -10,5 +10,11 @@
         "path": "src\/dynamic_get\/fe3fbfca-7a96-4aef-b6c2-b615cc94f7e0",
         "settings": "src\/dynamic_get\/fe3fbfca-7a96-4aef-b6c2-b615cc94f7e0\/item.json",
         "guid": "fe3fbfca-7a96-4aef-b6c2-b615cc94f7e0"
+    },
+    "b0200129-fc72-4862-a108-9726d6bd06e9": {
+        "name": "Paths",
+        "path": "src\/dynamic_get\/b0200129-fc72-4862-a108-9726d6bd06e9",
+        "settings": "src\/dynamic_get\/b0200129-fc72-4862-a108-9726d6bd06e9\/item.json",
+        "guid": "b0200129-fc72-4862-a108-9726d6bd06e9"
     }
 }
