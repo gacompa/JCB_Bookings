@@ -8,7 +8,7 @@
     "on_get_model_field": null,
     "on_save_model_field": null,
     "initiator_on_get_model": "",
-    "xml": "<field\n\ttype=\"text\"\n\tname=\"group\"\n\tlabel=\"Enter some text\"\n\tsize=\"10\"\n\tmaxlength=\"50\"\n\tdefault=\"Some text\"\n\tdescription=\"Enter some description\"\n\tclass=\"text_area\"\n\treadonly=\"false\"\n\tdisabled=\"false\"\n\trequired=\"false\"\n\tfilter=\"STRING\"\n\tvalidate=\"\"\n\tfield=\"\"\n\tmessage=\"Error! Please add some text here.\"\n\thint=\"Your Name Here\"\n\tautocomplete=\"on\"\n\tshowon=\"\"\n\tonchange=\"\"\n\/>",
+    "xml": "<field\n\ttype=\"text\"\n\tname=\"group\"\n\tlabel=\"Group\"\n\tsize=\"10\"\n\tmaxlength=\"50\"\n\tdefault=\"Some text\"\n\tdescription=\"Enter the name of the group\"\n\tclass=\"text_area\"\n\treadonly=\"false\"\n\tdisabled=\"false\"\n\trequired=\"false\"\n\tfilter=\"STRING\"\n\tvalidate=\"\"\n\tfield=\"\"\n\tmessage=\"Error! Please add some text here.\"\n\thint=\"Your Name Here\"\n\tautocomplete=\"on\"\n\tshowon=\"\"\n\tonchange=\"\"\n\/>",
     "datalenght": "10",
     "javascript_view_footer": "",
     "css_views": "",
