@@ -19,5 +19,12 @@
         "settings": "src\/admin_view\/eafd26f7-b13c-4c36-b8a3-ae7d71febb24\/item.json",
         "guid": "eafd26f7-b13c-4c36-b8a3-ae7d71febb24",
         "desc": "List of the locations in the area"
+    },
+    "1f70dec6-20b6-4ef7-b4aa-e50b86cf98f3": {
+        "name": "Reservations-edit",
+        "path": "src\/admin_view\/1f70dec6-20b6-4ef7-b4aa-e50b86cf98f3",
+        "settings": "src\/admin_view\/1f70dec6-20b6-4ef7-b4aa-e50b86cf98f3\/item.json",
+        "guid": "1f70dec6-20b6-4ef7-b4aa-e50b86cf98f3",
+        "desc": "Reservation"
     }
 }
