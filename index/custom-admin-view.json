@@ -1,0 +1,9 @@
+{
+    "21aa5173-4af3-4078-9d20-58f09c3645ee": {
+        "name": "custom_path",
+        "desc": "custom path",
+        "path": "src\/custom_admin_view\/21aa5173-4af3-4078-9d20-58f09c3645ee",
+        "settings": "src\/custom_admin_view\/21aa5173-4af3-4078-9d20-58f09c3645ee\/item.json",
+        "guid": "21aa5173-4af3-4078-9d20-58f09c3645ee"
+    }
+}
