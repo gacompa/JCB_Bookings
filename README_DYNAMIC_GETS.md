@@ -60,6 +60,7 @@ Whether you're building for:
 
  - **Locations** | [Details](src/dynamic_get/e12b2a0d-b122-4bd4-a6b5-29fe926ecf8c) | [Settings](src/dynamic_get/e12b2a0d-b122-4bd4-a6b5-29fe926ecf8c/item.json)
  - **Map** | [Details](src/dynamic_get/fe3fbfca-7a96-4aef-b6c2-b615cc94f7e0) | [Settings](src/dynamic_get/fe3fbfca-7a96-4aef-b6c2-b615cc94f7e0/item.json)
+ - **Paths** | [Details](src/dynamic_get/b0200129-fc72-4862-a108-9726d6bd06e9) | [Settings](src/dynamic_get/b0200129-fc72-4862-a108-9726d6bd06e9/item.json)
 
 ### All used in [Joomla Component Builder](https://www.joomlacomponentbuilder.com) - [Source](https://git.vdm.dev/joomla/Component-Builder) - [Mirror](https://github.com/vdm-io/Joomla-Component-Builder) - [Download](https://git.vdm.dev/joomla/pkg-component-builder/releases)
 
