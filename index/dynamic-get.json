@@ -1,0 +1,14 @@
+{
+    "e12b2a0d-b122-4bd4-a6b5-29fe926ecf8c": {
+        "name": "Locations",
+        "path": "src\/dynamic_get\/e12b2a0d-b122-4bd4-a6b5-29fe926ecf8c",
+        "settings": "src\/dynamic_get\/e12b2a0d-b122-4bd4-a6b5-29fe926ecf8c\/item.json",
+        "guid": "e12b2a0d-b122-4bd4-a6b5-29fe926ecf8c"
+    },
+    "fe3fbfca-7a96-4aef-b6c2-b615cc94f7e0": {
+        "name": "Map",
+        "path": "src\/dynamic_get\/fe3fbfca-7a96-4aef-b6c2-b615cc94f7e0",
+        "settings": "src\/dynamic_get\/fe3fbfca-7a96-4aef-b6c2-b615cc94f7e0\/item.json",
+        "guid": "fe3fbfca-7a96-4aef-b6c2-b615cc94f7e0"
+    }
+}
