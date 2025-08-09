@@ -28,7 +28,7 @@
     "php_preflight_install": "",
     "php_method_install": "",
     "php_postflight_install": "",
-    "component_version": "15",
+    "component_version": "19",
     "php_method_uninstall": "",
     "preferred_joomla_version": 5,
     "sql": "",
@@ -99,6 +99,13 @@
             "value": "2f178bc9-ea50-466d-8463-fcad5ca93908",
             "entity": "component_site_views",
             "table": "#__componentbuilder_component_site_views",
+            "direction": "in"
+        },
+        {
+            "key": "joomla_component",
+            "value": "2f178bc9-ea50-466d-8463-fcad5ca93908",
+            "entity": "component_custom_admin_views",
+            "table": "#__componentbuilder_component_custom_admin_views",
             "direction": "in"
         },
         {
