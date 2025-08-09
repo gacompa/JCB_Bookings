@@ -19,7 +19,7 @@
 	buttons="no"
 	syntax=""
 	hide=""
-	editor="codemirror|none"
+	editor="tinyMCE|none"
 	filter="raw"
 	required="true"
 	validate=""
