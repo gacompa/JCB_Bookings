@@ -1,5 +1,5 @@
 ### JCB! Field
-# 3 stop
+# Third stop
 
 > Field Type: ModalSelect
 
@@ -7,8 +7,8 @@
 ```xml
 <field
 	type="ModalSelect"
-	name="threename"
-	label="Enter some text"
+	name="third_stop"
+	label="Third stop"
 	sql_title_table="#__###component###_location"
 	sql_title_column="name"
 	sql_title_key="id"
