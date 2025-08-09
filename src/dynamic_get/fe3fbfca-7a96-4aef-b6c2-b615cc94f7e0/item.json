@@ -1,0 +1,51 @@
+{
+    "name": "Map",
+    "main_source": 1,
+    "gettype": 1,
+    "php_calculation": "",
+    "php_router_parse": null,
+    "add_php_after_getitems": 0,
+    "add_php_router_parse": 0,
+    "view_selection": "a.id AS id\r\na.name AS name\r\na.is_stop AS is_stop\r\na.is_base AS is_base\r\na.latitude AS latitude\r\na.longitude AS longitude\r\na.published AS published\r\n",
+    "add_php_before_getitems": 0,
+    "add_php_before_getitem": 0,
+    "add_php_after_getitem": 0,
+    "db_table_main": null,
+    "php_custom_get": null,
+    "plugin_events": null,
+    "db_selection": null,
+    "view_table_main": "eafd26f7-b13c-4c36-b8a3-ae7d71febb24",
+    "add_php_getlistquery": 0,
+    "join_db_table": null,
+    "select_all": 0,
+    "php_before_getitem": "",
+    "getcustom": "",
+    "php_after_getitem": "",
+    "pagination": 1,
+    "php_getlistquery": "",
+    "php_before_getitems": "",
+    "filter": null,
+    "php_after_getitems": "",
+    "where": {
+        "where0": {
+            "table_key": "a.published",
+            "operator": 1,
+            "value_key": "1"
+        }
+    },
+    "order": null,
+    "addcalculation": 0,
+    "group": null,
+    "global": null,
+    "guid": "fe3fbfca-7a96-4aef-b6c2-b615cc94f7e0",
+    "join_view_table": null,
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "eafd26f7-b13c-4c36-b8a3-ae7d71febb24",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        }
+    ]
+}
