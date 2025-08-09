@@ -142,5 +142,17 @@
         "path": "src\/field\/e5acc3ed-593b-4318-a3fd-47a82e47bf45",
         "settings": "src\/field\/e5acc3ed-593b-4318-a3fd-47a82e47bf45\/item.json",
         "guid": "e5acc3ed-593b-4318-a3fd-47a82e47bf45"
+    },
+    "68699537-3391-400c-af78-177327570b4e": {
+        "name": "Identification code",
+        "path": "src\/field\/68699537-3391-400c-af78-177327570b4e",
+        "settings": "src\/field\/68699537-3391-400c-af78-177327570b4e\/item.json",
+        "guid": "68699537-3391-400c-af78-177327570b4e"
+    },
+    "bdee9804-cf65-46da-a49a-5397789c801e": {
+        "name": "Altitude",
+        "path": "src\/field\/bdee9804-cf65-46da-a49a-5397789c801e",
+        "settings": "src\/field\/bdee9804-cf65-46da-a49a-5397789c801e\/item.json",
+        "guid": "bdee9804-cf65-46da-a49a-5397789c801e"
     }
 }
