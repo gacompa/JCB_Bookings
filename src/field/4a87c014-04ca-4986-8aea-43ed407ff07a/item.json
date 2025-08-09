@@ -1,5 +1,5 @@
 {
-    "name": "2 stop",
+    "name": "Second stop",
     "fieldtype": "a1cdb0a5-517c-425c-998a-333e92af3e32",
     "datatype": "VARCHAR",
     "indexes": "0",
@@ -8,7 +8,7 @@
     "on_get_model_field": null,
     "on_save_model_field": null,
     "initiator_on_get_model": "",
-    "xml": "<field\n\ttype=\"ModalSelect\"\n\tname=\"twoname\"\n\tlabel=\"Enter some text\"\n\tsql_title_table=\"#__###component###_location\"\n\tsql_title_column=\"name\"\n\tsql_title_key=\"id\"\n\turlSelect=\"index.php?option=com_###component###&amp;view=locations&amp;layout=modal&amp;tmpl=component&amp;titleKey=id\"\n\turlNew=\"index.php?option=com_###component###&amp;task=targetview.add&amp;layout=modal&amp;tmpl=component\"\n\turlEdit=\"index.php?option=com_###component###&amp;task=targetview.edit&amp;id={id}&amp;layout=modal&amp;tmpl=component\"\n\ttitleSelect=\"Select Targetview\"\n\ttitleNew=\"New Targetview\"\n\ttitleEdit=\"Edit Targetview\"\n\ticonSelect=\"icon-copy\"\n\tselect=\"true\"\n\tnew=\"false\"\n\tedit=\"false\"\n\tclear=\"true\"\n\trequired=\"false\"\n\tclass=\"input-large\"\n\tdescription=\"Enter some description\"\n\thint=\"Select a Targetview\"\n\tdefault=\"\"\n\treadonly=\"false\"\n\tdisabled=\"false\"\n\tshowon=\"\"\n\/>",
+    "xml": "<field\n\ttype=\"ModalSelect\"\n\tname=\"second_stop\"\n\tlabel=\"Second stop\"\n\tsql_title_table=\"#__###component###_location\"\n\tsql_title_column=\"name\"\n\tsql_title_key=\"id\"\n\turlSelect=\"index.php?option=com_###component###&amp;view=locations&amp;layout=modal&amp;tmpl=component&amp;titleKey=id\"\n\turlNew=\"index.php?option=com_###component###&amp;task=targetview.add&amp;layout=modal&amp;tmpl=component\"\n\turlEdit=\"index.php?option=com_###component###&amp;task=targetview.edit&amp;id={id}&amp;layout=modal&amp;tmpl=component\"\n\ttitleSelect=\"Select Targetview\"\n\ttitleNew=\"New Targetview\"\n\ttitleEdit=\"Edit Targetview\"\n\ticonSelect=\"icon-copy\"\n\tselect=\"true\"\n\tnew=\"false\"\n\tedit=\"false\"\n\tclear=\"true\"\n\trequired=\"false\"\n\tclass=\"input-large\"\n\tdescription=\"Enter some description\"\n\thint=\"Select a Targetview\"\n\tdefault=\"\"\n\treadonly=\"false\"\n\tdisabled=\"false\"\n\tshowon=\"\"\n\/>",
     "datalenght": "255",
     "javascript_view_footer": "",
     "css_views": "",
