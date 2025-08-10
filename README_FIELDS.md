@@ -73,6 +73,7 @@ This preserves version control while allowing your own field improvements to liv
  - **Image** | [Details](src/field/3df662f4-5924-483e-8636-24c2ed4f27bf) | [Settings](src/field/3df662f4-5924-483e-8636-24c2ed4f27bf/item.json)
  - **Kitchen** | [Details](src/field/7b541f51-6f3f-4f78-a8b4-2dd3009714d7) | [Settings](src/field/7b541f51-6f3f-4f78-a8b4-2dd3009714d7/item.json)
  - **Latitude (decimal)** | [Details](src/field/b83771c3-ffd1-4827-a41d-a633873517c7) | [Settings](src/field/b83771c3-ffd1-4827-a41d-a633873517c7/item.json)
+ - **Location** | [Details](src/field/44ac0436-5edb-4787-acea-afc18da84380) | [Settings](src/field/44ac0436-5edb-4787-acea-afc18da84380/item.json)
  - **Long description** | [Details](src/field/382f24f4-aea2-448e-927c-99d89bb6ed40) | [Settings](src/field/382f24f4-aea2-448e-927c-99d89bb6ed40/item.json)
  - **Longitude (decimal)** | [Details](src/field/2c6061d1-eb07-4f29-858b-21e4439b237b) | [Settings](src/field/2c6061d1-eb07-4f29-858b-21e4439b237b/item.json)
  - **Name** | [Details](src/field/ea8871b6-4f71-480b-bbd7-0d71322c6464) | [Settings](src/field/ea8871b6-4f71-480b-bbd7-0d71322c6464/item.json)
