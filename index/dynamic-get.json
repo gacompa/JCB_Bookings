@@ -16,5 +16,11 @@
         "path": "src\/dynamic_get\/b0200129-fc72-4862-a108-9726d6bd06e9",
         "settings": "src\/dynamic_get\/b0200129-fc72-4862-a108-9726d6bd06e9\/item.json",
         "guid": "b0200129-fc72-4862-a108-9726d6bd06e9"
+    },
+    "3be68f12-de47-4363-8f2e-678d788c12d4": {
+        "name": "Location",
+        "path": "src\/dynamic_get\/3be68f12-de47-4363-8f2e-678d788c12d4",
+        "settings": "src\/dynamic_get\/3be68f12-de47-4363-8f2e-678d788c12d4\/item.json",
+        "guid": "3be68f12-de47-4363-8f2e-678d788c12d4"
     }
 }
