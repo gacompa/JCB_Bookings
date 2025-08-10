@@ -57,6 +57,7 @@ This ensures consistent updates while preserving your customizations and logic.
 
  - **Locations** | [Details](src/site_view/d6f6a358-be9d-49d0-931e-ac2cbe37ba38) | [Settings](src/site_view/d6f6a358-be9d-49d0-931e-ac2cbe37ba38/item.json) | Site locations
  - **Map** | [Details](src/site_view/e6bc3a5f-909e-493c-ba8a-6a79b555b2f7) | [Settings](src/site_view/e6bc3a5f-909e-493c-ba8a-6a79b555b2f7/item.json) | Map of locations
+ - **OneLocation** | [Details](src/site_view/47acca5d-c194-47fe-8961-0c849fcadbe0) | [Settings](src/site_view/47acca5d-c194-47fe-8961-0c849fcadbe0/item.json) | One site location
 
 ### All used in [Joomla Component Builder](https://www.joomlacomponentbuilder.com) - [Source](https://git.vdm.dev/joomla/Component-Builder) - [Mirror](https://github.com/vdm-io/Joomla-Component-Builder) - [Download](https://git.vdm.dev/joomla/pkg-component-builder/releases)
 
