@@ -1,5 +1,5 @@
 {
-    "name": "Availability",
+    "name": "Availability seasons",
     "fieldtype": "ac10859b-58da-4584-9682-36a6c2c8d04d",
     "datatype": "VARCHAR",
     "indexes": "0",
@@ -8,7 +8,7 @@
     "on_get_model_field": null,
     "on_save_model_field": null,
     "initiator_on_get_model": "",
-    "xml": "<field\n\ttype=\"checkboxes\"\n\tname=\"availability\"\n\tlabel=\"Select availability\"\n\toption=\"Spring\r\nSummer\r\nAutumn\r\nWinter\"\n\tdefault=\"\"\n\tdescription=\"Select the topping of your choice\"\n\trequired=\"\"\n\tclass=\"\"\n\tshowon=\"\"\n\/>",
+    "xml": "<field\n\ttype=\"checkboxes\"\n\tname=\"availability\"\n\tlabel=\"Select seasons availability\"\n\toption=\"Spring\r\nSummer\r\nAutumn\r\nWinter\"\n\tdefault=\"\"\n\tdescription=\"Select the topping of your choice\"\n\trequired=\"\"\n\tclass=\"\"\n\tshowon=\"\"\n\/>",
     "datalenght": "255",
     "javascript_view_footer": "",
     "css_views": "",
