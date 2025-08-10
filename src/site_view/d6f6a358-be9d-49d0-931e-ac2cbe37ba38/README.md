@@ -12,21 +12,21 @@ Site locations
         <tr>
         <th><?php echo Text::_('image'); ?></th>
         <th><?php echo Text::_('name'); ?></th>
-        <th><?php echo Text::_('long description'); ?></th>
+        <th><?php echo Text::_('location'); ?></th>
+        <th><?php echo Text::_('altitude'); ?></th>
+        <th><?php echo Text::_('is_stop'); ?></th>
+        <th><?php echo Text::_('is_base'); ?></th>
         </tr>
     </thead>
     <tbody>
         <?php foreach ($this->items as $item): ?>
         <tr>
             <td><img src="<?php echo $item->image; ?>" style="width: 100px; height: auto;"> </td>
-            <td><table class="uk-table uk-table-hover">
-                <tbody>
-                    <tr><td><b><?php echo "$item->name \n"; ?></b></td></tr>
-                    <tr><td><?php echo $item->description; ?></td></tr>
-                </tbody>
-            </table>
-            </td>
-            <td><?php echo $item->longdescription; ?></td>
+            <td><b><?php echo "<a href=\"index.php/one-location?id=$item->id\" > $item->name </a>"; ?></b><br/><?php echo $item->description; ?></td>
+            <td><?php echo $item->location; ?></td>
+            <td><?php echo $item->altitude." m s.l.m."; ?></td>
+            <td><?php echo $item->is_stop; ?></td>
+            <td><?php echo $item->is_base; ?></td>
         </tr>
         <?php endforeach; ?>
     </tbody>
