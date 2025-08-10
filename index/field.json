@@ -154,5 +154,11 @@
         "path": "src\/field\/bdee9804-cf65-46da-a49a-5397789c801e",
         "settings": "src\/field\/bdee9804-cf65-46da-a49a-5397789c801e\/item.json",
         "guid": "bdee9804-cf65-46da-a49a-5397789c801e"
+    },
+    "44ac0436-5edb-4787-acea-afc18da84380": {
+        "name": "Location",
+        "path": "src\/field\/44ac0436-5edb-4787-acea-afc18da84380",
+        "settings": "src\/field\/44ac0436-5edb-4787-acea-afc18da84380\/item.json",
+        "guid": "44ac0436-5edb-4787-acea-afc18da84380"
     }
 }
