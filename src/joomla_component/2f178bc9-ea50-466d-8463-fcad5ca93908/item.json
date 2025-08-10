@@ -28,7 +28,7 @@
     "php_preflight_install": "",
     "php_method_install": "",
     "php_postflight_install": "",
-    "component_version": "19",
+    "component_version": "23",
     "php_method_uninstall": "",
     "preferred_joomla_version": 5,
     "sql": "",
