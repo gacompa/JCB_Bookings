@@ -1,9 +1,12 @@
 ### JCB! Admin View
 # Locations (Location:Locations)
 
-> List of the locations in the area
+> List of locations
 
-Description of the "admin view" Locations
+Locations are places where to sleep (either indoor or outdoor) or places encountered during walking.
+When a location is intended for sleeping it is called a stop.
+In some locations where a base is not present camping is usually tolerated in the form of "bivacco alpino", meaning that tents can be mounted at sunset and must be cleared at the following sunrise. 
+Bases are locations owned by some scout association, giving services. Usually managed by a team of volunteers.
 
 > Manage single-record forms with this reusable Admin View designed for smooth data handling, customization, and full integration in JCB.
 
