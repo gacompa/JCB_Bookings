@@ -1,7 +1,7 @@
 {
     "system_name": "Locations",
     "name_single": "Location",
-    "short_description": "List of the locations in the area",
+    "short_description": "List of locations",
     "php_allowedit": "",
     "php_postsavehook": "",
     "php_before_save": "",
@@ -11,7 +11,7 @@
     "icon": "",
     "php_after_publish": "",
     "add_fadein": 1,
-    "description": "Description of the \"admin view\" Locations",
+    "description": "Locations are places where to sleep (either indoor or outdoor) or places encountered during walking.\r\nWhen a location is intended for sleeping it is called a stop.\r\nIn some locations where a base is not present camping is usually tolerated in the form of \"bivacco alpino\", meaning that tents can be mounted at sunset and must be cleared at the following sunrise. \r\nBases are locations owned by some scout association, giving services. Usually managed by a team of volunteers. ",
     "icon_category": "",
     "icon_add": "",
     "php_after_cancel": "",
@@ -70,13 +70,13 @@
             "name": "Details"
         },
         "addtabs1": {
-            "name": "Geography"
-        },
-        "addtabs2": {
             "name": "Facilities"
         },
-        "addtabs3": {
+        "addtabs2": {
             "name": "Admininstration"
+        },
+        "addtabs3": {
+            "name": "Geography"
         }
     },
     "php_save": "",
