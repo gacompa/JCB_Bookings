@@ -12,5 +12,12 @@
         "path": "src\/site_view\/e6bc3a5f-909e-493c-ba8a-6a79b555b2f7",
         "settings": "src\/site_view\/e6bc3a5f-909e-493c-ba8a-6a79b555b2f7\/item.json",
         "guid": "e6bc3a5f-909e-493c-ba8a-6a79b555b2f7"
+    },
+    "47acca5d-c194-47fe-8961-0c849fcadbe0": {
+        "name": "OneLocation",
+        "desc": "One site location",
+        "path": "src\/site_view\/47acca5d-c194-47fe-8961-0c849fcadbe0",
+        "settings": "src\/site_view\/47acca5d-c194-47fe-8961-0c849fcadbe0\/item.json",
+        "guid": "47acca5d-c194-47fe-8961-0c849fcadbe0"
     }
 }
