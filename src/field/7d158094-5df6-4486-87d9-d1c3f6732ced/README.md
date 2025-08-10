@@ -1,5 +1,5 @@
 ### JCB! Field
-# Availability
+# Availability seasons
 
 > Field Type: Checkboxes
 
@@ -8,7 +8,7 @@
 <field
 	type="checkboxes"
 	name="availability"
-	label="Select availability"
+	label="Select seasons availability"
 	option="Spring
 Summer
 Autumn
