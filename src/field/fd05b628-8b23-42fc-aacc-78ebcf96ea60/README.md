@@ -1,5 +1,5 @@
 ### JCB! Field
-# Heating
+# Heating checkbox
 
 > Field Type: Checkbox
 
@@ -7,21 +7,22 @@
 ```xml
 <field
 	type="checkbox"
-	name="heating"
+	name="heating_checkbox"
 	label="Is there heating"
-	value="1"
-	default=""
-	required="false"
-	description="Is the location a base"
+	value="true"
+	default="1"
+	required=""
+	description="Is there heating"
 	class="inputbox"
 	showon=""
 	onchange=""
+	validate=""
 />
 ```
 
 ## Database:
-- Data type: CHAR
-- Data length: 1
+- Data type: VARCHAR
+- Data length: 255
 - Data default: 
 - Null switch: NULL
 - Index: NOT INDEX
