@@ -9,7 +9,7 @@
 	type="checkbox"
 	name="is_base"
 	label="Is a base"
-	value="1"
+	value="true"
 	default=""
 	required="false"
 	description="Is the location a base"
@@ -20,8 +20,8 @@
 ```
 
 ## Database:
-- Data type: CHAR
-- Data length: 1
+- Data type: VARCHAR
+- Data length: 255
 - Data default: 
 - Null switch: NULL
 - Index: NOT INDEX
