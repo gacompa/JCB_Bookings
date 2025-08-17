@@ -1,18 +1,23 @@
 ### JCB! Field
 # Longitude (decimal)
 
-> Field Type: Text
+> Field Type: Number
 
 ## Field XML:
 ```xml
 <field
-	type="text"
+	type="number"
 	name="longitude"
 	label="Longitude"
+	default="9.0953321"
 	description="Enter the Longitude"
 	class="text_area"
-	message="Error! Please add the longitude here."
-	hint=""
+	required="false"
+	min="1"
+	max="40"
+	step="5"
+	onchange=""
+	showon=""
 />
 ```
 
