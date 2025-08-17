@@ -1,5 +1,5 @@
 ### JCB! Field
-# Camp fire
+# Camp fire checkbox
 
 > Field Type: Checkbox
 
@@ -7,7 +7,7 @@
 ```xml
 <field
 	type="checkbox"
-	name="camp_fire"
+	name="camp_fire_checkbox"
 	label="Is there a camp_fire site"
 	value="1"
 	default=""
@@ -16,12 +16,13 @@
 	class="inputbox"
 	showon=""
 	onchange=""
+	validate=""
 />
 ```
 
 ## Database:
-- Data type: CHAR
-- Data length: 1
+- Data type: VARCHAR
+- Data length: 255
 - Data default: 
 - Null switch: NULL
 - Index: NOT INDEX
