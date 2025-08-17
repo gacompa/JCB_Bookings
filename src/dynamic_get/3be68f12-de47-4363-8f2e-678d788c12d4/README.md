@@ -1,5 +1,5 @@
 ### JCB! Dynamic Get
-# Location
+# OneLocation
 
 ## Back-end View | getItem
 
@@ -11,6 +11,7 @@ a.asset_id AS asset_id
 a.name AS name
 a.location AS location
 a.image AS image
+a.place_id AS place_id
 a.description AS description
 a.longdescription AS longdescription
 a.is_base AS is_base
@@ -18,16 +19,20 @@ a.is_stop AS is_stop
 a.phone AS phone
 a.security_rules AS security_rules
 a.credits AS credits
-a.place_inside AS place_inside
-a.place_outside AS place_outside
-a.heating AS heating
-a.electricity AS electricity
-a.kitchen AS kitchen
-a.rest_rooms AS rest_rooms
-a.camp_fire AS camp_fire
-a.latitude AS latitude
-a.longitude AS longitude
-a.altitude AS altitude
+a.places_indoor AS places_indoor
+a.place_outdoor AS place_outdoor
+a.rest_room_checkbox AS rest_room_checkbox
+a.rest_room_comments AS rest_room_comments
+a.heating_checkbox AS heating_checkbox
+a.heating_comments AS heating_comments
+a.water_checkbox AS water_checkbox
+a.water_comments AS water_comments
+a.electricity_checkbox AS electricity_checkbox
+a.electricity_comments AS electricity_comments
+a.kitchen_checkbox AS kitchen_checkbox
+a.camp_fire_checkbox AS camp_fire_checkbox
+a.kitchen_comments AS kitchen_comments
+a.camp_fire_comments AS camp_fire_comments
 a.published AS published
 a.created_by AS created_by
 a.modified_by AS modified_by
