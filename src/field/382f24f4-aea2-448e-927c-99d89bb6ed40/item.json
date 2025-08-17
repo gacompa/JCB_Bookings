@@ -8,7 +8,7 @@
     "on_get_model_field": null,
     "on_save_model_field": null,
     "initiator_on_get_model": "",
-    "xml": "<field\n\ttype=\"editor\"\n\tname=\"longdescription\"\n\tlabel=\"Long description\"\n\tdefault=\"\"\n\tdescription=\"Long description\"\n\tmessage=\"\"\n\twidth=\"\"\n\theight=\"\"\n\tcols=\"\"\n\trows=\"5\"\n\tbuttons=\"no\"\n\tsyntax=\"\"\n\thide=\"\"\n\teditor=\"tinyMCE|none\"\n\tfilter=\"raw\"\n\trequired=\"true\"\n\tvalidate=\"\"\n\tshowon=\"\"\n\/>",
+    "xml": "<field\n\ttype=\"editor\"\n\tname=\"longdescription\"\n\tlabel=\"Long description\"\n\tdefault=\"\"\n\tdescription=\"Long description\"\n\tmessage=\"\"\n\twidth=\"\"\n\theight=\"\"\n\tcols=\"\"\n\trows=\"5\"\n\tbuttons=\"no\"\n\tsyntax=\"\"\n\thide=\"\"\n\teditor=\"tinyMCE|none\"\n\tfilter=\"raw\"\n\trequired=\"false\"\n\tvalidate=\"\"\n\tshowon=\"\"\n\/>",
     "datalenght": "",
     "javascript_view_footer": "",
     "css_views": "",
