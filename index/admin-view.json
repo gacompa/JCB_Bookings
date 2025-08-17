@@ -26,5 +26,12 @@
         "settings": "src\/admin_view\/1f70dec6-20b6-4ef7-b4aa-e50b86cf98f3\/item.json",
         "guid": "1f70dec6-20b6-4ef7-b4aa-e50b86cf98f3",
         "desc": "Reservation"
+    },
+    "55aac7da-e105-4ab2-9c34-6ee44e8b692c": {
+        "name": "Places",
+        "path": "src\/admin_view\/55aac7da-e105-4ab2-9c34-6ee44e8b692c",
+        "settings": "src\/admin_view\/55aac7da-e105-4ab2-9c34-6ee44e8b692c\/item.json",
+        "guid": "55aac7da-e105-4ab2-9c34-6ee44e8b692c",
+        "desc": "Relevant places in the area"
     }
 }
