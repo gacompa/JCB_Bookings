@@ -10,7 +10,7 @@
 	name="location"
 	label="Location"
 	size="128"
-	maxlength="128"
+	maxlength="256"
 	default=""
 	description="Enter the name of the location"
 	class="text_area"
