@@ -1,5 +1,5 @@
 ### JCB! Field
-# Electricity
+# Electricity_checkbox
 
 > Field Type: Checkbox
 
@@ -7,7 +7,7 @@
 ```xml
 <field
 	type="checkbox"
-	name="electricity"
+	name="electricity_checkbox"
 	label="Is there electricity"
 	value="1"
 	default=""
@@ -16,12 +16,13 @@
 	class="inputbox"
 	showon=""
 	onchange=""
+	validate=""
 />
 ```
 
 ## Database:
-- Data type: CHAR
-- Data length: 1
+- Data type: VARCHAR
+- Data length: 255
 - Data default: 
 - Null switch: NULL
 - Index: NOT INDEX
