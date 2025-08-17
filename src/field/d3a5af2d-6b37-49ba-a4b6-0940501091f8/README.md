@@ -1,5 +1,5 @@
 ### JCB! Field
-# Rest rooms
+# Water checkbox
 
 > Field Type: Checkbox
 
@@ -7,8 +7,8 @@
 ```xml
 <field
 	type="checkbox"
-	name="rest_rooms"
-	label="Are there rest rooms"
+	name="water_checkbox"
+	label="Is water available"
 	value="1"
 	default=""
 	required="false"
@@ -16,12 +16,13 @@
 	class="inputbox"
 	showon=""
 	onchange=""
+	validate=""
 />
 ```
 
 ## Database:
-- Data type: CHAR
-- Data length: 1
+- Data type: VARCHAR
+- Data length: 255
 - Data default: 
 - Null switch: NULL
 - Index: NOT INDEX
