@@ -9,7 +9,7 @@
 	type="text"
 	name="name"
 	label="Location name"
-	size="40"
+	size="128"
 	maxlength="256"
 	default=""
 	description="Enter name of location"
