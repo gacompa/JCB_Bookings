@@ -160,5 +160,59 @@
         "path": "src\/field\/44ac0436-5edb-4787-acea-afc18da84380",
         "settings": "src\/field\/44ac0436-5edb-4787-acea-afc18da84380\/item.json",
         "guid": "44ac0436-5edb-4787-acea-afc18da84380"
+    },
+    "cf695cba-a05d-422d-9886-d964feaad393": {
+        "name": "Heating_comments",
+        "path": "src\/field\/cf695cba-a05d-422d-9886-d964feaad393",
+        "settings": "src\/field\/cf695cba-a05d-422d-9886-d964feaad393\/item.json",
+        "guid": "cf695cba-a05d-422d-9886-d964feaad393"
+    },
+    "f8c6ddf1-eee0-408d-9634-b7ff3b19193f": {
+        "name": "Kitchen_comments",
+        "path": "src\/field\/f8c6ddf1-eee0-408d-9634-b7ff3b19193f",
+        "settings": "src\/field\/f8c6ddf1-eee0-408d-9634-b7ff3b19193f\/item.json",
+        "guid": "f8c6ddf1-eee0-408d-9634-b7ff3b19193f"
+    },
+    "790e3092-af3f-4179-859f-8362a33bff8d": {
+        "name": "Camp fire comments",
+        "path": "src\/field\/790e3092-af3f-4179-859f-8362a33bff8d",
+        "settings": "src\/field\/790e3092-af3f-4179-859f-8362a33bff8d\/item.json",
+        "guid": "790e3092-af3f-4179-859f-8362a33bff8d"
+    },
+    "e302de6a-6249-4ced-9894-ee0cf9a79e28": {
+        "name": "Electricity_comments",
+        "path": "src\/field\/e302de6a-6249-4ced-9894-ee0cf9a79e28",
+        "settings": "src\/field\/e302de6a-6249-4ced-9894-ee0cf9a79e28\/item.json",
+        "guid": "e302de6a-6249-4ced-9894-ee0cf9a79e28"
+    },
+    "7b9ada22-e39d-4ed6-8486-a0d81f31a709": {
+        "name": "Water comments",
+        "path": "src\/field\/7b9ada22-e39d-4ed6-8486-a0d81f31a709",
+        "settings": "src\/field\/7b9ada22-e39d-4ed6-8486-a0d81f31a709\/item.json",
+        "guid": "7b9ada22-e39d-4ed6-8486-a0d81f31a709"
+    },
+    "7b8c2df6-7725-4d31-ac4f-adf9d4e3b5a7": {
+        "name": "Rest rooms checkbox",
+        "path": "src\/field\/7b8c2df6-7725-4d31-ac4f-adf9d4e3b5a7",
+        "settings": "src\/field\/7b8c2df6-7725-4d31-ac4f-adf9d4e3b5a7\/item.json",
+        "guid": "7b8c2df6-7725-4d31-ac4f-adf9d4e3b5a7"
+    },
+    "cca6eefd-e461-430b-9213-62255017eb5d": {
+        "name": "Rest rooms comments",
+        "path": "src\/field\/cca6eefd-e461-430b-9213-62255017eb5d",
+        "settings": "src\/field\/cca6eefd-e461-430b-9213-62255017eb5d\/item.json",
+        "guid": "cca6eefd-e461-430b-9213-62255017eb5d"
+    },
+    "7650ce92-9234-4805-a2b0-a083eb910a2d": {
+        "name": "Place",
+        "path": "src\/field\/7650ce92-9234-4805-a2b0-a083eb910a2d",
+        "settings": "src\/field\/7650ce92-9234-4805-a2b0-a083eb910a2d\/item.json",
+        "guid": "7650ce92-9234-4805-a2b0-a083eb910a2d"
+    },
+    "143b101b-a9c9-41eb-9f23-ebf9e9b1146b": {
+        "name": "Place_id",
+        "path": "src\/field\/143b101b-a9c9-41eb-9f23-ebf9e9b1146b",
+        "settings": "src\/field\/143b101b-a9c9-41eb-9f23-ebf9e9b1146b\/item.json",
+        "guid": "143b101b-a9c9-41eb-9f23-ebf9e9b1146b"
     }
 }
