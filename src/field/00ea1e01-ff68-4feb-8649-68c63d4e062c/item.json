@@ -1,5 +1,5 @@
 {
-    "name": "Places inside",
+    "name": "Places indoor",
     "fieldtype": "fdbb50ea-35d2-45b2-a0bc-076fdf1544b8",
     "datatype": "INT",
     "indexes": "0",
@@ -8,7 +8,7 @@
     "on_get_model_field": null,
     "on_save_model_field": null,
     "initiator_on_get_model": "",
-    "xml": "<field\n\ttype=\"integer\"\n\tname=\"place_inside\"\n\tlabel=\"Place inside\"\n\tdefault=\"\"\n\tmessage=\"\"\n\tdescription=\"\"\n\tclass=\"text_area\"\n\trequired=\"\"\n\tvalidate=\"\"\n\tfirst=\"0\"\n\tlast=\"100\"\n\tstep=\"1\"\n\tshowon=\"\"\n\tonchange=\"\"\n\/>",
+    "xml": "<field\n\ttype=\"integer\"\n\tname=\"places_indoor\"\n\tlabel=\"Places indoor\"\n\tdefault=\"\"\n\tmessage=\"\"\n\tdescription=\"\"\n\tclass=\"text_area\"\n\trequired=\"\"\n\tvalidate=\"\"\n\tfirst=\"0\"\n\tlast=\"100\"\n\tstep=\"1\"\n\tshowon=\"\"\n\tonchange=\"\"\n\/>",
     "datalenght": "7",
     "javascript_view_footer": "",
     "css_views": "",
