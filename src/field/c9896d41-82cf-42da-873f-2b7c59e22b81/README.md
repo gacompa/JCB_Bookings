@@ -10,7 +10,7 @@
 	name="description"
 	label="Short description"
 	size=""
-	maxlength="255"
+	maxlength="256"
 	default=""
 	description="Enter some description"
 	class="text_area"
