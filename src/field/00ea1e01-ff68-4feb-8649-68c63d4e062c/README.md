@@ -1,5 +1,5 @@
 ### JCB! Field
-# Places inside
+# Places indoor
 
 > Field Type: Integer
 
@@ -7,8 +7,8 @@
 ```xml
 <field
 	type="integer"
-	name="place_inside"
-	label="Place inside"
+	name="places_indoor"
+	label="Places indoor"
 	default=""
 	message=""
 	description=""
