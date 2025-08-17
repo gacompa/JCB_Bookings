@@ -9,7 +9,7 @@
 	type="checkbox"
 	name="is_stop"
 	label="Is a stop"
-	value="1"
+	value="true"
 	default=""
 	required="false"
 	description="Is this location a stop"
@@ -20,8 +20,8 @@
 ```
 
 ## Database:
-- Data type: CHAR
-- Data length: 1
+- Data type: VARCHAR
+- Data length: 255
 - Data default: 0
 - Null switch: NULL
 - Index: NOT INDEX
