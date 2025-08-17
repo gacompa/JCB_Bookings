@@ -21,7 +21,7 @@
 	hide=""
 	editor="tinyMCE|none"
 	filter="raw"
-	required="true"
+	required="false"
 	validate=""
 	showon=""
 />
