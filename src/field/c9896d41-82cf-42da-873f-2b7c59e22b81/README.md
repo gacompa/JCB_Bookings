@@ -16,7 +16,7 @@
 	class="text_area"
 	readonly="false"
 	disabled="false"
-	required="true"
+	required="false"
 	filter="STRING"
 	validate=""
 	field=""
