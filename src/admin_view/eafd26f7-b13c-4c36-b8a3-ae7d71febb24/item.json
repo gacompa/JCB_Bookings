@@ -19,7 +19,7 @@
     "php_batchmove": "",
     "type": 1,
     "php_after_delete": "",
-    "source": 0,
+    "source": 2,
     "php_getitem": "",
     "addpermissions": {
         "addpermissions0": {
@@ -72,9 +72,6 @@
         "addtabs1": {
             "name": "Facilities"
         },
-        "addtabs2": {
-            "name": "Geography"
-        },
         "addtabs3": {
             "name": "Admininstration"
         }
@@ -90,7 +87,7 @@
     "php_document": "",
     "mysql_table_row_format": "DYNAMIC",
     "alias_builder": null,
-    "sql": "",
+    "sql": "--\r\n-- Dump dei dati per la tabella `#__bookings_location`\r\n--\r\n\r\nINSERT INTO `#__bookings_location` (`id`, `asset_id`, `camp_fire_checkbox`, `camp_fire_comments`, `credits`, `description`, `electricity_checkbox`, `electricity_comments`, `heating_checkbox`, `heating_comments`, `image`, `is_base`, `is_stop`, `kitchen_checkbox`, `kitchen_comments`, `location`, `longdescription`, `name`, `phone`, `place_id`, `place_outdoor`, `places_indoor`, `rest_room_checkbox`, `rest_room_comments`, `security_rules`, `water_checkbox`, `water_comments`, `params`, `published`, `created_by`, `modified_by`, `created`, `modified`, `checked_out`, `checked_out_time`, `version`, `hits`, `ordering`) VALUES\r\n(1, 514, '1', 'Cerchio per fuoco di bivacco sul greto del fiume. Ci sono griglie per cucina all\\'esterno', 'Unknown', 'La storica base scout della val Codera dal 2004', '1', 'Solo per ricarica cellulari', '', '', 'images\/com_bookings\/Locations\/Centralina.jpg#joomlaImage:\/\/local-images\/com_bookings\/Locations\/Centralina.jpg?width=640&height=480', '1', '1', '1', 'Cucina economica e cucina a gas. Ci sono pentole e stoviglie.', 'Codera, localit\u00e0 Corte', '', 'Centralina', '', '2', 25, 18, '1', '2 bagni esterni ed 1 interno', '', '1', '', NULL, 1, 580, 580, '2025-08-17 16:07:32', '2025-08-17 16:09:32', 0, '0000-00-00 00:00:00', 2, 0, 1),\r\n(2, 515, '1', 'Vari cerchi per fuoco di bivacco', 'Unknown', 'Dal 2009 la seconda base della val Codera', '1', 'Rete 220 v', '', '', 'images\/com_bookings\/Locations\/Casera.jpg#joomlaImage:\/\/local-images\/com_bookings\/Locations\/Casera.jpg?width=2000&height=1330', '1', '1', '1', 'Cucina economica e cucina a gas. Ci sono pentole e stoviglie.', 'Bresciadega, verso il rifugio Brasca', '', 'Casera', '', '3', 25, 10, '1', '4 bagni esterni', '', '1', '', NULL, 1, 580, NULL, '2025-08-17 16:09:06', NULL, NULL, NULL, 1, 0, 2),\r\n(3, 529, '', '', 'Unknown', '', '', '', '', '', 'images\/com_bookings\/Locations\/Baita_Romilda.jpg#joomlaImage:\/\/local-images\/com_bookings\/Locations\/Baita_Romilda.jpg?width=1600&height=1200', '1', '', '', '', 'La baita di Romilda del Pra', '', 'Baita Romilda (BROM)', '', '4', 0, 0, '', '', '', '', '', NULL, 1, 580, NULL, '2025-08-17 16:32:02', NULL, NULL, NULL, 1, 0, 3),\r\n(4, 530, '', '', 'Unknown', 'Alpeggio', '', '', '', '', 'images\/com_bookings\/Locations\/Sivigia.jpg#joomlaImage:\/\/local-images\/com_bookings\/Locations\/Sivigia.jpg?width=1500&height=1000', '', '1', '', '', 'Alpeggio a Sivigia', '', 'Sivigia', '', '20', 0, 0, '', '', '', '', '', NULL, 1, 580, NULL, '2025-08-17 16:33:06', NULL, NULL, NULL, 1, 0, 4);\r\n",
     "add_php_getitem": 0,
     "add_category_submenu": 1,
     "add_php_getitems": 0,
@@ -131,7 +128,7 @@
     "php_controller_list": "",
     "mysql_table_collate": "utf8mb4_unicode_ci",
     "php_model_list": "",
-    "add_sql": 0,
+    "add_sql": 1,
     "add_php_ajax": 0,
     "php_ajaxmethod": "",
     "guid": "eafd26f7-b13c-4c36-b8a3-ae7d71febb24",
