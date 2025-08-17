@@ -15,13 +15,9 @@ a.description AS description
 a.longdescription AS longdescription
 a.is_base AS is_base
 a.is_stop AS is_stop
-a.availability AS availability
 a.phone AS phone
 a.security_rules AS security_rules
 a.credits AS credits
-a.latitude AS latitude
-a.longitude AS longitude
-a.altitude AS altitude
 a.place_inside AS place_inside
 a.place_outside AS place_outside
 a.heating AS heating
@@ -29,6 +25,9 @@ a.electricity AS electricity
 a.kitchen AS kitchen
 a.rest_rooms AS rest_rooms
 a.camp_fire AS camp_fire
+a.latitude AS latitude
+a.longitude AS longitude
+a.altitude AS altitude
 a.published AS published
 a.created_by AS created_by
 a.modified_by AS modified_by
