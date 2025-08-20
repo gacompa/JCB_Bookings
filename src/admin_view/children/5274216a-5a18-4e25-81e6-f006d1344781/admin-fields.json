@@ -1,0 +1,85 @@
+{
+    "admin_view": "5274216a-5a18-4e25-81e6-f006d1344781",
+    "addfields": {
+        "0": {
+            "field": "68699537-3391-400c-af78-177327570b4e",
+            "list": "1",
+            "order_list": "1",
+            "title": "1",
+            "search": "1",
+            "filter": "1",
+            "link": "1",
+            "tab": "1",
+            "alignment": 1,
+            "order_edit": "0",
+            "permission": [
+                "1",
+                "2",
+                "3"
+            ]
+        },
+        "1": {
+            "field": "0d4a5caa-2199-4fb1-b07f-bd8071d71dbe",
+            "list": "1",
+            "order_list": "2",
+            "sort": "1",
+            "search": "1",
+            "filter": "",
+            "tab": "1",
+            "alignment": 1,
+            "order_edit": "0",
+            "permission": [
+                "1",
+                "2",
+                "3"
+            ]
+        },
+        "2": {
+            "field": "ad024e94-3ce7-41cb-80c3-9b44bc9387d5",
+            "list": "1",
+            "order_list": "3",
+            "sort": "1",
+            "search": "1",
+            "filter": "",
+            "link": "1",
+            "tab": "1",
+            "alignment": 1,
+            "order_edit": "1",
+            "permission": [
+                "1",
+                "2",
+                "3"
+            ]
+        }
+    },
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "5274216a-5a18-4e25-81e6-f006d1344781",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "68699537-3391-400c-af78-177327570b4e",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "0d4a5caa-2199-4fb1-b07f-bd8071d71dbe",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "ad024e94-3ce7-41cb-80c3-9b44bc9387d5",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        }
+    ]
+}
