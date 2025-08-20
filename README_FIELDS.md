@@ -92,6 +92,7 @@ This preserves version control while allowing your own field improvements to liv
  - **Short Description** | [Details](src/field/c9896d41-82cf-42da-873f-2b7c59e22b81) | [Settings](src/field/c9896d41-82cf-42da-873f-2b7c59e22b81/item.json)
  - **Stop** | [Details](src/field/2d01d455-4120-45bf-bce3-eba4354989c0) | [Settings](src/field/2d01d455-4120-45bf-bce3-eba4354989c0/item.json)
  - **Telephone** | [Details](src/field/096fd1f5-480a-4a8b-98cf-4fceac5e7999) | [Settings](src/field/096fd1f5-480a-4a8b-98cf-4fceac5e7999/item.json)
+ - **Trek** | [Details](src/field/ad024e94-3ce7-41cb-80c3-9b44bc9387d5) | [Settings](src/field/ad024e94-3ce7-41cb-80c3-9b44bc9387d5/item.json)
  - **Water comments** | [Details](src/field/7b9ada22-e39d-4ed6-8486-a0d81f31a709) | [Settings](src/field/7b9ada22-e39d-4ed6-8486-a0d81f31a709/item.json)
 
 ### All used in [Joomla Component Builder](https://www.joomlacomponentbuilder.com) - [Source](https://git.vdm.dev/joomla/Component-Builder) - [Mirror](https://github.com/vdm-io/Joomla-Component-Builder) - [Download](https://git.vdm.dev/joomla/pkg-component-builder/releases)
