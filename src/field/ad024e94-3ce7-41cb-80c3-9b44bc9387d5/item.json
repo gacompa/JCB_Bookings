@@ -1,0 +1,42 @@
+{
+    "name": "Trek",
+    "fieldtype": "7139f2c8-a70a-46a6-bbe3-4eefe54ca515",
+    "datatype": "VARCHAR",
+    "indexes": "0",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": null,
+    "on_save_model_field": null,
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"subform\"\n\tname=\"trek\"\n\tlabel=\"The trek path\"\n\tlayout=\"joomla.form.field.subform.repeatable-table\"\n\tcomponent=\"\"\n\tclient=\"\"\n\tmultiple=\"true\"\n\tbuttons=\"add,remove,move\"\n\tfields=\"3523\"\n\tformsource=\"\"\n\tdescription=\"\"\n\tdefault=\"\"\n\ticon=\"list\"\n\tmax=\"15\"\n\tmin=\"1\"\n\tfilter=\"\"\n\tshowon=\"\"\n\/>",
+    "datalenght": "255",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "ad024e94-3ce7-41cb-80c3-9b44bc9387d5",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "7139f2c8-a70a-46a6-bbe3-4eefe54ca515",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        },
+        {
+            "key": "field",
+            "value": "143b101b-a9c9-41eb-9f23-ebf9e9b1146b",
+            "entity": "guid",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        }
+    ]
+}
