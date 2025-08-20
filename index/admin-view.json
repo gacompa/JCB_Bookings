@@ -33,5 +33,12 @@
         "settings": "src\/admin_view\/55aac7da-e105-4ab2-9c34-6ee44e8b692c\/item.json",
         "guid": "55aac7da-e105-4ab2-9c34-6ee44e8b692c",
         "desc": "Relevant places in the area"
+    },
+    "5274216a-5a18-4e25-81e6-f006d1344781": {
+        "name": "Treks",
+        "path": "src\/admin_view\/5274216a-5a18-4e25-81e6-f006d1344781",
+        "settings": "src\/admin_view\/5274216a-5a18-4e25-81e6-f006d1344781\/item.json",
+        "guid": "5274216a-5a18-4e25-81e6-f006d1344781",
+        "desc": "Treks"
     }
 }
