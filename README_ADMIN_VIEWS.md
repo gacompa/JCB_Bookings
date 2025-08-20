@@ -49,6 +49,7 @@ This ensures maintainability while still allowing total customization per projec
  - **Places** | [Details](src/admin_view/55aac7da-e105-4ab2-9c34-6ee44e8b692c) | [Settings](src/admin_view/55aac7da-e105-4ab2-9c34-6ee44e8b692c/item.json) | Relevant places in the area
  - **Reservations** | [Details](src/admin_view/e42d4c2d-ccd3-4291-a886-6f958be29417) | [Settings](src/admin_view/e42d4c2d-ccd3-4291-a886-6f958be29417/item.json) | Reservation
  - **Reservations-edit** | [Details](src/admin_view/1f70dec6-20b6-4ef7-b4aa-e50b86cf98f3) | [Settings](src/admin_view/1f70dec6-20b6-4ef7-b4aa-e50b86cf98f3/item.json) | Reservation
+ - **Treks** | [Details](src/admin_view/5274216a-5a18-4e25-81e6-f006d1344781) | [Settings](src/admin_view/5274216a-5a18-4e25-81e6-f006d1344781/item.json) | Treks
  - **test** | [Details](src/admin_view/6bf8c6a1-36f3-4c13-b04d-89eefe322d0f) | [Settings](src/admin_view/6bf8c6a1-36f3-4c13-b04d-89eefe322d0f/item.json) | test
 
 ### All used in [Joomla Component Builder](https://www.joomlacomponentbuilder.com) - [Source](https://git.vdm.dev/joomla/Component-Builder) - [Mirror](https://github.com/vdm-io/Joomla-Component-Builder) - [Download](https://git.vdm.dev/joomla/pkg-component-builder/releases)
