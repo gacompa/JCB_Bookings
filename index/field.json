@@ -214,5 +214,11 @@
         "path": "src\/field\/143b101b-a9c9-41eb-9f23-ebf9e9b1146b",
         "settings": "src\/field\/143b101b-a9c9-41eb-9f23-ebf9e9b1146b\/item.json",
         "guid": "143b101b-a9c9-41eb-9f23-ebf9e9b1146b"
+    },
+    "ad024e94-3ce7-41cb-80c3-9b44bc9387d5": {
+        "name": "Trek",
+        "path": "src\/field\/ad024e94-3ce7-41cb-80c3-9b44bc9387d5",
+        "settings": "src\/field\/ad024e94-3ce7-41cb-80c3-9b44bc9387d5\/item.json",
+        "guid": "ad024e94-3ce7-41cb-80c3-9b44bc9387d5"
     }
 }
