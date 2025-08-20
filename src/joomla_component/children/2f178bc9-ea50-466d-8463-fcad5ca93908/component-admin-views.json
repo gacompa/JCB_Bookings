@@ -2,6 +2,19 @@
     "joomla_component": "2f178bc9-ea50-466d-8463-fcad5ca93908",
     "addadmin_views": {
         "addadmin_views0": {
+            "adminview": "55aac7da-e105-4ab2-9c34-6ee44e8b692c",
+            "icomoon": "joomla",
+            "mainmenu": "1",
+            "dashboard_add": "1",
+            "dashboard_list": "1",
+            "history": "1",
+            "port": "1",
+            "add_api": "0",
+            "filter": "2",
+            "edit_create_site_view": "",
+            "order": "0"
+        },
+        "addadmin_views1": {
             "adminview": "eafd26f7-b13c-4c36-b8a3-ae7d71febb24",
             "icomoon": "joomla",
             "mainmenu": "1",
@@ -14,8 +27,8 @@
             "edit_create_site_view": "2",
             "order": "0"
         },
-        "addadmin_views1": {
-            "adminview": "55aac7da-e105-4ab2-9c34-6ee44e8b692c",
+        "addadmin_views2": {
+            "adminview": "5274216a-5a18-4e25-81e6-f006d1344781",
             "icomoon": "joomla",
             "mainmenu": "1",
             "dashboard_add": "1",
@@ -38,6 +51,13 @@
         },
         {
             "key": "guid",
+            "value": "55aac7da-e105-4ab2-9c34-6ee44e8b692c",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
             "value": "eafd26f7-b13c-4c36-b8a3-ae7d71febb24",
             "entity": "admin_view",
             "table": "#__componentbuilder_admin_view",
@@ -45,7 +65,7 @@
         },
         {
             "key": "guid",
-            "value": "55aac7da-e105-4ab2-9c34-6ee44e8b692c",
+            "value": "5274216a-5a18-4e25-81e6-f006d1344781",
             "entity": "admin_view",
             "table": "#__componentbuilder_admin_view",
             "direction": "out"
