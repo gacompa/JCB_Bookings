@@ -1,0 +1,35 @@
+{
+    "admin_view": "d33d1bae-79cc-4c3c-9a22-5fe7e493f014",
+    "addfields": {
+        "0": {
+            "field": "68699537-3391-400c-af78-177327570b4e",
+            "list": "1",
+            "order_list": "1",
+            "filter": "",
+            "tab": "1",
+            "alignment": 1,
+            "order_edit": "0",
+            "permission": [
+                "1",
+                "2",
+                "3"
+            ]
+        }
+    },
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "d33d1bae-79cc-4c3c-9a22-5fe7e493f014",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "68699537-3391-400c-af78-177327570b4e",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        }
+    ]
+}
