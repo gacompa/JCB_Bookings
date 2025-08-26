@@ -50,6 +50,10 @@ This ensures maintainability while still allowing total customization per projec
  - **Reservations** | [Details](src/admin_view/e42d4c2d-ccd3-4291-a886-6f958be29417) | [Settings](src/admin_view/e42d4c2d-ccd3-4291-a886-6f958be29417/item.json) | Reservation
  - **Reservations-edit** | [Details](src/admin_view/1f70dec6-20b6-4ef7-b4aa-e50b86cf98f3) | [Settings](src/admin_view/1f70dec6-20b6-4ef7-b4aa-e50b86cf98f3/item.json) | Reservation
  - **Treks** | [Details](src/admin_view/5274216a-5a18-4e25-81e6-f006d1344781) | [Settings](src/admin_view/5274216a-5a18-4e25-81e6-f006d1344781/item.json) | Treks
+ - **tas** | [Details](src/admin_view/f178a13e-e364-4d49-b39c-b77bac931787) | [Settings](src/admin_view/f178a13e-e364-4d49-b39c-b77bac931787/item.json) | ta
+ - **tbs** | [Details](src/admin_view/33c892eb-470a-4424-bdb9-08c4e9c0c7b2) | [Settings](src/admin_view/33c892eb-470a-4424-bdb9-08c4e9c0c7b2/item.json) | tb
+ - **tcs** | [Details](src/admin_view/d33d1bae-79cc-4c3c-9a22-5fe7e493f014) | [Settings](src/admin_view/d33d1bae-79cc-4c3c-9a22-5fe7e493f014/item.json) | tc
+ - **tds** | [Details](src/admin_view/d0ca72ca-014b-48ce-8828-96311ad04c1b) | [Settings](src/admin_view/d0ca72ca-014b-48ce-8828-96311ad04c1b/item.json) | td
  - **test** | [Details](src/admin_view/6bf8c6a1-36f3-4c13-b04d-89eefe322d0f) | [Settings](src/admin_view/6bf8c6a1-36f3-4c13-b04d-89eefe322d0f/item.json) | test
 
 ### All used in [Joomla Component Builder](https://www.joomlacomponentbuilder.com) - [Source](https://git.vdm.dev/joomla/Component-Builder) - [Mirror](https://github.com/vdm-io/Joomla-Component-Builder) - [Download](https://git.vdm.dev/joomla/pkg-component-builder/releases)
