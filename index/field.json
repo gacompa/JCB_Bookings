@@ -220,5 +220,17 @@
         "path": "src\/field\/ad024e94-3ce7-41cb-80c3-9b44bc9387d5",
         "settings": "src\/field\/ad024e94-3ce7-41cb-80c3-9b44bc9387d5\/item.json",
         "guid": "ad024e94-3ce7-41cb-80c3-9b44bc9387d5"
+    },
+    "64dc5d42-2334-46e7-8372-e1b5e2ac9424": {
+        "name": "tb",
+        "path": "src\/field\/64dc5d42-2334-46e7-8372-e1b5e2ac9424",
+        "settings": "src\/field\/64dc5d42-2334-46e7-8372-e1b5e2ac9424\/item.json",
+        "guid": "64dc5d42-2334-46e7-8372-e1b5e2ac9424"
+    },
+    "96d63e51-c004-42f0-8dd4-ffd711ad391e": {
+        "name": "ta",
+        "path": "src\/field\/96d63e51-c004-42f0-8dd4-ffd711ad391e",
+        "settings": "src\/field\/96d63e51-c004-42f0-8dd4-ffd711ad391e\/item.json",
+        "guid": "96d63e51-c004-42f0-8dd4-ffd711ad391e"
     }
 }
