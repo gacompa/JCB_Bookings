@@ -40,5 +40,33 @@
         "settings": "src\/admin_view\/5274216a-5a18-4e25-81e6-f006d1344781\/item.json",
         "guid": "5274216a-5a18-4e25-81e6-f006d1344781",
         "desc": "Treks"
+    },
+    "33c892eb-470a-4424-bdb9-08c4e9c0c7b2": {
+        "name": "tbs",
+        "path": "src\/admin_view\/33c892eb-470a-4424-bdb9-08c4e9c0c7b2",
+        "settings": "src\/admin_view\/33c892eb-470a-4424-bdb9-08c4e9c0c7b2\/item.json",
+        "guid": "33c892eb-470a-4424-bdb9-08c4e9c0c7b2",
+        "desc": "tb"
+    },
+    "d0ca72ca-014b-48ce-8828-96311ad04c1b": {
+        "name": "tds",
+        "path": "src\/admin_view\/d0ca72ca-014b-48ce-8828-96311ad04c1b",
+        "settings": "src\/admin_view\/d0ca72ca-014b-48ce-8828-96311ad04c1b\/item.json",
+        "guid": "d0ca72ca-014b-48ce-8828-96311ad04c1b",
+        "desc": "td"
+    },
+    "d33d1bae-79cc-4c3c-9a22-5fe7e493f014": {
+        "name": "tcs",
+        "path": "src\/admin_view\/d33d1bae-79cc-4c3c-9a22-5fe7e493f014",
+        "settings": "src\/admin_view\/d33d1bae-79cc-4c3c-9a22-5fe7e493f014\/item.json",
+        "guid": "d33d1bae-79cc-4c3c-9a22-5fe7e493f014",
+        "desc": "tc"
+    },
+    "f178a13e-e364-4d49-b39c-b77bac931787": {
+        "name": "tas",
+        "path": "src\/admin_view\/f178a13e-e364-4d49-b39c-b77bac931787",
+        "settings": "src\/admin_view\/f178a13e-e364-4d49-b39c-b77bac931787\/item.json",
+        "guid": "f178a13e-e364-4d49-b39c-b77bac931787",
+        "desc": "ta"
     }
 }
