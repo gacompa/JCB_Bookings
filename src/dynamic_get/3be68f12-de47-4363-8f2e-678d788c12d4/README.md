@@ -8,10 +8,10 @@
 ```
 a.id AS id
 a.asset_id AS asset_id
-a.name AS name
-a.location AS location
 a.image AS image
 a.place_id AS place_id
+a.name AS name
+a.location AS location
 a.description AS description
 a.longdescription AS longdescription
 a.is_base AS is_base
@@ -30,8 +30,8 @@ a.water_comments AS water_comments
 a.electricity_checkbox AS electricity_checkbox
 a.electricity_comments AS electricity_comments
 a.kitchen_checkbox AS kitchen_checkbox
-a.camp_fire_checkbox AS camp_fire_checkbox
 a.kitchen_comments AS kitchen_comments
+a.camp_fire_checkbox AS camp_fire_checkbox
 a.camp_fire_comments AS camp_fire_comments
 a.published AS published
 a.created_by AS created_by
