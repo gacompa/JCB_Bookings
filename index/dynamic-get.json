@@ -22,5 +22,11 @@
         "path": "src\/dynamic_get\/3be68f12-de47-4363-8f2e-678d788c12d4",
         "settings": "src\/dynamic_get\/3be68f12-de47-4363-8f2e-678d788c12d4\/item.json",
         "guid": "3be68f12-de47-4363-8f2e-678d788c12d4"
+    },
+    "70588322-3cb7-469a-bd9b-84c10d602c29": {
+        "name": "Places",
+        "path": "src\/dynamic_get\/70588322-3cb7-469a-bd9b-84c10d602c29",
+        "settings": "src\/dynamic_get\/70588322-3cb7-469a-bd9b-84c10d602c29\/item.json",
+        "guid": "70588322-3cb7-469a-bd9b-84c10d602c29"
     }
 }
