@@ -11,7 +11,7 @@
             "port": "1",
             "add_api": "0",
             "filter": "2",
-            "edit_create_site_view": "2",
+            "edit_create_site_view": "",
             "order": "0"
         },
         "addadmin_views1": {
@@ -24,7 +24,7 @@
             "port": "1",
             "add_api": "0",
             "filter": "2",
-            "edit_create_site_view": "1",
+            "edit_create_site_view": "",
             "order": "0"
         },
         "addadmin_views2": {
