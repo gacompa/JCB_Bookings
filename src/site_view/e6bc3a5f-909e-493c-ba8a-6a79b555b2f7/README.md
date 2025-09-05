@@ -5,20 +5,55 @@ Map of locations
 
 ## HTML:
 ```html
-<?php echo LayoutHelper::render('rowslocations', []); ?>
-<table class="uk-table uk-table-hover">
-    <caption><?php echo Text::_('MAP'); ?></caption>
+<style>
+    #map-container {
+        height: 500px;
+        width: 100%;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        margin-top: 20px;
+    }
+</style>
 
-    <tbody>
-        <?php foreach ($this->items as $item): ?>
-        <tr>
-            <td><?php echo $item->name; ?></td>
-            <td><?php echo $item->latitude; ?></td>
-            <td><?php echo $item->longitude; ?></td>
-        </tr>
-        <?php endforeach; ?>
-    </tbody>
-</table>
+<div id="map-container"></div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Check if Leaflet is loaded
+    if (typeof L === 'undefined') {
+        console.error("Leaflet library not loaded.");
+        return;
+    }
+
+    const map = L.map('map-container').setView([20, 0], 2); // A general view of the world
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    // Get the locations from PHP and parse them into a JavaScript object.
+    const places = <?php echo json_encode($this->items); ?>;
+    const markers = [];
+
+    places.forEach(function(place) {
+        // Ensure latitude and longitude are valid numbers
+        const lat = parseFloat(place.latitude);
+        const lng = parseFloat(place.longitude);
+
+        if (!isNaN(lat) && !isNaN(lng)) {
+            const marker = L.marker([lat, lng]).addTo(map);
+            marker.bindPopup(`<b>${place.place}</b><br>${place.is_stop}`);
+            markers.push(marker);
+        }
+    });
+
+    if (markers.length > 0) {
+        // Fit the map view to show all markers
+        const group = new L.featureGroup(markers);
+        map.fitBounds(group.getBounds().pad(0.5));
+    }
+});
+</script>
 ```
 
 > Deliver dynamic, custom front-end experiences with this reusable Site View crafted for seamless data flow and design flexibility in JCB.
