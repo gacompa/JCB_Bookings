@@ -5,6 +5,8 @@ Site locations
 
 ## HTML:
 ```html
+
+
 <form action="<?php echo Route::_('index.php?option=com_bookings'); ?>" method="post" name="adminForm" id="adminForm">
 <?php echo $this->toolbar->render(); ?>
 <?php echo LayoutHelper::render('rowslocations', []); ?>
