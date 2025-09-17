@@ -2,7 +2,7 @@
     "admin_view": "55aac7da-e105-4ab2-9c34-6ee44e8b692c",
     "addfields": {
         "0": {
-            "field": "7650ce92-9234-4805-a2b0-a083eb910a2d",
+            "field": "38b8ba46-7137-4d4d-9da4-2c67b4e5c6a3",
             "list": "1",
             "order_list": "1",
             "title": "1",
@@ -87,7 +87,7 @@
         },
         {
             "key": "guid",
-            "value": "7650ce92-9234-4805-a2b0-a083eb910a2d",
+            "value": "38b8ba46-7137-4d4d-9da4-2c67b4e5c6a3",
             "entity": "field",
             "table": "#__componentbuilder_field",
             "direction": "out"
