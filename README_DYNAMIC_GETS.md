@@ -61,6 +61,7 @@ Whether you're building for:
  - **Location** | [Details](src/dynamic_get/3be68f12-de47-4363-8f2e-678d788c12d4) | [Settings](src/dynamic_get/3be68f12-de47-4363-8f2e-678d788c12d4/item.json)
  - **Locations** | [Details](src/dynamic_get/e12b2a0d-b122-4bd4-a6b5-29fe926ecf8c) | [Settings](src/dynamic_get/e12b2a0d-b122-4bd4-a6b5-29fe926ecf8c/item.json)
  - **Map** | [Details](src/dynamic_get/fe3fbfca-7a96-4aef-b6c2-b615cc94f7e0) | [Settings](src/dynamic_get/fe3fbfca-7a96-4aef-b6c2-b615cc94f7e0/item.json)
+ - **Map** | [Details](src/dynamic_get/90cb8f6b-8960-48f4-9536-7a30b0467117) | [Settings](src/dynamic_get/90cb8f6b-8960-48f4-9536-7a30b0467117/item.json)
  - **Paths** | [Details](src/dynamic_get/b0200129-fc72-4862-a108-9726d6bd06e9) | [Settings](src/dynamic_get/b0200129-fc72-4862-a108-9726d6bd06e9/item.json)
  - **Places** | [Details](src/dynamic_get/70588322-3cb7-469a-bd9b-84c10d602c29) | [Settings](src/dynamic_get/70588322-3cb7-469a-bd9b-84c10d602c29/item.json)
 
