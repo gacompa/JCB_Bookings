@@ -28,5 +28,11 @@
         "path": "src\/dynamic_get\/70588322-3cb7-469a-bd9b-84c10d602c29",
         "settings": "src\/dynamic_get\/70588322-3cb7-469a-bd9b-84c10d602c29\/item.json",
         "guid": "70588322-3cb7-469a-bd9b-84c10d602c29"
+    },
+    "90cb8f6b-8960-48f4-9536-7a30b0467117": {
+        "name": "Map",
+        "path": "src\/dynamic_get\/90cb8f6b-8960-48f4-9536-7a30b0467117",
+        "settings": "src\/dynamic_get\/90cb8f6b-8960-48f4-9536-7a30b0467117\/item.json",
+        "guid": "90cb8f6b-8960-48f4-9536-7a30b0467117"
     }
 }
