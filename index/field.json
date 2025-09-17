@@ -232,5 +232,17 @@
         "path": "src\/field\/96d63e51-c004-42f0-8dd4-ffd711ad391e",
         "settings": "src\/field\/96d63e51-c004-42f0-8dd4-ffd711ad391e\/item.json",
         "guid": "96d63e51-c004-42f0-8dd4-ffd711ad391e"
+    },
+    "38b8ba46-7137-4d4d-9da4-2c67b4e5c6a3": {
+        "name": "Place",
+        "path": "src\/field\/38b8ba46-7137-4d4d-9da4-2c67b4e5c6a3",
+        "settings": "src\/field\/38b8ba46-7137-4d4d-9da4-2c67b4e5c6a3\/item.json",
+        "guid": "38b8ba46-7137-4d4d-9da4-2c67b4e5c6a3"
+    },
+    "69563472-c476-4bfc-b249-5add27909a68": {
+        "name": "Trek_modal",
+        "path": "src\/field\/69563472-c476-4bfc-b249-5add27909a68",
+        "settings": "src\/field\/69563472-c476-4bfc-b249-5add27909a68\/item.json",
+        "guid": "69563472-c476-4bfc-b249-5add27909a68"
     }
 }
