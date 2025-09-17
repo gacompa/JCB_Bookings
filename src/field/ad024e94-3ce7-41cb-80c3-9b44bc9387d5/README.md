@@ -14,7 +14,7 @@
 	client=""
 	multiple="true"
 	buttons="add,remove,move"
-	fields="3523"
+	fields="3528"
 	formsource=""
 	description=""
 	default=""
