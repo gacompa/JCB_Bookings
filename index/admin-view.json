@@ -68,5 +68,12 @@
         "settings": "src\/admin_view\/f178a13e-e364-4d49-b39c-b77bac931787\/item.json",
         "guid": "f178a13e-e364-4d49-b39c-b77bac931787",
         "desc": "ta"
+    },
+    "ab6a58ce-5d20-4c0a-819b-78b06c1f6535": {
+        "name": "Destinazione",
+        "path": "src\/admin_view\/ab6a58ce-5d20-4c0a-819b-78b06c1f6535",
+        "settings": "src\/admin_view\/ab6a58ce-5d20-4c0a-819b-78b06c1f6535\/item.json",
+        "guid": "ab6a58ce-5d20-4c0a-819b-78b06c1f6535",
+        "desc": "Destinazioni"
     }
 }
