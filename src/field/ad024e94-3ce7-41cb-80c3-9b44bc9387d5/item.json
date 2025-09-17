@@ -8,7 +8,7 @@
     "on_get_model_field": null,
     "on_save_model_field": null,
     "initiator_on_get_model": "",
-    "xml": "<field\n\ttype=\"subform\"\n\tname=\"trek\"\n\tlabel=\"The trek path\"\n\tlayout=\"joomla.form.field.subform.repeatable-table\"\n\tcomponent=\"\"\n\tclient=\"\"\n\tmultiple=\"true\"\n\tbuttons=\"add,remove,move\"\n\tfields=\"3523\"\n\tformsource=\"\"\n\tdescription=\"\"\n\tdefault=\"\"\n\ticon=\"list\"\n\tmax=\"15\"\n\tmin=\"1\"\n\tfilter=\"\"\n\tshowon=\"\"\n\/>",
+    "xml": "<field\n\ttype=\"subform\"\n\tname=\"trek\"\n\tlabel=\"The trek path\"\n\tlayout=\"joomla.form.field.subform.repeatable-table\"\n\tcomponent=\"\"\n\tclient=\"\"\n\tmultiple=\"true\"\n\tbuttons=\"add,remove,move\"\n\tfields=\"3528\"\n\tformsource=\"\"\n\tdescription=\"\"\n\tdefault=\"\"\n\ticon=\"list\"\n\tmax=\"15\"\n\tmin=\"1\"\n\tfilter=\"\"\n\tshowon=\"\"\n\/>",
     "datalenght": "255",
     "javascript_view_footer": "",
     "css_views": "",
@@ -33,7 +33,7 @@
         },
         {
             "key": "field",
-            "value": "143b101b-a9c9-41eb-9f23-ebf9e9b1146b",
+            "value": "69563472-c476-4bfc-b249-5add27909a68",
             "entity": "guid",
             "table": "#__componentbuilder_field",
             "direction": "out"
