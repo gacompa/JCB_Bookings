@@ -1,11 +1,12 @@
 ### JCB! Admin View
 # Places (Place:Places)
 
-> Relevant places in the area
+> The list of places managed by this component.
 
-Places can be either stop or places for a path.
-DO NOT change the items in this list: once an item is created its ID is used in other views and then the item should not be changed. Only some typografic changes are allowed.
-If necessary add an item, but do not delete or change the place in an item.
+The list of places managed by this component.
+The main attributes in this view are specific characteristic of the item: name, altitude ... data not depending by organization or use.
+DO NOT change the items or the order of the items in this list: once an item is created its ID is used in other views and then the item should not be changed. Only some typographic changes are allowed.
+If necessary add an item at the end, but DO NOT delete or change the order of items once they are inserted.
 
 > Manage single-record forms with this reusable Admin View designed for smooth data handling, customization, and full integration in JCB.
 
