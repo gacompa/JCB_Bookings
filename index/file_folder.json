@@ -8,5 +8,30 @@
         "name": "images\/banners\/white.png",
         "path": "src\/file_folder\/8b8cc404-e5d9-53e7-a7e1-a4068ce668ae.png",
         "guid": "8b8cc404-e5d9-53e7-a7e1-a4068ce668ae.png"
+    },
+    "fb7d6ee3-a2fc-5c17-998e-cbd40dc71f51.jpg": {
+        "name": "images\/com_bookings\/Cascate_sopra_Sivigia.jpg",
+        "path": "src\/file_folder\/fb7d6ee3-a2fc-5c17-998e-cbd40dc71f51.jpg",
+        "guid": "fb7d6ee3-a2fc-5c17-998e-cbd40dc71f51.jpg"
+    },
+    "6a7900b4-5f16-550c-b6bb-b19f9a1125cf.png": {
+        "name": "images\/com_bookings\/Icons\/address-location-icon.png",
+        "path": "src\/file_folder\/6a7900b4-5f16-550c-b6bb-b19f9a1125cf.png",
+        "guid": "6a7900b4-5f16-550c-b6bb-b19f9a1125cf.png"
+    },
+    "a0c2a804-e1ae-50bd-a947-e0568f1a6023.png": {
+        "name": "images\/com_bookings\/Icons\/add-map-location-black-icon.png",
+        "path": "src\/file_folder\/a0c2a804-e1ae-50bd-a947-e0568f1a6023.png",
+        "guid": "a0c2a804-e1ae-50bd-a947-e0568f1a6023.png"
+    },
+    "0eb6089f-d432-5b80-a66b-ee56456f044c.png": {
+        "name": "images\/com_bookings\/Icons\/camping-icon.png",
+        "path": "src\/file_folder\/0eb6089f-d432-5b80-a66b-ee56456f044c.png",
+        "guid": "0eb6089f-d432-5b80-a66b-ee56456f044c.png"
+    },
+    "2e9bbe6c-6525-5ce4-9806-ec0e32fa8e4a.png": {
+        "name": "images\/com_bookings\/Icons\/add-camping-icon.png",
+        "path": "src\/file_folder\/2e9bbe6c-6525-5ce4-9806-ec0e32fa8e4a.png",
+        "guid": "2e9bbe6c-6525-5ce4-9806-ec0e32fa8e4a.png"
     }
 }
