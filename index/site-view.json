@@ -26,5 +26,12 @@
         "path": "src\/site_view\/6899baa6-4767-4a67-b584-55d5087a9a4f",
         "settings": "src\/site_view\/6899baa6-4767-4a67-b584-55d5087a9a4f\/item.json",
         "guid": "6899baa6-4767-4a67-b584-55d5087a9a4f"
+    },
+    "df889519-71e3-40be-b74a-5abdbff5c003": {
+        "name": "Locations table view",
+        "desc": "Site locations - table view",
+        "path": "src\/site_view\/df889519-71e3-40be-b74a-5abdbff5c003",
+        "settings": "src\/site_view\/df889519-71e3-40be-b74a-5abdbff5c003\/item.json",
+        "guid": "df889519-71e3-40be-b74a-5abdbff5c003"
     }
 }
