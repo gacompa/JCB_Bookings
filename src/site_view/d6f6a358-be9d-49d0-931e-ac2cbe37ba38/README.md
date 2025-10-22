@@ -5,8 +5,6 @@ Site locations
 
 ## HTML:
 ```html
-
-
 <form action="<?php echo Route::_('index.php?option=com_bookings'); ?>" method="post" name="adminForm" id="adminForm">
 <?php echo $this->toolbar->render(); ?>
 <?php echo LayoutHelper::render('rowslocations', []); ?>
@@ -14,51 +12,188 @@ Site locations
 <!-- Put here the route for the one-location view, i.e. index.php/booking/one-location -->
 <?php $one_location_path = "index.php/booking/one-location"; ?>
 
-<table class="uk-table uk-table-hover">
-    <caption><?php echo Text::_('LOCATIONS'); ?></caption>
-    <thead>
-        <tr>
-        <th><?php echo Text::_('COM_BOOKINGS_IMAGE'); ?></th>
-        <th><?php echo Text::_('COM_BOOKINGS_NAME'); ?></th>
-        <th><?php echo Text::_('COM_BOOKINGS_LOCATION'); ?></th>
-        <th><?php echo Text::_('COM_BOOKINGS_ALTITUDE'); ?></th>
-        <th><?php echo Text::_('COM_BOOKINGS_IS_STOP'); ?></th>
-        <th><?php echo Text::_('COM_BOOKINGS_IS_BASE'); ?></th>
-        </tr>
-    </thead>
-    <tbody>
-        <?php foreach ($this->items as $item): ?>
-        <tr>
-            <td><img src="<?php echo $item->image; ?>" style="width: 100px; height: auto;"> </td>
-            <td><b><?php echo "<a href=\"$one_location_path?id=$item->id\" > $item->name </a>"; ?></b><br/><?php echo $item->description; ?></td>
-            <td><?php echo $item->location; ?></td>
-            <td><?php echo $item->altitude." m s.l.m."; ?></td>
-            <td align="center"><?php if ($item->is_stop) {
-              // check icon by Free Icons (https://free-icons.github.io/free-icons/)
-              echo '<svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
-              <path d="M 501.7142857142857 83.42857142857143 Q 512 94.85714285714286 512 109.71428571428571 L 512 109.71428571428571 L 512 109.71428571428571 Q 512 124.57142857142857 501.7142857142857 136 L 209.14285714285714 428.57142857142856 L 209.14285714285714 428.57142857142856 Q 197.71428571428572 438.85714285714283 182.85714285714286 438.85714285714283 Q 168 438.85714285714283 156.57142857142858 428.57142857142856 L 10.285714285714286 282.2857142857143 L 10.285714285714286 282.2857142857143 Q 0 270.85714285714283 0 256 Q 0 241.14285714285714 10.285714285714286 229.71428571428572 Q 21.714285714285715 219.42857142857142 36.57142857142857 219.42857142857142 Q 51.42857142857143 219.42857142857142 62.857142857142854 229.71428571428572 L 182.85714285714286 350.85714285714283 L 182.85714285714286 350.85714285714283 L 449.14285714285717 83.42857142857143 L 449.14285714285717 83.42857142857143 Q 460.57142857142856 73.14285714285714 475.42857142857144 73.14285714285714 Q 490.2857142857143 73.14285714285714 501.7142857142857 83.42857142857143 L 501.7142857142857 83.42857142857143 Z"/>
-              </svg>';}
-            else {
-              //xmark icon by Free Icons (https://free-icons.github.io/free-icons/)
-              echo '<svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
-              <path d="M 497.6 88 Q 512 72 512 51.2 L 512 51.2 L 512 51.2 Q 512 30.4 497.6 14.4 Q 481.6 0 460.8 0 Q 440 0 424 14.4 L 256 184 L 256 184 L 88 14.4 L 88 14.4 Q 72 0 51.2 0 Q 30.4 0 14.4 14.4 Q 0 30.4 0 51.2 Q 0 72 14.4 88 L 184 256 L 184 256 L 14.4 424 L 14.4 424 Q 0 440 0 460.8 Q 0 481.6 14.4 497.6 Q 30.4 512 51.2 512 Q 72 512 88 497.6 L 256 328 L 256 328 L 424 497.6 L 424 497.6 Q 440 512 460.8 512 Q 481.6 512 497.6 497.6 Q 512 481.6 512 460.8 Q 512 440 497.6 424 L 328 256 L 328 256 L 497.6 88 L 497.6 88 Z"/>
-              </svg>';
-            }; ?></td>            
-            <td align="center"><?php if ($item->is_base) {
-              // check icon by Free Icons (https://free-icons.github.io/free-icons/)
-              echo '<svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
-              <path d="M 501.7142857142857 83.42857142857143 Q 512 94.85714285714286 512 109.71428571428571 L 512 109.71428571428571 L 512 109.71428571428571 Q 512 124.57142857142857 501.7142857142857 136 L 209.14285714285714 428.57142857142856 L 209.14285714285714 428.57142857142856 Q 197.71428571428572 438.85714285714283 182.85714285714286 438.85714285714283 Q 168 438.85714285714283 156.57142857142858 428.57142857142856 L 10.285714285714286 282.2857142857143 L 10.285714285714286 282.2857142857143 Q 0 270.85714285714283 0 256 Q 0 241.14285714285714 10.285714285714286 229.71428571428572 Q 21.714285714285715 219.42857142857142 36.57142857142857 219.42857142857142 Q 51.42857142857143 219.42857142857142 62.857142857142854 229.71428571428572 L 182.85714285714286 350.85714285714283 L 182.85714285714286 350.85714285714283 L 449.14285714285717 83.42857142857143 L 449.14285714285717 83.42857142857143 Q 460.57142857142856 73.14285714285714 475.42857142857144 73.14285714285714 Q 490.2857142857143 73.14285714285714 501.7142857142857 83.42857142857143 L 501.7142857142857 83.42857142857143 Z"/>
-              </svg>';}
-            else {
-              //xmark icon by Free Icons (https://free-icons.github.io/free-icons/)
-              echo '<svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
-              <path d="M 497.6 88 Q 512 72 512 51.2 L 512 51.2 L 512 51.2 Q 512 30.4 497.6 14.4 Q 481.6 0 460.8 0 Q 440 0 424 14.4 L 256 184 L 256 184 L 88 14.4 L 88 14.4 Q 72 0 51.2 0 Q 30.4 0 14.4 14.4 Q 0 30.4 0 51.2 Q 0 72 14.4 88 L 184 256 L 184 256 L 14.4 424 L 14.4 424 Q 0 440 0 460.8 Q 0 481.6 14.4 497.6 Q 30.4 512 51.2 512 Q 72 512 88 497.6 L 256 328 L 256 328 L 424 497.6 L 424 497.6 Q 440 512 460.8 512 Q 481.6 512 497.6 497.6 Q 512 481.6 512 460.8 Q 512 440 497.6 424 L 328 256 L 328 256 L 497.6 88 L 497.6 88 Z"/>
-              </svg>';
-            }; ?></td>
-        </tr>
-        <?php endforeach; ?>
-    </tbody>
-</table>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box con Tre Sezioni</title>
+    <style>
+        /* Stili per il contenitore principale */
+        .custom-box {
+            width: 650px; /* Larghezza del box aumentata leggermente */
+            border: 1px solid #ccc;
+            border-radius: 12px; /* Angoli arrotondati */
+            overflow: hidden; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            font-family: Arial, sans-serif;
+            margin: 20px; /* Margine per visualizzazione */
+        }
+
+        /* --- PRIMA RIGA: BARRA SUPERIORE VERDE --- */
+        .top-bar {
+            background-color: #4CAF50; /* Verde */
+            color: white;
+            padding: 10px 15px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        /* --- SECONDA RIGA: CONTENUTO PRINCIPALE (IMMAGINE + TESTO) --- */
+        .middle-content {
+            padding: 15px;
+            display: flow-root; /* Alternativa a clearfix per contenere i float */
+            border-bottom: 1px solid #eee; /* Separatore visivo */
+        }
+
+        .image-container {
+            float: left; /* Posiziona a sinistra */
+            width: 30%; 
+            margin-right: 20px; 
+        }
+
+        .image-container img {
+            width: 100%; 
+            height: auto;
+            display: block;
+            border-radius: 8px; 
+        }
+
+
+        /* The Modal/Lightbox (hidden by default) */
+        .lightbox {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay fixed on the screen */
+           z-index: 9999; /* Sit on top of everything */
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgba(0, 0, 0, 0.9); /* Black background with opacity */
+        }
+
+        /* Image inside the Modal */
+        .lightbox-content {
+            margin: auto;
+            display: block;
+            max-width: 90%; /* Limits the image width */
+            max-height: 90vh; /* Limits the image height to 90% of the viewport height */
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%); /* Centers vertically */
+        }
+
+        /* The Close Button */
+        .close-button {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        .text-content {
+            overflow: hidden; /* Occupa lo spazio rimanente a destra */
+        }
+
+        .text-content h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        /* --- TERZA RIGA: TABELLA DATI --- */
+        .bottom-content {
+            padding: 15px;
+        }
+        
+        .data-table {
+            width: 100%;
+            border-collapse: collapse; /* Rimuove lo spazio tra le celle */
+        }
+
+        .data-table td {
+            padding: 8px 15px;
+            border-bottom: 1px solid #f0f0f0;
+            font-size: 0.9em;
+        }
+
+        .data-table tr:last-child td {
+            border-bottom: none; /* Rimuove il bordo dall'ultima riga */
+        }
+
+        .data-table .label {
+            width: 40%;
+            font-weight: bold;
+            color: #555;
+            background-color: #f9f9f9;
+        }
+
+        .data-table .value {
+            width: 60%;
+            color: #333;
+        }
+
+    </style>
+</head>
+
+<?php foreach ($this->items as $item): ?>
+<body>
+
+<div class="custom-box">
+    <div class="top-bar">
+<b><?php echo "<a href=\"$one_location_path?id=$item->id\" > $item->name </a>"; ?></b><br/><?php echo $item->description; ?>    </div>
+    
+<div class="middle-content">
+
+    <div class="image-container">
+        <?php $baseurl = Uri::root(); ?>
+        <?php $fullImageUrl = $baseurl . $item->image; ?>
+        <img 
+            src="<?php echo $item->image; ?>" 
+            alt="Click to Enlarge" 
+            onclick="openLightbox('<?php echo htmlspecialchars($fullImageUrl); ?>')"
+            style="cursor: pointer; width: 300px; height: auto;" 
+        />
+        <?php echo "Click image to enlarge" ; ?>
+    </div>
+    <div id="lightbox-modal" class="lightbox" onclick="closeLightbox()">
+        <span class="close-button">&times;</span>
+        <img id="lightbox-image" class="lightbox-content" src="<?php echo JPATH_ROOT . "/" .  $item->image; ?>" alt="Enlarged Image">
+    </div>       
+    <div class="text-content">
+        <p>
+        <?php echo $item->longdescription ; ?>  
+        </p>
+    </div>
+</div>
+
+<div class="bottom-content">
+        <table class="data-table">
+            <tr>
+                <td class="label"><?php echo JText::_('Altitude'); ?> </td>
+                <td class="value"><?php echo $item->place_altitude ; ?> </td>
+            </tr>
+            <tr>
+                <td class="label"><?php echo JText::_('Type'); ?> </td>
+                <td class="value"><?php echo ($item->is_base) ? JText::_('Is a base' ) : JText::_('Is NOT a base' ); echo " | "; echo ($item->is_stop) ? JText::_('Is a stop' ) : JText::_('Is NOT a stop' ); ?> </td>
+            </tr>
+          <?php if ($item->is_stop) { ?>
+            <tr>
+                <td class="label"><?php echo JText::_('Places indoor | outdoor'); ?> </td>
+                <td class="value"><?php echo $item->places_indoor . " indoor | " . $item->places_outdoor . " outdoor"; ?> </td>
+            </tr>
+            <?php } ?>
+            <tr>
+                <td class="label">Posti Letto</td>
+                <td class="value">35</td>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+<?php endforeach; ?>
 
 <?php if (isset($this->items) && isset($this->pagination) && isset($this->pagination->pagesTotal) && $this->pagination->pagesTotal > 1): ?>
 	<div class="pagination">
@@ -71,6 +206,30 @@ Site locations
 <input type="hidden" name="task" value="" />
 <?php echo Html::_('form.token'); ?>
 </form>
+
+<script>
+function openLightbox(imageSource) {
+    // Get the modal and image elements
+    const modal = document.getElementById('lightbox-modal');
+    const modalImg = document.getElementById('lightbox-image');
+
+    // Set the image source and display the modal
+    modalImg.src = imageSource;
+    modal.style.display = 'block';
+}
+
+function closeLightbox() {
+    const modal = document.getElementById('lightbox-modal');
+    modal.style.display = 'none';
+}
+
+// Optional: Close the modal if the user presses the ESC key
+document.addEventListener('keydown', function(event) {
+    if (event.key === "Escape") {
+        closeLightbox();
+    }
+});
+</script>
 ```
 
 > Deliver dynamic, custom front-end experiences with this reusable Site View crafted for seamless data flow and design flexibility in JCB.
