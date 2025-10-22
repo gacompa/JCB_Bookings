@@ -244,5 +244,11 @@
         "path": "src\/field\/69563472-c476-4bfc-b249-5add27909a68",
         "settings": "src\/field\/69563472-c476-4bfc-b249-5add27909a68\/item.json",
         "guid": "69563472-c476-4bfc-b249-5add27909a68"
+    },
+    "90bae545-7186-4555-bfbc-6c135ae72898": {
+        "name": "Place_altitude",
+        "path": "src\/field\/90bae545-7186-4555-bfbc-6c135ae72898",
+        "settings": "src\/field\/90bae545-7186-4555-bfbc-6c135ae72898\/item.json",
+        "guid": "90bae545-7186-4555-bfbc-6c135ae72898"
     }
 }
