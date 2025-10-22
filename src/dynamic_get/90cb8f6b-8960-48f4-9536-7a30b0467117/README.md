@@ -12,7 +12,6 @@ a.place AS place
 a.altitude AS altitude
 a.latitude AS latitude
 a.longitude AS longitude
-a.is_stop AS is_stop
 a.published AS published
 a.created_by AS created_by
 a.modified_by AS modified_by
