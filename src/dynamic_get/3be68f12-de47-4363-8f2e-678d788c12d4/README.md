@@ -13,6 +13,7 @@ a.place_id AS place_id
 a.name AS name
 a.location AS location
 a.description AS description
+a.place_altitude AS place_altitude
 a.longdescription AS longdescription
 a.is_base AS is_base
 a.is_stop AS is_stop
@@ -20,7 +21,7 @@ a.phone AS phone
 a.security_rules AS security_rules
 a.credits AS credits
 a.places_indoor AS places_indoor
-a.place_outdoor AS place_outdoor
+a.places_outdoor AS places_outdoor
 a.rest_room_checkbox AS rest_room_checkbox
 a.rest_room_comments AS rest_room_comments
 a.heating_checkbox AS heating_checkbox
