@@ -8,7 +8,7 @@
     "on_get_model_field": null,
     "on_save_model_field": null,
     "initiator_on_get_model": "",
-    "xml": "<field\n\ttype=\"integer\"\n\tname=\"place_outdoor\"\n\tlabel=\"Place outdoor\"\n\tdefault=\"\"\n\tmessage=\"\"\n\tdescription=\"\"\n\tclass=\"text_area\"\n\trequired=\"\"\n\tvalidate=\"\"\n\tfirst=\"0\"\n\tlast=\"100\"\n\tstep=\"1\"\n\tshowon=\"\"\n\tonchange=\"\"\n\/>",
+    "xml": "<field\n\ttype=\"integer\"\n\tname=\"places_outdoor\"\n\tlabel=\"Places outdoor\"\n\tdefault=\"\"\n\tmessage=\"\"\n\tdescription=\"\"\n\tclass=\"text_area\"\n\trequired=\"\"\n\tvalidate=\"\"\n\tfirst=\"0\"\n\tlast=\"100\"\n\tstep=\"1\"\n\tshowon=\"\"\n\tonchange=\"\"\n\/>",
     "datalenght": "7",
     "javascript_view_footer": "",
     "css_views": "",
