@@ -61,20 +61,6 @@
                 "2",
                 "3"
             ]
-        },
-        "4": {
-            "field": "2d01d455-4120-45bf-bce3-eba4354989c0",
-            "list": "1",
-            "order_list": "5",
-            "filter": "",
-            "tab": "1",
-            "alignment": 1,
-            "order_edit": "5",
-            "permission": [
-                "1",
-                "2",
-                "3"
-            ]
         }
     },
     "@dependencies": [
@@ -109,13 +95,6 @@
         {
             "key": "guid",
             "value": "2c6061d1-eb07-4f29-858b-21e4439b237b",
-            "entity": "field",
-            "table": "#__componentbuilder_field",
-            "direction": "out"
-        },
-        {
-            "key": "guid",
-            "value": "2d01d455-4120-45bf-bce3-eba4354989c0",
             "entity": "field",
             "table": "#__componentbuilder_field",
             "direction": "out"
