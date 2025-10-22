@@ -7,8 +7,8 @@
 ```xml
 <field
 	type="integer"
-	name="place_outdoor"
-	label="Place outdoor"
+	name="places_outdoor"
+	label="Places outdoor"
 	default=""
 	message=""
 	description=""
