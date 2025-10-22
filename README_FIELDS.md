@@ -83,6 +83,7 @@ This preserves version control while allowing your own field improvements to liv
  - **Name** | [Details](src/field/ea8871b6-4f71-480b-bbd7-0d71322c6464) | [Settings](src/field/ea8871b6-4f71-480b-bbd7-0d71322c6464/item.json)
  - **Place** | [Details](src/field/7650ce92-9234-4805-a2b0-a083eb910a2d) | [Settings](src/field/7650ce92-9234-4805-a2b0-a083eb910a2d/item.json)
  - **Place** | [Details](src/field/38b8ba46-7137-4d4d-9da4-2c67b4e5c6a3) | [Settings](src/field/38b8ba46-7137-4d4d-9da4-2c67b4e5c6a3/item.json)
+ - **Place_altitude** | [Details](src/field/90bae545-7186-4555-bfbc-6c135ae72898) | [Settings](src/field/90bae545-7186-4555-bfbc-6c135ae72898/item.json)
  - **Place_id** | [Details](src/field/143b101b-a9c9-41eb-9f23-ebf9e9b1146b) | [Settings](src/field/143b101b-a9c9-41eb-9f23-ebf9e9b1146b/item.json)
  - **Places inside** | [Details](src/field/00ea1e01-ff68-4feb-8649-68c63d4e062c) | [Settings](src/field/00ea1e01-ff68-4feb-8649-68c63d4e062c/item.json)
  - **Places outside** | [Details](src/field/aaf3f211-ba95-45cc-a2a1-881d6ea35d50) | [Settings](src/field/aaf3f211-ba95-45cc-a2a1-881d6ea35d50/item.json)
