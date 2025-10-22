@@ -56,6 +56,7 @@ This ensures consistent updates while preserving your customizations and logic.
 
 
  - **Locations** | [Details](src/site_view/d6f6a358-be9d-49d0-931e-ac2cbe37ba38) | [Settings](src/site_view/d6f6a358-be9d-49d0-931e-ac2cbe37ba38/item.json) | Site locations
+ - **Locations table view** | [Details](src/site_view/df889519-71e3-40be-b74a-5abdbff5c003) | [Settings](src/site_view/df889519-71e3-40be-b74a-5abdbff5c003/item.json) | Site locations - table view
  - **Map** | [Details](src/site_view/e6bc3a5f-909e-493c-ba8a-6a79b555b2f7) | [Settings](src/site_view/e6bc3a5f-909e-493c-ba8a-6a79b555b2f7/item.json) | Map of locations
  - **OneLocation** | [Details](src/site_view/47acca5d-c194-47fe-8961-0c849fcadbe0) | [Settings](src/site_view/47acca5d-c194-47fe-8961-0c849fcadbe0/item.json) | One site location
  - **Places** | [Details](src/site_view/6899baa6-4767-4a67-b584-55d5087a9a4f) | [Settings](src/site_view/6899baa6-4767-4a67-b584-55d5087a9a4f/item.json) | places
