@@ -1,12 +1,19 @@
 ### JCB! Joomla Component
-# Bookings (v44)
+# Bookings (v1.0.3)
 ## Bookings (Bookings)
 
 > Management of bookings for hikes or routes
 
-Main functionalities are
-Locations
-* a list of stops, i.e. places for overnight stay (both Bases or camping sites), or transit places
+This component offer tools to manage bookings for hikes or routes.
+Main administrative functionalities are
+* Places: the list of places managed by the component
+* Locations: descriptions of the subset of places for overnight stay for the night (either in-door or out-door)
+Main viewer functionalities are
+* list of Locations
+* details on single location
+* Map of places and paths
+
+To be done
 Reservations
 * a tool to simulate a route with stops and transit
 * a tool to submit the proposed route
@@ -19,7 +26,7 @@ Calendar
 * a calendar to display the presence of groups and the availability of places
 
 T.b.d.
-Map to display on a map places and paths
+
 Analytics to display occupation of places, number of people ...
 
 ### Company Details
