@@ -7,7 +7,7 @@ Map of locations
 ```html
 <style>
     #map-container {
-        height: 500px;
+        height: 800px;
         width: 100%;
         border-radius: 8px;
         box-shadow: 0 4px 6px rgba(0,0,0,0.1);
