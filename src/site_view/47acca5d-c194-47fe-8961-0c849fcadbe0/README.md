@@ -175,27 +175,64 @@ $itemId = $jinput->getInt('id');
             <tbody>
                 <tr>
                     <td>Altitudine</td>
-                    <td>2.850 m s.l.m.</td>
+                    <td><?php echo $item->altitude ; ?></td>
                 </tr>
                 <tr>
                     <td>Località</td>
-                    <td>Valle di Fassa, Dolomiti</td>
+                    <td><?php echo $item->location ; ?></td>
                 </tr>
                 <tr>
                     <td>Posti Letto</td>
-                    <td>45</td>
+                    <td><?php echo $item->places_indoor . " indoor | " . $item->places_outdoor . " outdoor" ; ?></td>
                 </tr>
                 <tr>
-                    <td>Apertura Stagionale</td>
-                    <td>Giugno - Settembre</td>
+                    <td>Rest rooms</td>
+                    <td>
+                        <?php echo (($item->rest_room_checkbox) ? "yes " : "no " ) ; ?>
+                        <?php echo $item->rest_room_comments ;?>
+                    </td>
                 </tr>
                 <tr>
-                    <td>Difficoltà Accesso</td>
-                    <td>Escursionistico (E)</td>
+                    <td>water</td>
+                    <td>
+                        <?php echo (($item->water_checkbox) ? "yes " : "no " ) ; ?>
+                        <?php echo $item->water_comments ;?>
+                    </td>
                 </tr>
+                <tr>
+                    <td>heating</td>
+                    <td>
+                        <?php echo (($item->rest_room_checkbox) ? "yes " : "no " ) ; ?>
+                        <?php echo $item->heating_comments ;?>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Electricity</td>
+                    <td>
+                        <?php echo (($item->electricity_checkbox) ? "yes " : "no " ) ; ?>
+                        <?php echo $item->electricity_comments ;?>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Kitchen</td>
+                    <td>
+                        <?php echo (($item->kitchen_checkbox) ? "yes " : "no " ) ; ?>
+                        <?php echo $item->kitchen_comments ;?>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Camp fire</td>
+                    <td>
+                        <?php echo (($item->camp_fire_checkbox) ? "yes " : "no " ) ; ?>
+                        <?php echo $item->camp_fire_comments ;?>
+                    </td>
+                </tr>
+
             </tbody>
+
         </table>
     </div>
+
 
 </body>
 </form>
