@@ -16,38 +16,48 @@ Site locations
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Box con Tre Sezioni</title>
-    <style>
-        /* Stili per il contenitore principale */
-        .custom-box {
-            width: 650px; /* Larghezza del box aumentata leggermente */
-            border: 1px solid #ccc;
-            border-radius: 12px; /* Angoli arrotondati */
-            overflow: hidden; 
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+<style>
+/* BASE E CONTENITORE PRINCIPALE */
+        body {
             font-family: Arial, sans-serif;
-            margin: 20px; /* Margine per visualizzazione */
+            margin: 0;
+            padding: 20px 0;
+            display: flex;
+            justify-content: center;
         }
 
-        /* --- PRIMA RIGA: BARRA SUPERIORE VERDE --- */
+        .custom-box {
+            width: 90%; /* Occupa il 90% della larghezza della finestra */
+            max-width: 850px; /* Limite massimo per schermi desktop */
+            min-width: 300px; /* Limite minimo per cellulari */
+            border: 1px solid #ccc;
+            border-radius: 12px;
+            overflow: hidden; 
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* --- PRIMA RIGA: BARRA SUPERIORE (Titolo) --- */
         .top-bar {
             background-color: #4CAF50; /* Verde */
             color: white;
-            padding: 10px 15px;
-            font-size: 1.2em;
+            padding: 15px 20px;
+            font-size: 1.5em; /* Dimensione del testo responsiva */
             font-weight: bold;
+            text-align: center;
         }
 
-        /* --- SECONDA RIGA: CONTENUTO PRINCIPALE (IMMAGINE + TESTO) --- */
+        /* --- SECONDA RIGA: IMMAGINE E TESTO (Flexbox) --- */
         .middle-content {
-            padding: 15px;
-            display: flow-root; /* Alternativa a clearfix per contenere i float */
-            border-bottom: 1px solid #eee; /* Separatore visivo */
+            padding: 20px;
+            display: flex; /* Attiva Flexbox */
+            gap: 20px; /* Spazio tra le colonne */
+            border-bottom: 1px solid #eee;
         }
 
+        /* Contenitore Immagine (35% su Desktop) */
         .image-container {
-            float: left; /* Posiziona a sinistra */
-            width: 30%; 
-            margin-right: 20px; 
+            flex: 0 0 35%; /* Non crescere, non restringere, base 35% */
+            max-width: 35%;
         }
 
         .image-container img {
@@ -57,7 +67,17 @@ Site locations
             border-radius: 8px; 
         }
 
+        /* Contenitore Testo (65% su Desktop) */
+        .text-content {
+            flex-grow: 1; /* Occupa lo spazio rimanente */
+            padding-right: 10px; /* Piccolo spazio a destra */
+        }
 
+        .text-content h3 {
+            margin-top: 0;
+            color: #333;
+        }
+       
         /* The Modal/Lightbox (hidden by default) */
         .lightbox {
             display: none; /* Hidden by default */
@@ -94,33 +114,20 @@ Site locations
             cursor: pointer;
         }
 
-        .text-content {
-            overflow: hidden; /* Occupa lo spazio rimanente a destra */
-        }
-
-        .text-content h3 {
-            margin-top: 0;
-            color: #333;
-        }
-
         /* --- TERZA RIGA: TABELLA DATI --- */
         .bottom-content {
-            padding: 15px;
+            padding: 20px;
         }
         
         .data-table {
             width: 100%;
-            border-collapse: collapse; /* Rimuove lo spazio tra le celle */
+            border-collapse: collapse;
         }
 
         .data-table td {
-            padding: 8px 15px;
+            padding: 10px 15px;
             border-bottom: 1px solid #f0f0f0;
             font-size: 0.9em;
-        }
-
-        .data-table tr:last-child td {
-            border-bottom: none; /* Rimuove il bordo dall'ultima riga */
         }
 
         .data-table .label {
@@ -130,13 +137,35 @@ Site locations
             background-color: #f9f9f9;
         }
 
-        .data-table .value {
-            width: 60%;
-            color: #333;
-        }
+        /* --- MEDIA QUERY: Adattamento per Schermi Stretti (Mobile) --- */
+        @media (max-width: 600px) {
+            
+            .middle-content {
+                flex-direction: column; /* Impila immagine e testo verticalmente */
+                gap: 15px;
+            }
+            
+            .image-container {
+                /* L'immagine occupa l'intera larghezza disponibile */
+                flex: 1 1 100%; 
+                max-width: 100%;
+            }
 
+            .text-content {
+                padding-right: 0;
+            }
+
+            .data-table td {
+                /* Riduci padding per meno spazio su schermi piccoli */
+                padding: 8px 10px;
+            }
+
+            .data-table .label {
+                width: 50%; /* Etichetta occupa più spazio per evitare interruzioni di riga */
+            }
+        }
     </style>
-</head>
+    </head>
 
 <?php foreach ($this->items as $item): ?>
 <body>
@@ -177,7 +206,7 @@ Site locations
             </tr>
             <tr>
                 <td class="label"><?php echo JText::_('Type'); ?> </td>
-                <td class="value"><?php echo ($item->is_base) ? JText::_('Is a base' ) : JText::_('Is NOT a base' ); echo " | "; echo ($item->is_stop) ? JText::_('Is a stop' ) : JText::_('Is NOT a stop' ); ?> </td>
+                <td class="value"><?php echo ($item->is_base) ? JText::_('Is a base' ) : JText::_('Is not a base' ); echo " | "; echo ($item->is_stop) ? JText::_('Is a stop' ) : JText::_('Is not a stop' ); ?> </td>
             </tr>
           <?php if ($item->is_stop) { ?>
             <tr>
@@ -191,6 +220,11 @@ Site locations
             </tr>
         </table>
     </div>
+</div>
+<div>
+    <p>
+    <?php echo " " ; ?>  
+    </p>
 </div>
 </body>
 <?php endforeach; ?>
@@ -206,6 +240,7 @@ Site locations
 <input type="hidden" name="task" value="" />
 <?php echo Html::_('form.token'); ?>
 </form>
+
 
 <script>
 function openLightbox(imageSource) {
