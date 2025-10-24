@@ -214,10 +214,6 @@ Site locations
                 <td class="value"><?php echo $item->places_indoor . " indoor | " . $item->places_outdoor . " outdoor"; ?> </td>
             </tr>
             <?php } ?>
-            <tr>
-                <td class="label">Posti Letto</td>
-                <td class="value">35</td>
-            </tr>
         </table>
     </div>
 </div>
