@@ -52,7 +52,7 @@ $itemId = $jinput->getInt('id');
 
         /* --- 1. TITLE ROW --- */
         .title-row {
-            background-color: #333; /* Dark background for header */
+             background-color: #4CAF50; /* Verde for header*/
             color: white;
             padding: 15px 20px;
             font-size: 1.8em;
