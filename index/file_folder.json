@@ -33,5 +33,45 @@
         "name": "images\/com_bookings\/Icons\/add-camping-icon.png",
         "path": "src\/file_folder\/2e9bbe6c-6525-5ce4-9806-ec0e32fa8e4a.png",
         "guid": "2e9bbe6c-6525-5ce4-9806-ec0e32fa8e4a.png"
+    },
+    "a59681b3-c2f4-501b-959f-7d1f5b67fe43.png": {
+        "name": "images\/com_dj\/Icons\/writing-pad-clipboard-icon.png",
+        "path": "src\/file_folder\/a59681b3-c2f4-501b-959f-7d1f5b67fe43.png",
+        "guid": "a59681b3-c2f4-501b-959f-7d1f5b67fe43.png"
+    },
+    "117fc29e-9311-51c8-8a06-a72c3bf772ae.png": {
+        "name": "images\/com_dj\/Icons\/create-task-icon.png",
+        "path": "src\/file_folder\/117fc29e-9311-51c8-8a06-a72c3bf772ae.png",
+        "guid": "117fc29e-9311-51c8-8a06-a72c3bf772ae.png"
+    },
+    "a487d903-0ea5-5bb7-adc7-725a3d886745.png": {
+        "name": "images\/com_dj\/Icons\/computer-folder-open-icon.png",
+        "path": "src\/file_folder\/a487d903-0ea5-5bb7-adc7-725a3d886745.png",
+        "guid": "a487d903-0ea5-5bb7-adc7-725a3d886745.png"
+    },
+    "16b249c0-5a85-5e80-833f-6636ac10cd24.png": {
+        "name": "images\/com_dj\/Icons\/add-folder-icon.png",
+        "path": "src\/file_folder\/16b249c0-5a85-5e80-833f-6636ac10cd24.png",
+        "guid": "16b249c0-5a85-5e80-833f-6636ac10cd24.png"
+    },
+    "2bbdafb0-a966-57e4-91dd-1def03d99bfa.png": {
+        "name": "images\/com_dj\/Icons\/copied-icon.png",
+        "path": "src\/file_folder\/2bbdafb0-a966-57e4-91dd-1def03d99bfa.png",
+        "guid": "2bbdafb0-a966-57e4-91dd-1def03d99bfa.png"
+    },
+    "4c8adf2c-31b6-5874-8750-a2be9be96e54.png": {
+        "name": "images\/com_dj\/Icons\/file-new-icon.png",
+        "path": "src\/file_folder\/4c8adf2c-31b6-5874-8750-a2be9be96e54.png",
+        "guid": "4c8adf2c-31b6-5874-8750-a2be9be96e54.png"
+    },
+    "b3a5c71f-32ab-5ea5-8367-e3886c58173e.png": {
+        "name": "images\/com_dj\/Icons\/planning-icon.png",
+        "path": "src\/file_folder\/b3a5c71f-32ab-5ea5-8367-e3886c58173e.png",
+        "guid": "b3a5c71f-32ab-5ea5-8367-e3886c58173e.png"
+    },
+    "f4d2381a-f9c3-5e9c-b56c-2df186960577.png": {
+        "name": "images\/com_dj\/Icons\/add-project-icon.png",
+        "path": "src\/file_folder\/f4d2381a-f9c3-5e9c-b56c-2df186960577.png",
+        "guid": "f4d2381a-f9c3-5e9c-b56c-2df186960577.png"
     }
 }
