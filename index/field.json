@@ -250,5 +250,41 @@
         "path": "src\/field\/90bae545-7186-4555-bfbc-6c135ae72898",
         "settings": "src\/field\/90bae545-7186-4555-bfbc-6c135ae72898\/item.json",
         "guid": "90bae545-7186-4555-bfbc-6c135ae72898"
+    },
+    "0e41b35c-71f5-4a09-810a-1e0c67c5594f": {
+        "name": "DJ_note",
+        "path": "src\/field\/0e41b35c-71f5-4a09-810a-1e0c67c5594f",
+        "settings": "src\/field\/0e41b35c-71f5-4a09-810a-1e0c67c5594f\/item.json",
+        "guid": "0e41b35c-71f5-4a09-810a-1e0c67c5594f"
+    },
+    "38cb08ea-ff3b-4485-a623-dff243262632": {
+        "name": "DJ main topic",
+        "path": "src\/field\/38cb08ea-ff3b-4485-a623-dff243262632",
+        "settings": "src\/field\/38cb08ea-ff3b-4485-a623-dff243262632\/item.json",
+        "guid": "38cb08ea-ff3b-4485-a623-dff243262632"
+    },
+    "bf532525-e94e-46d5-ad2b-3a340284763e": {
+        "name": "DJ_decision",
+        "path": "src\/field\/bf532525-e94e-46d5-ad2b-3a340284763e",
+        "settings": "src\/field\/bf532525-e94e-46d5-ad2b-3a340284763e\/item.json",
+        "guid": "bf532525-e94e-46d5-ad2b-3a340284763e"
+    },
+    "d0dcaaab-2299-41eb-bf41-322085b7458a": {
+        "name": "DJ_topic",
+        "path": "src\/field\/d0dcaaab-2299-41eb-bf41-322085b7458a",
+        "settings": "src\/field\/d0dcaaab-2299-41eb-bf41-322085b7458a\/item.json",
+        "guid": "d0dcaaab-2299-41eb-bf41-322085b7458a"
+    },
+    "d8949125-db0d-4c30-bca2-df19e4d1f445": {
+        "name": "DJ_project",
+        "path": "src\/field\/d8949125-db0d-4c30-bca2-df19e4d1f445",
+        "settings": "src\/field\/d8949125-db0d-4c30-bca2-df19e4d1f445\/item.json",
+        "guid": "d8949125-db0d-4c30-bca2-df19e4d1f445"
+    },
+    "dee8a359-09d8-4821-884a-58ed0e62b0cf": {
+        "name": "Name",
+        "path": "src\/field\/dee8a359-09d8-4821-884a-58ed0e62b0cf",
+        "settings": "src\/field\/dee8a359-09d8-4821-884a-58ed0e62b0cf\/item.json",
+        "guid": "dee8a359-09d8-4821-884a-58ed0e62b0cf"
     }
 }
