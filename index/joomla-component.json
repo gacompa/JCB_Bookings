@@ -12,5 +12,12 @@
         "settings": "src\/joomla_component\/726a11af-27ff-4836-b81f-cd72752df10f\/item.json",
         "guid": "726a11af-27ff-4836-b81f-cd72752df10f",
         "desc": "test"
+    },
+    "0644c779-8948-4672-877e-13f8798c12cb": {
+        "name": "Development Journal",
+        "path": "src\/joomla_component\/0644c779-8948-4672-877e-13f8798c12cb",
+        "settings": "src\/joomla_component\/0644c779-8948-4672-877e-13f8798c12cb\/item.json",
+        "guid": "0644c779-8948-4672-877e-13f8798c12cb",
+        "desc": "Container of project development notes"
     }
 }
