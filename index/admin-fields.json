@@ -64,5 +64,35 @@
         "path": "src\/admin_view\/children\/ab6a58ce-5d20-4c0a-819b-78b06c1f6535",
         "settings": "src\/admin_view\/children\/ab6a58ce-5d20-4c0a-819b-78b06c1f6535\/admin-fields.json",
         "guid": "ab6a58ce-5d20-4c0a-819b-78b06c1f6535"
+    },
+    "01965bed-98ca-40e5-a14c-9f0e3dad095b": {
+        "name": "01965bed-98ca-40e5-a14c-9f0e3dad095b",
+        "path": "src\/admin_view\/children\/01965bed-98ca-40e5-a14c-9f0e3dad095b",
+        "settings": "src\/admin_view\/children\/01965bed-98ca-40e5-a14c-9f0e3dad095b\/admin-fields.json",
+        "guid": "01965bed-98ca-40e5-a14c-9f0e3dad095b"
+    },
+    "3e11ed08-d4ec-4aba-9f6b-7df772a2a997": {
+        "name": "3e11ed08-d4ec-4aba-9f6b-7df772a2a997",
+        "path": "src\/admin_view\/children\/3e11ed08-d4ec-4aba-9f6b-7df772a2a997",
+        "settings": "src\/admin_view\/children\/3e11ed08-d4ec-4aba-9f6b-7df772a2a997\/admin-fields.json",
+        "guid": "3e11ed08-d4ec-4aba-9f6b-7df772a2a997"
+    },
+    "6db8fea1-72a7-41a8-bcfe-ef6073b3785f": {
+        "name": "6db8fea1-72a7-41a8-bcfe-ef6073b3785f",
+        "path": "src\/admin_view\/children\/6db8fea1-72a7-41a8-bcfe-ef6073b3785f",
+        "settings": "src\/admin_view\/children\/6db8fea1-72a7-41a8-bcfe-ef6073b3785f\/admin-fields.json",
+        "guid": "6db8fea1-72a7-41a8-bcfe-ef6073b3785f"
+    },
+    "b646e37c-9675-4fe3-8937-2942a734dd20": {
+        "name": "b646e37c-9675-4fe3-8937-2942a734dd20",
+        "path": "src\/admin_view\/children\/b646e37c-9675-4fe3-8937-2942a734dd20",
+        "settings": "src\/admin_view\/children\/b646e37c-9675-4fe3-8937-2942a734dd20\/admin-fields.json",
+        "guid": "b646e37c-9675-4fe3-8937-2942a734dd20"
+    },
+    "e3b0b470-2798-472f-bfba-e5b6b84c16ea": {
+        "name": "e3b0b470-2798-472f-bfba-e5b6b84c16ea",
+        "path": "src\/admin_view\/children\/e3b0b470-2798-472f-bfba-e5b6b84c16ea",
+        "settings": "src\/admin_view\/children\/e3b0b470-2798-472f-bfba-e5b6b84c16ea\/admin-fields.json",
+        "guid": "e3b0b470-2798-472f-bfba-e5b6b84c16ea"
     }
 }
