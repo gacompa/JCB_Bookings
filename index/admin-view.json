@@ -75,5 +75,40 @@
         "settings": "src\/admin_view\/ab6a58ce-5d20-4c0a-819b-78b06c1f6535\/item.json",
         "guid": "ab6a58ce-5d20-4c0a-819b-78b06c1f6535",
         "desc": "Destinazioni"
+    },
+    "01965bed-98ca-40e5-a14c-9f0e3dad095b": {
+        "name": "DJ Topics",
+        "path": "src\/admin_view\/01965bed-98ca-40e5-a14c-9f0e3dad095b",
+        "settings": "src\/admin_view\/01965bed-98ca-40e5-a14c-9f0e3dad095b\/item.json",
+        "guid": "01965bed-98ca-40e5-a14c-9f0e3dad095b",
+        "desc": "The project describbed in notes"
+    },
+    "3e11ed08-d4ec-4aba-9f6b-7df772a2a997": {
+        "name": "DJ report rows",
+        "path": "src\/admin_view\/3e11ed08-d4ec-4aba-9f6b-7df772a2a997",
+        "settings": "src\/admin_view\/3e11ed08-d4ec-4aba-9f6b-7df772a2a997\/item.json",
+        "guid": "3e11ed08-d4ec-4aba-9f6b-7df772a2a997",
+        "desc": "Rows for development notes"
+    },
+    "6db8fea1-72a7-41a8-bcfe-ef6073b3785f": {
+        "name": "DJ Projects",
+        "path": "src\/admin_view\/6db8fea1-72a7-41a8-bcfe-ef6073b3785f",
+        "settings": "src\/admin_view\/6db8fea1-72a7-41a8-bcfe-ef6073b3785f\/item.json",
+        "guid": "6db8fea1-72a7-41a8-bcfe-ef6073b3785f",
+        "desc": "The project describbed in notes"
+    },
+    "b646e37c-9675-4fe3-8937-2942a734dd20": {
+        "name": "DJ rows",
+        "path": "src\/admin_view\/b646e37c-9675-4fe3-8937-2942a734dd20",
+        "settings": "src\/admin_view\/b646e37c-9675-4fe3-8937-2942a734dd20\/item.json",
+        "guid": "b646e37c-9675-4fe3-8937-2942a734dd20",
+        "desc": "Rows for development notes"
+    },
+    "e3b0b470-2798-472f-bfba-e5b6b84c16ea": {
+        "name": "DJ Main Topics",
+        "path": "src\/admin_view\/e3b0b470-2798-472f-bfba-e5b6b84c16ea",
+        "settings": "src\/admin_view\/e3b0b470-2798-472f-bfba-e5b6b84c16ea\/item.json",
+        "guid": "e3b0b470-2798-472f-bfba-e5b6b84c16ea",
+        "desc": "The project describbed in notes"
     }
 }
