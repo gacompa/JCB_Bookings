@@ -10,7 +10,7 @@ Site locations
 <?php echo LayoutHelper::render('rowslocations', []); ?>
 
 <!-- Put here the route for the one-location view, i.e. index.php/booking/one-location -->
-<?php $one_location_path = "index.php/booking/one-location"; ?>
+<?php $one_location_path = "index.php/booking/onelocation"; ?>
 
 <head>
     <meta charset="UTF-8">
@@ -172,7 +172,8 @@ Site locations
 
 <div class="custom-box">
     <div class="top-bar">
-<b><?php echo "<a href=\"$one_location_path?id=$item->id\" > $item->name </a>"; ?></b><br/><?php echo $item->description; ?>    </div>
+<?php $link_singolo = Route::_('index.php?option=com_bookings&view=onelocation&id='. $item->id); ?>
+<b><?php echo "<a href=\"$link_singolo\"> $item->name</a>"; ?></b><br/><?php echo $item->description; ?>    </div>
     
 <div class="middle-content">
 
