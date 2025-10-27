@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if (!isNaN(lat) && !isNaN(lng)) {
             const marker = L.marker([lat, lng]).addTo(map);
-            marker.bindPopup(`<b>${place.place}</b><br>${place.is_stop}`);
+            marker.bindPopup(`<b>${place.place}</b><br>${place.altitude}`);
             markers.push(marker);
         }
     });
