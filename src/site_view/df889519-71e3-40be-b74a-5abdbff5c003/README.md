@@ -1,5 +1,5 @@
 ### JCB! Site View
-# Locations Table view (locations_table_view)
+# Locations table (locations_table)
 
 Site locations - table view
 
