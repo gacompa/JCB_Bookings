@@ -1,16 +1,15 @@
 ### JCB! Site View
-# Locations (locations)
+# Locations blocks (locations_blocks)
 
-Site locations
+Site view for Locations - blocks view
 
 ## HTML:
 ```html
-<form action="<?php echo Route::_('index.php?option=com_bookings'); ?>" method="post" name="adminForm" id="adminForm">
+<?php echo $this->toolbar->render(); ?><form action="<?php echo Route::_('index.php?option=com_bookings'); ?>" method="post" name="adminForm" id="adminForm">
 <?php echo $this->toolbar->render(); ?>
 <?php echo LayoutHelper::render('rowslocations', []); ?>
 
-<!-- Put here the route for the one-location view, i.e. index.php/booking/one-location -->
-<?php $one_location_path = "index.php/booking/onelocation"; ?>
+
 
 <head>
     <meta charset="UTF-8">
@@ -172,46 +171,44 @@ Site locations
 
 <div class="custom-box">
     <div class="top-bar">
-<?php $link_singolo = Route::_('index.php?option=com_bookings&view=onelocation&id='. $item->id); ?>
-<b><?php echo "<a href=\"$link_singolo\"> $item->name</a>"; ?></b><br/><?php echo $item->description; ?>    </div>
-    
-<div class="middle-content">
-
-    <div class="image-container">
-        <?php $baseurl = Uri::root(); ?>
-        <?php $fullImageUrl = $baseurl . $item->image; ?>
-        <img 
-            src="<?php echo $item->image; ?>" 
-            alt="Click to Enlarge" 
-            onclick="openLightbox('<?php echo htmlspecialchars($fullImageUrl); ?>')"
-            style="cursor: pointer; width: 300px; height: auto;" 
-        />
-        <?php echo "Click image to enlarge" ; ?>
+        <?php $link_singolo = Route::_('index.php?option=com_bookings&view=onelocation&id='. $item->id); ?>
+        <b><?php echo "<a href=\"$link_singolo\"> $item->name</a>"; ?></b><br/><?php echo $item->description; ?>    
     </div>
-    <div id="lightbox-modal" class="lightbox" onclick="closeLightbox()">
-        <span class="close-button">&times;</span>
-        <img id="lightbox-image" class="lightbox-content" src="<?php echo JPATH_ROOT . "/" .  $item->image; ?>" alt="Enlarged Image">
-    </div>       
-    <div class="text-content">
-        <p>
-        <?php echo $item->longdescription ; ?>  
-        </p>
+    <div class="middle-content">
+        <div class="image-container">
+            <?php $baseurl = Uri::root(); ?>
+            <?php $fullImageUrl = $baseurl . $item->image; ?>
+            <img 
+                src="<?php echo $item->image; ?>" 
+                alt="Click to Enlarge" 
+                onclick="openLightbox('<?php echo htmlspecialchars($fullImageUrl); ?>')"
+                style="cursor: pointer; width: 300px; height: auto;" 
+            />
+            <?php echo "Click image to enlarge" ; ?>
+        </div>
+        <div id="lightbox-modal" class="lightbox" onclick="closeLightbox()">
+            <span class="close-button">&times;</span>
+            <img id="lightbox-image" class="lightbox-content" src="<?php echo JPATH_ROOT . "/" .  $item->image; ?>" alt="Enlarged Image">
+        </div>       
+        <div class="text-content">
+            <p>
+            <?php echo $item->longdescription ; ?>  
+            </p>
+        </div>
     </div>
-</div>
-
-<div class="bottom-content">
+    <div class="bottom-content">
         <table class="data-table">
             <tr>
-                <td class="label"><?php echo JText::_('Altitude'); ?> </td>
+                <td class="label"><?php echo JText::_('altitude'); ?> </td>
                 <td class="value"><?php echo $item->place_altitude ; ?> </td>
             </tr>
             <tr>
-                <td class="label"><?php echo JText::_('Type'); ?> </td>
-                <td class="value"><?php echo ($item->is_base) ? JText::_('Is a base' ) : JText::_('Is not a base' ); echo " | "; echo ($item->is_stop) ? JText::_('Is a stop' ) : JText::_('Is not a stop' ); ?> </td>
+                <td class="label"><?php echo JText::_('type'); ?> </td>
+                <td class="value"><?php echo ($item->is_base) ? JText::_('is a base' ) : JText::_('is not a base' ); echo " | "; echo ($item->is_stop) ? JText::_('is a stop' ) : JText::_('is not a stop' ); ?> </td>
             </tr>
           <?php if ($item->is_stop) { ?>
             <tr>
-                <td class="label"><?php echo JText::_('Places indoor | outdoor'); ?> </td>
+                <td class="label"><?php echo JText::_('places indoor | places outdoor'); ?> </td>
                 <td class="value"><?php echo $item->places_indoor . " indoor | " . $item->places_outdoor . " outdoor"; ?> </td>
             </tr>
             <?php } ?>
@@ -225,6 +222,7 @@ Site locations
 </div>
 </body>
 <?php endforeach; ?>
+
 
 <?php if (isset($this->items) && isset($this->pagination) && isset($this->pagination->pagesTotal) && $this->pagination->pagesTotal > 1): ?>
 	<div class="pagination">
