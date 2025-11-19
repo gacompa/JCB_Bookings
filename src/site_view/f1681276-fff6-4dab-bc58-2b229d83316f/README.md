@@ -5,22 +5,10 @@ List for location edit
 
 ## HTML:
 ```html
-<?php echo $this->toolbar->render(); ?>
+<?php echo $this->toolbar->render(); ?><?php echo $this->toolbar->render(); ?>
 <?php foreach ($this->items as $item): ?>
-	<a href="http://localhost/Joomla_5/index.php/booking/location-edit\?id=<?php echo $item->id; ?>"><?php echo $item->name ; ?> </a>
-	<?php echo nl2br("\n") ; ?>
-<?php endforeach; ?>
-<?php foreach ($this->items as $item): ?>
-<?php
-$baseQuery = 'index.php?option=com_bookings&view=location-edit';
-$textSnippet = '?id='. $item->id;
-$fullLink = JRoute::_($baseQuery . $textSnippet);
-?>
-<?php echo $baseQuery . " | " . $textSnippet . " | " . $fullLink ; ?>
-
-
-	<?php $link_singolo = Route::_('index.php/booking/location-edit\?id='. $item->id); ?>
-    <?php echo "<a href=\"$fullLink\"> $item->name</a>"; ?>    
+<?php $baseQuery = 'index.php/booking/location-edit?id='; ?>
+	<?php echo "<a href=\"$baseQuery.$item->id\"> $item->name</a>"; ?>    
 	<?php echo nl2br("\n") ; ?>
 <?php endforeach; ?>
 ```
