@@ -10,7 +10,7 @@
     "codename": "location_edit_list",
     "javascript_file": "",
     "context": "location_edit_list",
-    "default": "<?php echo $this->toolbar->render(); ?>\r\n<?php foreach ($this->items as $item): ?>\r\n\t<a href=\"http:\/\/localhost\/Joomla_5\/index.php\/booking\/location-edit\\?id=<?php echo $item->id; ?>\"><?php echo $item->name ; ?> <\/a>\r\n\t<?php echo nl2br(\"\\n\") ; ?>\r\n<?php endforeach; ?>\r\n<?php foreach ($this->items as $item): ?>\r\n<?php\r\n$baseQuery = 'index.php?option=com_bookings&view=location-edit';\r\n$textSnippet = '?id='. $item->id;\r\n$fullLink = JRoute::_($baseQuery . $textSnippet);\r\n?>\r\n<?php echo $baseQuery . \" | \" . $textSnippet . \" | \" . $fullLink ; ?>\r\n\r\n\r\n\t<?php $link_singolo = Route::_('index.php\/booking\/location-edit\\?id='. $item->id); ?>\r\n    <?php echo \"<a href=\\\"$fullLink\\\"> $item->name<\/a>\"; ?>    \r\n\t<?php echo nl2br(\"\\n\") ; ?>\r\n<?php endforeach; ?>\r\n",
+    "default": "<?php echo $this->toolbar->render(); ?><?php echo $this->toolbar->render(); ?>\r\n<?php foreach ($this->items as $item): ?>\r\n<?php $baseQuery = 'index.php\/booking\/location-edit?id='; ?>\r\n\t<?php echo \"<a href=\\\"$baseQuery.$item->id\\\"> $item->name<\/a>\"; ?>    \r\n\t<?php echo nl2br(\"\\n\") ; ?>\r\n<?php endforeach; ?>\r\n",
     "snippet": "0",
     "add_php_jview": 0,
     "custom_get": null,
