@@ -55,6 +55,7 @@ This ensures consistent updates while preserving your customizations and logic.
 ### Index of Site Views
 
 
+ - **Default view** | [Details](src/site_view/715839f3-0de7-4b1f-a94e-aca0954d03b9) | [Settings](src/site_view/715839f3-0de7-4b1f-a94e-aca0954d03b9/item.json) | The default view
  - **Location edit** | [Details](src/site_view/846a0ed0-db65-4915-b06e-fc108b7802f0) | [Settings](src/site_view/846a0ed0-db65-4915-b06e-fc108b7802f0/item.json) | Location edit
  - **Location edit list** | [Details](src/site_view/f1681276-fff6-4dab-bc58-2b229d83316f) | [Settings](src/site_view/f1681276-fff6-4dab-bc58-2b229d83316f/item.json) | List for location edit
  - **Locations** | [Details](src/site_view/d6f6a358-be9d-49d0-931e-ac2cbe37ba38) | [Settings](src/site_view/d6f6a358-be9d-49d0-931e-ac2cbe37ba38/item.json) | Site locations
