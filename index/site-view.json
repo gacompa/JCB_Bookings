@@ -54,5 +54,12 @@
         "path": "src\/site_view\/f1681276-fff6-4dab-bc58-2b229d83316f",
         "settings": "src\/site_view\/f1681276-fff6-4dab-bc58-2b229d83316f\/item.json",
         "guid": "f1681276-fff6-4dab-bc58-2b229d83316f"
+    },
+    "715839f3-0de7-4b1f-a94e-aca0954d03b9": {
+        "name": "Default view",
+        "desc": "The default view",
+        "path": "src\/site_view\/715839f3-0de7-4b1f-a94e-aca0954d03b9",
+        "settings": "src\/site_view\/715839f3-0de7-4b1f-a94e-aca0954d03b9\/item.json",
+        "guid": "715839f3-0de7-4b1f-a94e-aca0954d03b9"
     }
 }
