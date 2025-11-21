@@ -47,7 +47,7 @@
             "implementation": 3
         },
         "addpermissions6": {
-            "action": "core.create",
+            "action": "view.create",
             "implementation": 3
         },
         "addpermissions7": {
@@ -59,7 +59,7 @@
             "implementation": 3
         },
         "addpermissions9": {
-            "action": "view.create",
+            "action": "core.create",
             "implementation": 3
         }
     },
