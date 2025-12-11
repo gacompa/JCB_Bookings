@@ -5,10 +5,18 @@ List for location edit
 
 ## HTML:
 ```html
+<?php
+// Get a handle to the Joomla! application object
+$application = JFactory::getApplication();
+
+// Add a message to the message queue
+$application->enqueueMessage(JText::_('MESSAGE FOR EDITORS'), 'info');
+
+?>
 <?php echo $this->toolbar->render(); ?><?php echo $this->toolbar->render(); ?>
 <?php foreach ($this->items as $item): ?>
 <?php $baseQuery = 'index.php/booking/location-edit?id='; ?>
-	<?php echo "<a href=\"$baseQuery.$item->id\"> $item->name</a>"; ?>    
+	<?php echo "<a href=\"$baseQuery$item->id\"> $item->name</a>"; ?>    
 	<?php echo nl2br("\n") ; ?>
 <?php endforeach; ?>
 ```
