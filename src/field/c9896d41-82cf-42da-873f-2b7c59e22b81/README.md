@@ -30,7 +30,7 @@
 
 ## Database:
 - Data type: VARCHAR
-- Data length: 50
+- Data length: 255
 - Data default: 
 - Null switch: NULL
 - Index: NOT INDEX
