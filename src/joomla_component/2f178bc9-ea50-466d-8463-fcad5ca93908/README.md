@@ -6,12 +6,16 @@
 
 This component offer tools to manage bookings for hikes or routes.
 Main administrative functionalities are
-* Places: the list of places managed by the component
-* Locations: descriptions of the subset of places for overnight stay for the night (either in-door or out-door)
+
+Places: the list of places managed by the component
+Locations: descriptions of the subset of places for overnight stay for the night (either in-door or out-door)/li
+
 Main viewer functionalities are
-* list of Locations
-* details on single location
-* Map of places and paths
+
+list of Locations
+details on single location
+Map of places and paths
+
 
 To be done
 Reservations
@@ -48,7 +52,7 @@ GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html
 
 ### Copyright
 ```text
-Copyright (C) 2015. All Rights Reserved
+Copyright (C) 2025. All Rights Reserved
 ```
 
 > Harness the power of this fully self-contained Joomla Component — complete, customizable, and built to manage data, views, logic, and access control seamlessly through JCB.
