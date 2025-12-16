@@ -1,5 +1,5 @@
 ### JCB! Site View
-# Map (map)
+# Locations map (locations_map)
 
 Map of locations
 
