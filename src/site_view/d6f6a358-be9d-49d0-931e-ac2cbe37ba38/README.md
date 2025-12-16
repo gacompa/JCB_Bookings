@@ -171,7 +171,7 @@ Site view for Locations - blocks view
 
 <div class="custom-box">
     <div class="top-bar">
-        <?php $link_singolo = Route::_('index.php?option=com_bookings&view=onelocation&id='. $item->id); ?>
+        <?php $link_singolo = Route::_('index.php?option=com_bookings&view=location_single&id='. $item->id); ?>
         <b><?php echo "<a href=\"$link_singolo\"> $item->name</a>"; ?></b><br/><?php echo $item->description; ?>    
     </div>
     <div class="middle-content">
