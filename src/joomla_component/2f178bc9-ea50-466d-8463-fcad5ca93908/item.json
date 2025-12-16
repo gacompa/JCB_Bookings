@@ -28,7 +28,7 @@
     "php_preflight_install": "\/* COMMENTO *\/",
     "php_method_install": "",
     "php_postflight_install": "",
-    "component_version": "0.0.2",
+    "component_version": "0.0.5",
     "php_method_uninstall": "",
     "preferred_joomla_version": 5,
     "sql": "",
