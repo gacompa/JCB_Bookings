@@ -9,8 +9,8 @@ Site view for Locations - list view
 <?php echo $this->toolbar->render(); ?>
 <?php echo LayoutHelper::render('rowslocations', []); ?>
 
-<!-- Put here the route for the one-location view, i.e. index.php/booking/one-location -->
-<?php $one_location_path = "index.php/booking/one-location"; ?>
+<!-- Put here the route for the one-location view, i.e. index.php/booking/locations-single -->
+<?php $one_location_path = "index.php/booking/location-single"; ?>
 
 <table class="uk-table uk-table-hover">
     <caption><?php echo Text::_('LOCATIONS'); ?></caption>
