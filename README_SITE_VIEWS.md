@@ -63,6 +63,10 @@ This ensures consistent updates while preserving your customizations and logic.
  - **Locations table view** | [Details](src/site_view/df889519-71e3-40be-b74a-5abdbff5c003) | [Settings](src/site_view/df889519-71e3-40be-b74a-5abdbff5c003/item.json) | Site locations - table view
  - **Map** | [Details](src/site_view/e6bc3a5f-909e-493c-ba8a-6a79b555b2f7) | [Settings](src/site_view/e6bc3a5f-909e-493c-ba8a-6a79b555b2f7/item.json) | Map of locations
  - **OneLocation** | [Details](src/site_view/47acca5d-c194-47fe-8961-0c849fcadbe0) | [Settings](src/site_view/47acca5d-c194-47fe-8961-0c849fcadbe0/item.json) | One site location
+ - **Path edit** | [Details](src/site_view/2ca79169-0042-4a6a-8ffa-54cf03df30f8) | [Settings](src/site_view/2ca79169-0042-4a6a-8ffa-54cf03df30f8/item.json) | Path edit
+ - **Path single** | [Details](src/site_view/e8a6f606-582c-41d6-b0b0-147d1c75c7ca) | [Settings](src/site_view/e8a6f606-582c-41d6-b0b0-147d1c75c7ca/item.json) | Display on one path
+ - **Paths edit list** | [Details](src/site_view/13989926-5894-4344-83dc-fba6eff3b3af) | [Settings](src/site_view/13989926-5894-4344-83dc-fba6eff3b3af/item.json) | List for paths edit
+ - **Paths list** | [Details](src/site_view/d8443ac1-247d-4f5a-813a-6c71400a4294) | [Settings](src/site_view/d8443ac1-247d-4f5a-813a-6c71400a4294/item.json) | Site view for Paths - list view
  - **Places** | [Details](src/site_view/6899baa6-4767-4a67-b584-55d5087a9a4f) | [Settings](src/site_view/6899baa6-4767-4a67-b584-55d5087a9a4f/item.json) | places
 
 ### All used in [Joomla Component Builder](https://www.joomlacomponentbuilder.com) - [Source](https://git.vdm.dev/joomla/Component-Builder) - [Mirror](https://github.com/vdm-io/Joomla-Component-Builder) - [Download](https://git.vdm.dev/joomla/pkg-component-builder/releases)
