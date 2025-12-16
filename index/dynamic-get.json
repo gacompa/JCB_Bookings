@@ -34,5 +34,17 @@
         "path": "src\/dynamic_get\/90cb8f6b-8960-48f4-9536-7a30b0467117",
         "settings": "src\/dynamic_get\/90cb8f6b-8960-48f4-9536-7a30b0467117\/item.json",
         "guid": "90cb8f6b-8960-48f4-9536-7a30b0467117"
+    },
+    "f991fa54-d452-4787-9da7-13762000f8f7": {
+        "name": "Paths",
+        "path": "src\/dynamic_get\/f991fa54-d452-4787-9da7-13762000f8f7",
+        "settings": "src\/dynamic_get\/f991fa54-d452-4787-9da7-13762000f8f7\/item.json",
+        "guid": "f991fa54-d452-4787-9da7-13762000f8f7"
+    },
+    "1e2cec82-ed8b-4d44-aac1-079cd2b9ddb7": {
+        "name": "OnePath",
+        "path": "src\/dynamic_get\/1e2cec82-ed8b-4d44-aac1-079cd2b9ddb7",
+        "settings": "src\/dynamic_get\/1e2cec82-ed8b-4d44-aac1-079cd2b9ddb7\/item.json",
+        "guid": "1e2cec82-ed8b-4d44-aac1-079cd2b9ddb7"
     }
 }
