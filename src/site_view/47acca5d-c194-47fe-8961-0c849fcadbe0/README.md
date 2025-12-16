@@ -1,11 +1,10 @@
 ### JCB! Site View
-# OneLocation (onelocation)
+# Location single (location_single)
 
 One site location
 
 ## HTML:
 ```html
-<?php echo $this->toolbar->render(); ?>
 <?php 
 // Get the application object.
 $app = JFactory::getApplication();
