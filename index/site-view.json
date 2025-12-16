@@ -61,5 +61,33 @@
         "path": "src\/site_view\/715839f3-0de7-4b1f-a94e-aca0954d03b9",
         "settings": "src\/site_view\/715839f3-0de7-4b1f-a94e-aca0954d03b9\/item.json",
         "guid": "715839f3-0de7-4b1f-a94e-aca0954d03b9"
+    },
+    "e8a6f606-582c-41d6-b0b0-147d1c75c7ca": {
+        "name": "Path single",
+        "desc": "Display on one path",
+        "path": "src\/site_view\/e8a6f606-582c-41d6-b0b0-147d1c75c7ca",
+        "settings": "src\/site_view\/e8a6f606-582c-41d6-b0b0-147d1c75c7ca\/item.json",
+        "guid": "e8a6f606-582c-41d6-b0b0-147d1c75c7ca"
+    },
+    "13989926-5894-4344-83dc-fba6eff3b3af": {
+        "name": "Paths edit list",
+        "desc": "List for paths edit",
+        "path": "src\/site_view\/13989926-5894-4344-83dc-fba6eff3b3af",
+        "settings": "src\/site_view\/13989926-5894-4344-83dc-fba6eff3b3af\/item.json",
+        "guid": "13989926-5894-4344-83dc-fba6eff3b3af"
+    },
+    "d8443ac1-247d-4f5a-813a-6c71400a4294": {
+        "name": "Paths list",
+        "desc": "Site view for Paths - list view",
+        "path": "src\/site_view\/d8443ac1-247d-4f5a-813a-6c71400a4294",
+        "settings": "src\/site_view\/d8443ac1-247d-4f5a-813a-6c71400a4294\/item.json",
+        "guid": "d8443ac1-247d-4f5a-813a-6c71400a4294"
+    },
+    "2ca79169-0042-4a6a-8ffa-54cf03df30f8": {
+        "name": "Path edit",
+        "desc": "Path edit",
+        "path": "src\/site_view\/2ca79169-0042-4a6a-8ffa-54cf03df30f8",
+        "settings": "src\/site_view\/2ca79169-0042-4a6a-8ffa-54cf03df30f8\/item.json",
+        "guid": "2ca79169-0042-4a6a-8ffa-54cf03df30f8"
     }
 }
