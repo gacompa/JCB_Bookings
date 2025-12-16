@@ -110,5 +110,12 @@
         "settings": "src\/admin_view\/e3b0b470-2798-472f-bfba-e5b6b84c16ea\/item.json",
         "guid": "e3b0b470-2798-472f-bfba-e5b6b84c16ea",
         "desc": "The project describbed in notes"
+    },
+    "858b0999-8350-46a5-9c4e-e0e715aa8b1a": {
+        "name": "Paths",
+        "path": "src\/admin_view\/858b0999-8350-46a5-9c4e-e0e715aa8b1a",
+        "settings": "src\/admin_view\/858b0999-8350-46a5-9c4e-e0e715aa8b1a\/item.json",
+        "guid": "858b0999-8350-46a5-9c4e-e0e715aa8b1a",
+        "desc": "Paths"
     }
 }
