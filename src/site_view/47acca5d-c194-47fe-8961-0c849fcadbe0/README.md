@@ -1,7 +1,7 @@
 ### JCB! Site View
 # Location single (location_single)
 
-One site location
+Display of one location description, map and other info
 
 ## HTML:
 ```html
