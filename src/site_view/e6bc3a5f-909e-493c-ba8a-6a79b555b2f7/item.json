@@ -1,7 +1,7 @@
 {
     "system_name": "Locations map",
     "name": "Locations map",
-    "description": "Map of locations",
+    "description": "Display of locations map",
     "main_get": "90cb8f6b-8960-48f4-9536-7a30b0467117",
     "add_php_jview_display": 1,
     "add_php_document": 1,
