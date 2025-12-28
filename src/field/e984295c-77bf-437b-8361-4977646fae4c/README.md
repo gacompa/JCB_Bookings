@@ -12,7 +12,7 @@
 	value="1"
 	default=""
 	required="false"
-	description="Is the location a base"
+	description="Is there a camp_fire site"
 	class="inputbox"
 	showon=""
 	onchange=""
