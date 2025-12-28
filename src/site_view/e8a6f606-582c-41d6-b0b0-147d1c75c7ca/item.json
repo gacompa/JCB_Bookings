@@ -1,7 +1,7 @@
 {
     "system_name": "Path single",
     "name": "Path single",
-    "description": "Display on one path",
+    "description": "Display of one path description, map and other info",
     "main_get": "1e2cec82-ed8b-4d44-aac1-079cd2b9ddb7",
     "add_php_jview_display": 0,
     "add_php_document": 0,
