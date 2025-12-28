@@ -8,11 +8,11 @@
 <field
 	type="text"
 	name="kitchen_comments"
-	label="Is there kitchen"
+	label="Comments about kitchen availability"
 	size="128"
 	maxlength="256"
 	default=""
-	description="Is the location a base"
+	description="Comments about kitchen availability"
 	class="text_area"
 	readonly="false"
 	disabled="false"
