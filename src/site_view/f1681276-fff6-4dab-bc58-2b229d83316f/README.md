@@ -1,7 +1,7 @@
 ### JCB! Site View
 # Locations_edit_list (location_edit_list)
 
-List for location edit
+List of locations for edit
 
 ## HTML:
 ```html
