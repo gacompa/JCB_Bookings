@@ -1,7 +1,7 @@
 ### JCB! Site View
 # Path single (path_single)
 
-Display on one path
+Display of one path description, map and other info
 
 ## HTML:
 ```html
