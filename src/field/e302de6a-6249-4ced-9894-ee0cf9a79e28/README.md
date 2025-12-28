@@ -8,11 +8,11 @@
 <field
 	type="text"
 	name="electricity_comments"
-	label="Is there electricity"
+	label="Comments about electricity availability"
 	size="128"
 	maxlength="256"
 	default=""
-	description="Is the location a base"
+	description="Comments about electricity availability"
 	class="text_area"
 	readonly="false"
 	disabled="false"
