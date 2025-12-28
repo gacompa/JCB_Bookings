@@ -12,7 +12,7 @@
 	value="true"
 	default=""
 	required="false"
-	description="Is this location a stop"
+	description="Is the location a stop"
 	class="inputbox"
 	showon=""
 	onchange=""
