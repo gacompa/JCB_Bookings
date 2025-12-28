@@ -1,7 +1,7 @@
 ### JCB! Site View
 # Locations blocks (locations_blocks)
 
-Site view for Locations - blocks view
+Main view for Locations - blocks view
 
 ## HTML:
 ```html
