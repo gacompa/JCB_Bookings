@@ -55,6 +55,42 @@ GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html
 Copyright (C) 2025. All Rights Reserved
 ```
 
+<details>
+<summary>README Template</summary>
+
+```markdown
+# ###com_bookings### (###VERSION###)
+Main administrative functionalities are
+
++ Places: the list of places managed by the component
++ Locations: descriptions of the subset of places for overnight stay for the night (either in-door or out-door)/li
+
+Main viewer functionalities are
+
+list of Locations
+details on single location
+Map of places and paths
+
+
+To be done
+Reservations
++ a tool to simulate a route with stops and transit
++ a tool to submit the proposed route
++ a tool for administrators to interact with the proposer for modifications and at the end confirm the final version or reject the proposal
+Reporting
++ a tool to archive the booking, recording main reporting data (effective number of people, payment methods, comments, images ...)
+Keepers
++ a calendar to manage the presence of keepers in the Bases
+Calendar
++ a calendar to display the presence of groups and the availability of places
+
+T.b.d.
+
+Analytics to display occupation of places, number of people ...
+```
+
+</details>
+
 > Harness the power of this fully self-contained Joomla Component — complete, customizable, and built to manage data, views, logic, and access control seamlessly through JCB.
 
 ### Used in [Joomla Component Builder](https://www.joomlacomponentbuilder.com) - [Source](https://git.vdm.dev/joomla/Component-Builder) - [Mirror](https://github.com/vdm-io/Joomla-Component-Builder) - [Download](https://git.vdm.dev/joomla/pkg-component-builder/releases)
