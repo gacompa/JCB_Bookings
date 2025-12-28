@@ -12,7 +12,7 @@
 	value="1"
 	default=""
 	required="false"
-	description="Is the location a base"
+	description="Is there electricity"
 	class="inputbox"
 	showon=""
 	onchange=""
