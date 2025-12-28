@@ -1,7 +1,7 @@
 ### JCB! Site View
 # Locations list (locations_list)
 
-Site view for Locations - list view
+List of locations
 
 ## HTML:
 ```html
