@@ -8,11 +8,11 @@
 <field
 	type="text"
 	name="water_comments"
-	label="Is water available"
+	label="Comments about water availability"
 	size="128"
 	maxlength="256"
 	default=""
-	description="Is water available"
+	description="Comments about water availability"
 	class="text_area"
 	readonly="false"
 	disabled="false"
