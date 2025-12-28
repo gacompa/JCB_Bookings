@@ -1,7 +1,7 @@
 {
     "system_name": "Locations blocks",
     "name": "Locations blocks",
-    "description": "Site view for Locations - blocks view",
+    "description": "Main view for Locations - blocks view",
     "main_get": "e12b2a0d-b122-4bd4-a6b5-29fe926ecf8c",
     "add_php_jview_display": 1,
     "add_php_document": 0,
