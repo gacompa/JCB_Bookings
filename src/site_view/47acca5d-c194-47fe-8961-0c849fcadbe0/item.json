@@ -1,7 +1,7 @@
 {
     "system_name": "Location single",
     "name": "Location single",
-    "description": "One site location",
+    "description": "Display of one location description, map and other info",
     "main_get": "3be68f12-de47-4363-8f2e-678d788c12d4",
     "add_php_jview_display": 0,
     "add_php_document": 1,
