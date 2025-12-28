@@ -8,7 +8,7 @@
     "on_get_model_field": null,
     "on_save_model_field": null,
     "initiator_on_get_model": "",
-    "xml": "<field\n\ttype=\"checkbox\"\n\tname=\"water_checkbox\"\n\tlabel=\"Is water available\"\n\tvalue=\"1\"\n\tdefault=\"\"\n\trequired=\"false\"\n\tdescription=\"Is the location a base\"\n\tclass=\"inputbox\"\n\tshowon=\"\"\n\tonchange=\"\"\n\tvalidate=\"\"\n\/>",
+    "xml": "<field\n\ttype=\"checkbox\"\n\tname=\"water_checkbox\"\n\tlabel=\"Is water available\"\n\tvalue=\"1\"\n\tdefault=\"\"\n\trequired=\"false\"\n\tdescription=\"Is water available\"\n\tclass=\"inputbox\"\n\tshowon=\"\"\n\tonchange=\"\"\n\tvalidate=\"\"\n\/>",
     "datalenght": "255",
     "javascript_view_footer": "",
     "css_views": "",
