@@ -8,11 +8,11 @@
 <field
 	type="text"
 	name="rest_room_comments"
-	label="Are rest rooms available"
+	label="Comments about rest rooms availability"
 	size="128"
 	maxlength="256"
 	default=""
-	description="Is water available"
+	description="Comments about rest rooms availability"
 	class="text_area"
 	readonly="false"
 	disabled="false"
