@@ -1,7 +1,7 @@
 ### JCB! Site View
 # Paths list (paths_list)
 
-Site view for Paths - list view
+List of Paths
 
 ## HTML:
 ```html
@@ -13,10 +13,9 @@ Site view for Paths - list view
 <?php $one_path_path = "index.php/booking/path-single"; ?>
 
 <table class="uk-table uk-table-hover">
-    <caption><?php echo Text::_('LOCATIONS'); ?></caption>
     <thead>
         <tr>
-        <th><?php echo Text::_('COM_BOOKINGS_IMAGE'); ?></th>
+        <th><?php echo JustTEXT::_('Paths'); ?></th>
         </tr>
     </thead>
     <tbody>
