@@ -1,6 +1,8 @@
 ### JCB! Site View
 # Path edit (path_edit)
 
+Edit of one path
+
 ## HTML:
 ```html
 // No direct access to this file
