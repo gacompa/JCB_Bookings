@@ -1,7 +1,7 @@
 {
     "system_name": "Locations list",
     "name": "Locations list",
-    "description": "Site view for Locations - list view",
+    "description": "List of locations",
     "main_get": "e12b2a0d-b122-4bd4-a6b5-29fe926ecf8c",
     "add_php_jview_display": 1,
     "add_php_document": 0,
