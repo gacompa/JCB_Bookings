@@ -1,7 +1,7 @@
 ### JCB! Site View
 # Locations map (locations_map)
 
-Map of locations
+Display of locations map
 
 ## HTML:
 ```html
