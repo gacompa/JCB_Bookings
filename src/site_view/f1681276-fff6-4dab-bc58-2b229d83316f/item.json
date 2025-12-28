@@ -1,7 +1,7 @@
 {
     "system_name": "Locations_edit_list",
     "name": "Location edit list",
-    "description": "List for location edit",
+    "description": "List of locations for edit",
     "main_get": "e12b2a0d-b122-4bd4-a6b5-29fe926ecf8c",
     "add_php_jview_display": 0,
     "add_php_document": 0,
