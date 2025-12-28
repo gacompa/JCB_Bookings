@@ -1,6 +1,8 @@
 ### JCB! Site View
 # Location edit (location_edit)
 
+Edit of one location
+
 ## HTML:
 ```html
 // No direct access to this file
