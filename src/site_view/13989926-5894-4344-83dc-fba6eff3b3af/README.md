@@ -1,7 +1,7 @@
 ### JCB! Site View
 # Paths_edit_list (paths_edit_list)
 
-List for paths edit
+List of paths for edit
 
 ## HTML:
 ```html
