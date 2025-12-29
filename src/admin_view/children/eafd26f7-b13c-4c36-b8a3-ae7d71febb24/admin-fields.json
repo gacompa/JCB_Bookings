@@ -83,9 +83,9 @@
             "alignment": 1,
             "order_edit": "5",
             "permission": [
-                "1",
                 "2",
-                "3"
+                "3",
+                "1"
             ]
         },
         "6": {
