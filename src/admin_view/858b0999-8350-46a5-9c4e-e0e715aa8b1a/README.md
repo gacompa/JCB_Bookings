@@ -1,5 +1,7 @@
 ### JCB! Admin View
-# Paths (Path:Paths)
+# Footpaths (Footpath:Footpaths)
+
+> A footpath is a narrow way, often through fields or woods.
 
 > Manage single-record forms with this reusable Admin View designed for smooth data handling, customization, and full integration in JCB.
 
