@@ -1,5 +1,5 @@
 ### JCB! Field
-# Path
+# Footpath
 
 > Field Type: Text
 
@@ -7,8 +7,8 @@
 ```xml
 <field
 	type="text"
-	name="path"
-	label="Path"
+	name="footpath"
+	label="Footpath"
 	size="50"
 	maxlength="255"
 	default="Some text"
@@ -21,7 +21,7 @@
 	validate=""
 	field=""
 	message="Error! Please add some text here."
-	hint="Your Name Here"
+	hint=""
 	autocomplete="on"
 	showon=""
 	onchange=""
