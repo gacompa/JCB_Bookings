@@ -1,5 +1,5 @@
 ### JCB! Site View
-# Path single (path_single)
+# Footpath single (footpath_single)
 
 Display of one path description, map and other info
 
@@ -24,7 +24,7 @@ $itemId = $jinput->getInt('id');
 
     // Build the query to select all columns for the item with the given ID.
     $query->select('*')
-          ->from('#__bookings_path')
+          ->from('#__bookings_footpath')
           ->where('id = ' . (int) $itemId);
 
     // Set the query and load the result as a single object.
@@ -108,7 +108,7 @@ $itemId = $jinput->getInt('id');
 </head>
 <body>
     <div class="title-row">
-        <?php echo $item->path ; ?>
+        <?php echo $item->footpath ; ?>
     </div>
 
     <div class="detail-table-row">
