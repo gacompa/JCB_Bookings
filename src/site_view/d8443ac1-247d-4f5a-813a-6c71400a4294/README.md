@@ -1,7 +1,7 @@
 ### JCB! Site View
-# Paths list (paths_list)
+# Footpaths list (footpaths_list)
 
-List of Paths
+List of Footpaths
 
 ## HTML:
 ```html
@@ -9,19 +9,19 @@ List of Paths
 <?php echo $this->toolbar->render(); ?>
 <?php echo LayoutHelper::render('rowslocations', []); ?>
 
-<!-- Put here the route for the one-path view, i.e. index.php/booking/path-single -->
-<?php $one_path_path = "index.php/booking/path-single"; ?>
+<!-- Put here the route for the one-footpath view, i.e. index.php/booking/footpath-single -->
+<?php $one_footpath_path = "index.php/booking/footpath-single"; ?>
 
 <table class="uk-table uk-table-hover">
     <thead>
         <tr>
-        <th><?php echo JustTEXT::_('Paths'); ?></th>
+        <th><?php echo JustTEXT::_('Footpaths'); ?></th>
         </tr>
     </thead>
     <tbody>
         <?php foreach ($this->items as $item): ?>
         <tr>
-            <td><?php echo "<a href=\"$one_path_path?id=$item->id\" > $item->path </a>"; ?></td>
+            <td><?php echo "<a href=\"$one_footpath_path?id=$item->id\" > $item->footpath </a>"; ?></td>
         </tr>
         <?php endforeach; ?>
     </tbody>
