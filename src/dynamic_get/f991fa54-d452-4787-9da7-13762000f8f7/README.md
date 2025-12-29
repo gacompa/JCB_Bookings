@@ -1,14 +1,14 @@
 ### JCB! Dynamic Get
-# Paths
+# Footpaths
 
 ## Back-end View | getListQuery
 
 ### Main Focus
-**Table: Path**
+**Table: Footpath**
 ```
 a.id AS id
 a.asset_id AS asset_id
-a.path AS path
+a.footpath AS footpath
 a.longdescription AS longdescription
 a.komoot_embed_code AS komoot_embed_code
 a.published AS published
