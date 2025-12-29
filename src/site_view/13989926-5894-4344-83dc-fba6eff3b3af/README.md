@@ -1,7 +1,7 @@
 ### JCB! Site View
-# Paths_edit_list (paths_edit_list)
+# Footpaths_edit_list (footpaths_edit_list)
 
-List of paths for edit
+List of footpaths for edit
 
 ## HTML:
 ```html
@@ -10,13 +10,13 @@ List of paths for edit
 $application = JFactory::getApplication();
 
 // Add a message to the message queue
-$application->enqueueMessage(JText::_('MESSAGE FOR EDITORS'), 'info');
+$application->enqueueMessage(JText::_(JustTEXT::_('Login to access and modify the locations data')), 'info');
 
 ?>
-<?php echo $this->toolbar->render(); ?><?php echo $this->toolbar->render(); ?>
+<?php echo $this->toolbar->render(); ?>
 <?php foreach ($this->items as $item): ?>
-<?php $baseQuery = 'index.php/booking/location-edit?id='; ?>
-	<?php echo "<a href=\"$baseQuery$item->id\"> $item->name</a>"; ?>    
+<?php $baseQuery = 'index.php/booking/footpath?id='; ?>
+	<?php echo "<a href=\"$baseQuery$item->id\"> $item->footpath</a>"; ?>    
 	<?php echo nl2br("\n") ; ?>
 <?php endforeach; ?>
 ```
