@@ -1,5 +1,5 @@
 ### JCB! Site View
-# Locations_edit_list (location_edit_list)
+# Locations_edit_list (locations_edit_list)
 
 List of locations for edit
 
