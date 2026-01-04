@@ -20,13 +20,19 @@
     "select_all": 0,
     "php_before_getitem": "",
     "getcustom": "",
-    "php_after_getitem": "[CUSTOMCODE=getOnePlaceAltitude]",
+    "php_after_getitem": "",
     "pagination": 1,
     "php_getlistquery": "",
     "php_before_getitems": "",
     "filter": null,
     "php_after_getitems": "",
-    "where": null,
+    "where": {
+        "where0": {
+            "table_key": "a.id",
+            "operator": 1,
+            "value_key": "$pk"
+        }
+    },
     "order": null,
     "addcalculation": 0,
     "group": null,
@@ -57,13 +63,6 @@
             "value": "55aac7da-e105-4ab2-9c34-6ee44e8b692c",
             "entity": "admin_view",
             "table": "#__componentbuilder_admin_view",
-            "direction": "out"
-        },
-        {
-            "key": "function_name",
-            "value": "getOnePlaceAltitude",
-            "entity": "custom_code",
-            "table": "#__componentbuilder_custom_code",
             "direction": "out"
         }
     ]
