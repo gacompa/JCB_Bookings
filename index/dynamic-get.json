@@ -46,5 +46,11 @@
         "path": "src\/dynamic_get\/1e2cec82-ed8b-4d44-aac1-079cd2b9ddb7",
         "settings": "src\/dynamic_get\/1e2cec82-ed8b-4d44-aac1-079cd2b9ddb7\/item.json",
         "guid": "1e2cec82-ed8b-4d44-aac1-079cd2b9ddb7"
+    },
+    "80116b2d-791d-4128-94e0-76eba3b56590": {
+        "name": "ONE",
+        "path": "src\/dynamic_get\/80116b2d-791d-4128-94e0-76eba3b56590",
+        "settings": "src\/dynamic_get\/80116b2d-791d-4128-94e0-76eba3b56590\/item.json",
+        "guid": "80116b2d-791d-4128-94e0-76eba3b56590"
     }
 }
