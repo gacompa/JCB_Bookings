@@ -14,28 +14,6 @@ $jinput = $app->input;
 $itemId = $jinput->getInt('id');
 ?>
 
-
-<?php
-{
-
-
-    // Get a database connection.
-    $db = JFactory::getDbo();
-
-    // Create a new query object.
-    $query = $db->getQuery(true);
-
-    // Build the query to select all columns for the item with the given ID.
-    $query->select('*')
-          ->from('#__bookings_location')
-          ->where('id = ' . (int) $itemId);
-
-    // Set the query and load the result as a single object.
-    $db->setQuery($query);
-    $item = $db->loadObject();
-
-}
-?>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -146,13 +124,13 @@ $itemId = $jinput->getInt('id');
 <body>
 
     <div class="title-row">
-        <?php echo $item->name ; ?>
+        <?php echo $this->item->name ; ?>
     </div>
 
     <div class="main-content-container">
         
         <div class="image-column">
-        <img src="<?php echo $item->image ; ?>" alt="Immagine Principale">
+        <img src="<?php echo $this->item->image ; ?>" alt="Immagine Principale">
         </div>
 
         <div class="map-column">
@@ -174,56 +152,56 @@ $itemId = $jinput->getInt('id');
             <tbody>
                 <tr>
                     <td>Altitudine</td>
-                    <td><?php echo $item->altitude ; ?></td>
+                    <td><?php echo $this->item->place_altitude ; ?></td>
                 </tr>
                 <tr>
                     <td>Località</td>
-                    <td><?php echo $item->location ; ?></td>
+                    <td><?php echo $this->item->location ; ?></td>
                 </tr>
                 <tr>
                     <td>Posti Letto</td>
-                    <td><?php echo $item->places_indoor . " indoor | " . $item->places_outdoor . " outdoor" ; ?></td>
+                    <td><?php echo $this->item->places_indoor . " indoor | " . $this->item->places_outdoor . " outdoor" ; ?></td>
                 </tr>
                 <tr>
                     <td>Rest rooms</td>
                     <td>
-                        <?php echo (($item->rest_room_checkbox) ? "yes " : "no " ) ; ?>
-                        <?php echo $item->rest_room_comments ;?>
+                        <?php echo (($this->item->rest_room_checkbox) ? "yes " : "no " ) ; ?>
+                        <?php echo $this->item->rest_room_comments ;?>
                     </td>
                 </tr>
                 <tr>
                     <td>water</td>
                     <td>
-                        <?php echo (($item->water_checkbox) ? "yes " : "no " ) ; ?>
-                        <?php echo $item->water_comments ;?>
+                        <?php echo (($this->item->water_checkbox) ? "yes " : "no " ) ; ?>
+                        <?php echo $this->item->water_comments ;?>
                     </td>
                 </tr>
                 <tr>
                     <td>heating</td>
                     <td>
-                        <?php echo (($item->rest_room_checkbox) ? "yes " : "no " ) ; ?>
-                        <?php echo $item->heating_comments ;?>
+                        <?php echo (($this->item->rest_room_checkbox) ? "yes " : "no " ) ; ?>
+                        <?php echo $this->item->heating_comments ;?>
                     </td>
                 </tr>
                 <tr>
                     <td>Electricity</td>
                     <td>
-                        <?php echo (($item->electricity_checkbox) ? "yes " : "no " ) ; ?>
-                        <?php echo $item->electricity_comments ;?>
+                        <?php echo (($this->item->electricity_checkbox) ? "yes " : "no " ) ; ?>
+                        <?php echo $this->item->electricity_comments ;?>
                     </td>
                 </tr>
                 <tr>
                     <td>Kitchen</td>
                     <td>
-                        <?php echo (($item->kitchen_checkbox) ? "yes " : "no " ) ; ?>
-                        <?php echo $item->kitchen_comments ;?>
+                        <?php echo (($this->item->kitchen_checkbox) ? "yes " : "no " ) ; ?>
+                        <?php echo $this->item->kitchen_comments ;?>
                     </td>
                 </tr>
                 <tr>
                     <td>Camp fire</td>
                     <td>
-                        <?php echo (($item->camp_fire_checkbox) ? "yes " : "no " ) ; ?>
-                        <?php echo $item->camp_fire_comments ;?>
+                        <?php echo (($this->item->camp_fire_checkbox) ? "yes " : "no " ) ; ?>
+                        <?php echo $this->item->camp_fire_comments ;?>
                     </td>
                 </tr>
 
