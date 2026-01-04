@@ -25,7 +25,7 @@
     "php_getlistquery": "\/\/  Add PHP (getListQuery - JModelList) * ",
     "php_before_getitems": "\/\/  Add PHP (before getting the Items) * ",
     "filter": null,
-    "php_after_getitems": "\t\/\/ do a quick build of all edit links links\r\n\t\tif (isset($items) && $items)\r\n\t\t{\r\n\t\t\tforeach ($items as $nr => &$item)\r\n\t\t\t{\r\n\t\t\t\t$canDo = [[[Component]]]Helper::getActions('look',$item,'Location');\r\n\t\t\t\tif ($canDo->get('look.edit'))\r\n\t\t\t\t{\r\n\t\t\t\t\t$item->editLink = '<br \/><br \/><a class=\"uk-button uk-button-primary uk-width-1-1\" href=\"';\r\n\t\t\t\t\t$item->editLink .= Joomla___d4c76099_4c32_408a_8701_d0a724484dfd___Power::_('index.php?option=com_[[[component]]]&view=look&task=look.edit&id=' . $item->id);\r\n\t\t\t\t\t$item->editLink .= '\"><i class=\"uk-icon-pencil\"><\/i><span class=\"uk-hidden-small\">';\r\n\t\t\t\t\t$item->editLink .= Text::_('Edit Look');\r\n\t\t\t\t\t$item->editLink .= '<\/span><\/a>';\r\n\t\t\t\t}\r\n\t\t\t\telse\r\n\t\t\t\t{\r\n\t\t\t\t\t$item->editLink = '';\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t}",
+    "php_after_getitems": "[CUSTOMCODE=getPlaceAltitude]\r\n\r\n \/\/ do a quick build of all edit links links\r\n\t\tif (isset($items) && $items)\r\n\t\t{\r\n\t\t\tforeach ($items as $nr => &$item)\r\n\t\t\t{\r\n\t\t\t\t$canDo = [[[Component]]]Helper::getActions('look',$item,'Location');\r\n\t\t\t\tif ($canDo->get('look.edit'))\r\n\t\t\t\t{\r\n\t\t\t\t\t$item->editLink = '<br \/><br \/><a class=\"uk-button uk-button-primary uk-width-1-1\" href=\"';\r\n\t\t\t\t\t$item->editLink .= Joomla___d4c76099_4c32_408a_8701_d0a724484dfd___Power::_('index.php?option=com_[[[component]]]&view=look&task=look.edit&id=' . $item->id);\r\n\t\t\t\t\t$item->editLink .= '\"><i class=\"uk-icon-pencil\"><\/i><span class=\"uk-hidden-small\">';\r\n\t\t\t\t\t$item->editLink .= Text::_('Edit Look');\r\n\t\t\t\t\t$item->editLink .= '<\/span><\/a>';\r\n\t\t\t\t}\r\n\t\t\t\telse\r\n\t\t\t\t{\r\n\t\t\t\t\t$item->editLink = '';\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t}",
     "where": {
         "where0": {
             "table_key": "a.published",
@@ -45,6 +45,13 @@
             "value": "eafd26f7-b13c-4c36-b8a3-ae7d71febb24",
             "entity": "admin_view",
             "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        },
+        {
+            "key": "function_name",
+            "value": "getPlaceAltitude",
+            "entity": "custom_code",
+            "table": "#__componentbuilder_custom_code",
             "direction": "out"
         }
     ]
