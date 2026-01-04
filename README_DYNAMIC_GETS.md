@@ -62,6 +62,7 @@ Whether you're building for:
  - **Locations** | [Details](src/dynamic_get/e12b2a0d-b122-4bd4-a6b5-29fe926ecf8c) | [Settings](src/dynamic_get/e12b2a0d-b122-4bd4-a6b5-29fe926ecf8c/item.json)
  - **Map** | [Details](src/dynamic_get/fe3fbfca-7a96-4aef-b6c2-b615cc94f7e0) | [Settings](src/dynamic_get/fe3fbfca-7a96-4aef-b6c2-b615cc94f7e0/item.json)
  - **Map** | [Details](src/dynamic_get/90cb8f6b-8960-48f4-9536-7a30b0467117) | [Settings](src/dynamic_get/90cb8f6b-8960-48f4-9536-7a30b0467117/item.json)
+ - **ONE** | [Details](src/dynamic_get/80116b2d-791d-4128-94e0-76eba3b56590) | [Settings](src/dynamic_get/80116b2d-791d-4128-94e0-76eba3b56590/item.json)
  - **OnePath** | [Details](src/dynamic_get/1e2cec82-ed8b-4d44-aac1-079cd2b9ddb7) | [Settings](src/dynamic_get/1e2cec82-ed8b-4d44-aac1-079cd2b9ddb7/item.json)
  - **Paths** | [Details](src/dynamic_get/b0200129-fc72-4862-a108-9726d6bd06e9) | [Settings](src/dynamic_get/b0200129-fc72-4862-a108-9726d6bd06e9/item.json)
  - **Paths** | [Details](src/dynamic_get/f991fa54-d452-4787-9da7-13762000f8f7) | [Settings](src/dynamic_get/f991fa54-d452-4787-9da7-13762000f8f7/item.json)
