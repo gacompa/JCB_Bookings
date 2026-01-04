@@ -20,7 +20,7 @@
     "select_all": 0,
     "php_before_getitem": "",
     "getcustom": "",
-    "php_after_getitem": "",
+    "php_after_getitem": "[CUSTOMCODE=getOnePlaceAltitude]",
     "pagination": 1,
     "php_getlistquery": "",
     "php_before_getitems": "",
@@ -32,13 +32,38 @@
     "group": null,
     "global": null,
     "guid": "3be68f12-de47-4363-8f2e-678d788c12d4",
-    "join_view_table": null,
+    "join_view_table": {
+        "join_view_table0": {
+            "view_table": "55aac7da-e105-4ab2-9c34-6ee44e8b692c",
+            "row_type": 1,
+            "as": "b",
+            "type": 1,
+            "on_field": "a.place_id",
+            "operator": 1,
+            "join_field": "b.id",
+            "selection": "b.altitude AS place_altitude"
+        }
+    },
     "@dependencies": [
         {
             "key": "guid",
             "value": "eafd26f7-b13c-4c36-b8a3-ae7d71febb24",
             "entity": "admin_view",
             "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "55aac7da-e105-4ab2-9c34-6ee44e8b692c",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        },
+        {
+            "key": "function_name",
+            "value": "getOnePlaceAltitude",
+            "entity": "custom_code",
+            "table": "#__componentbuilder_custom_code",
             "direction": "out"
         }
     ]
