@@ -14,24 +14,6 @@ $jinput = $app->input;
 $itemId = $jinput->getInt('id');
 ?>
 
-<?php
-{
-    // Get a database connection.
-    $db = JFactory::getDbo();
-
-    // Create a new query object.
-    $query = $db->getQuery(true);
-
-    // Build the query to select all columns for the item with the given ID.
-    $query->select('*')
-          ->from('#__bookings_footpath')
-          ->where('id = ' . (int) $itemId);
-
-    // Set the query and load the result as a single object.
-    $db->setQuery($query);
-    $item = $db->loadObject();
-}
-?>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -108,14 +90,18 @@ $itemId = $jinput->getInt('id');
 </head>
 <body>
     <div class="title-row">
-        <?php echo $item->footpath ; ?>
+        <?php echo $this->item->footpath ; ?>
     </div>
 
     <div class="detail-table-row">
     <table>
 	    <tr>
-	    	<td style="width:60% ; vertical-align:top"> <?php echo $item->longdescription; ?> </td>
-	    	<td style="width:40% ; vertical-align:top"> <?php echo "<p><iframe $item->komoot_embed_code </iframe></p>"; ?> </td>
+	    	<td style="width:60% ; vertical-align:top"> <?php echo $this->item->longdescription; ?> </td>
+                <td style="width:40%; vertical-align:top;"> 
+                    <p>
+                       <iframe <?php echo $this->item->komoot_embed_code; ?> width="100%" height="400"></iframe>
+                   </p> 
+                </td>
 	    </tr>
 	</table>
     </div>
