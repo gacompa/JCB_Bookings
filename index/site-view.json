@@ -89,5 +89,19 @@
         "path": "src\/site_view\/2ca79169-0042-4a6a-8ffa-54cf03df30f8",
         "settings": "src\/site_view\/2ca79169-0042-4a6a-8ffa-54cf03df30f8\/item.json",
         "guid": "2ca79169-0042-4a6a-8ffa-54cf03df30f8"
+    },
+    "8dcfb3ab-04d1-460d-8809-0036634969a4": {
+        "name": "One",
+        "desc": "one",
+        "path": "src\/site_view\/8dcfb3ab-04d1-460d-8809-0036634969a4",
+        "settings": "src\/site_view\/8dcfb3ab-04d1-460d-8809-0036634969a4\/item.json",
+        "guid": "8dcfb3ab-04d1-460d-8809-0036634969a4"
+    },
+    "6c25197d-69f9-49c1-8b4f-42861fe54570": {
+        "name": "Location single bis",
+        "desc": "Display of one location description, map and other info",
+        "path": "src\/site_view\/6c25197d-69f9-49c1-8b4f-42861fe54570",
+        "settings": "src\/site_view\/6c25197d-69f9-49c1-8b4f-42861fe54570\/item.json",
+        "guid": "6c25197d-69f9-49c1-8b4f-42861fe54570"
     }
 }
