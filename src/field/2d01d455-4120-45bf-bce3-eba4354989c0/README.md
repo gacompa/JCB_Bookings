@@ -8,14 +8,11 @@
 <field
 	type="checkbox"
 	name="is_stop"
-	label="Is a stop"
+	label="Is the location a stop"
 	value="true"
-	default=""
 	required="false"
 	description="Is the location a stop"
 	class="inputbox"
-	showon=""
-	onchange=""
 />
 ```
 
