@@ -8,15 +8,11 @@
 <field
 	type="checkbox"
 	name="camp_fire_checkbox"
-	label="Is there a camp_fire site"
+	label="Is a camp_fire site available"
 	value="1"
-	default=""
 	required="false"
-	description="Is there a camp_fire site"
+	description="Is a camp_fire site available"
 	class="inputbox"
-	showon=""
-	onchange=""
-	validate=""
 />
 ```
 
