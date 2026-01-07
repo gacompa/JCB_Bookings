@@ -8,15 +8,11 @@
 <field
 	type="checkbox"
 	name="kitchen_checkbox"
-	label="Is there kitchen"
+	label="Is kitchen available"
 	value="1"
-	default=""
 	required="false"
-	description="Is there kitchen"
+	description="Is kitchen available"
 	class="inputbox"
-	showon=""
-	onchange=""
-	validate=""
 />
 ```
 
