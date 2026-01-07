@@ -8,14 +8,11 @@
 <field
 	type="checkbox"
 	name="is_base"
-	label="Is a base"
+	label="Is the location a scout base"
 	value="true"
-	default=""
 	required="false"
-	description="Is the location a base"
+	description="Is the location a scout base"
 	class="inputbox"
-	showon=""
-	onchange=""
 />
 ```
 
