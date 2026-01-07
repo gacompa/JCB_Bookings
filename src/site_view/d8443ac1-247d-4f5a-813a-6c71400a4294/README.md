@@ -5,6 +5,8 @@ List of Footpaths
 
 ## HTML:
 ```html
+<?php JustTEXT::_('Footpaths'); ?>
+
 <form action="<?php echo Route::_('index.php?option=com_bookings'); ?>" method="post" name="adminForm" id="adminForm">
 <?php echo $this->toolbar->render(); ?>
 <?php echo LayoutHelper::render('rowslocations', []); ?>
@@ -15,7 +17,7 @@ List of Footpaths
 <table class="uk-table uk-table-hover">
     <thead>
         <tr>
-        <th><?php echo JustTEXT::_('Footpaths'); ?></th>
+        <th><?php echo Text::_('COM_BOOKINGS_FOOTPATHS'); ?></th>
         </tr>
     </thead>
     <tbody>
