@@ -8,21 +8,17 @@
 <field
 	type="text"
 	name="phone"
-	label="Phone"
+	label="Phone number"
 	size="10"
 	maxlength="50"
-	default=""
-	description="Enter phone number"
+	description="Phone number"
 	class="text_area"
 	readonly="false"
 	disabled="false"
 	required="false"
 	filter="tel"
 	validated="tel"
-	message="Error! Please add phone number here."
-	hint="Your Phone Number"
-	showon=""
-	onchange=""
+	hint="Phone number"
 />
 ```
 
