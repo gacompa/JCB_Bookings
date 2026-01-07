@@ -15,9 +15,9 @@
 	urlSelect="index.php?option=com_###component###&amp;view=places&amp;layout=modal&amp;tmpl=component&amp;titleKey=id"
 	urlNew="index.php?option=com_###component###&amp;task=targetview.add&amp;layout=modal&amp;tmpl=component"
 	urlEdit="index.php?option=com_###component###&amp;task=targetview.edit&amp;id={id}&amp;layout=modal&amp;tmpl=component"
-	titleSelect="Select Targetview"
-	titleNew="New Targetview"
-	titleEdit="Edit Targetview"
+	titleSelect="Select Place ID"
+	titleNew="New Place ID"
+	titleEdit="Edit Place ID"
 	iconSelect="icon-copy"
 	select="true"
 	new="false"
@@ -25,12 +25,8 @@
 	clear="true"
 	required="false"
 	class="input-large"
-	description="Enter some description"
-	hint="Select a Targetview"
-	default=""
 	readonly="false"
 	disabled="false"
-	showon=""
 />
 ```
 
