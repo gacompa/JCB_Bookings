@@ -8,7 +8,7 @@
     "on_get_model_field": null,
     "on_save_model_field": null,
     "initiator_on_get_model": "",
-    "xml": "<field\n\ttype=\"url\"\n\tname=\"security_rules\"\n\tlabel=\"Security rules\"\n\tsize=\"10\"\n\tmaxlength=\"50\"\n\tdefault=\"\"\n\tdescription=\"Enter website address\"\n\tclass=\"text_area\"\n\treadonly=\"\"\n\tdisabled=\"\"\n\trequired=\"\"\n\trelative=\"false\"\n\tfilter=\"url\"\n\tvalidated=\"url\"\n\tscheme=\"http,https,mailto\"\n\tmessage=\"Error! Please add website here.\"\n\thint=\"Your Website Here\"\n\tautocomplete=\"on\"\n\tshowon=\"\"\n\tonchange=\"\"\n\/>",
+    "xml": "<field\n\ttype=\"url\"\n\tname=\"security_rules\"\n\tlabel=\"Security rules link\"\n\tsize=\"10\"\n\tmaxlength=\"50\"\n\tdescription=\"Security rules link\"\n\tclass=\"text_area\"\n\trelative=\"false\"\n\tfilter=\"url\"\n\tvalidated=\"url\"\n\tscheme=\"http,https,mailto\"\n\thint=\"Security rules link\"\n\tautocomplete=\"on\"\n\/>",
     "datalenght": "255",
     "javascript_view_footer": "",
     "css_views": "",
