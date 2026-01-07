@@ -11,20 +11,14 @@
 	label="Location name"
 	size="128"
 	maxlength="256"
-	default=""
-	description="Enter name of location"
+	description="Location name"
 	class="text_area"
 	readonly="false"
 	disabled="false"
 	required="true"
 	filter="STRING"
-	validate=""
-	field=""
-	message="Error! Please add some text here."
-	hint=""
+	hint="Location name"
 	autocomplete="on"
-	showon=""
-	onchange=""
 />
 ```
 
