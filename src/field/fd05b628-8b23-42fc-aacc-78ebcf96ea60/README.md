@@ -8,15 +8,11 @@
 <field
 	type="checkbox"
 	name="heating_checkbox"
-	label="Is there heating"
+	label="Is heating available"
 	value="true"
 	default="1"
-	required=""
-	description="Is there heating"
+	description="Is heating available"
 	class="inputbox"
-	showon=""
-	onchange=""
-	validate=""
 />
 ```
 
