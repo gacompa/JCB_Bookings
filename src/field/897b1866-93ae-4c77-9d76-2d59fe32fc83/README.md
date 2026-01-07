@@ -8,23 +8,17 @@
 <field
 	type="text"
 	name="credits"
-	label="Credits"
+	label="Credits "
 	size="128"
 	maxlength="256"
-	default="Unknown"
-	description="Enter some description"
+	description="Credits to"
 	class="text_area"
 	readonly="false"
 	disabled="false"
 	required="false"
 	filter="STRING"
-	validate=""
-	field=""
-	message="Error! Please add some text here."
-	hint="Your Name Here"
+	hint="Credits to"
 	autocomplete="on"
-	showon=""
-	onchange=""
 />
 ```
 
