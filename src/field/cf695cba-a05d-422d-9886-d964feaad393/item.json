@@ -8,7 +8,7 @@
     "on_get_model_field": null,
     "on_save_model_field": null,
     "initiator_on_get_model": "",
-    "xml": "<field\n\ttype=\"text\"\n\tname=\"heating_comments\"\n\tlabel=\"Comments about kitchen availability\"\n\tsize=\"128\"\n\tmaxlength=\"256\"\n\tdefault=\"\"\n\tdescription=\"Comments about kitchen availability\"\n\tclass=\"text_area\"\n\treadonly=\"false\"\n\tdisabled=\"false\"\n\trequired=\"false\"\n\tfilter=\"STRING\"\n\tvalidate=\"\"\n\tfield=\"\"\n\tmessage=\"Error! Please add some text here.\"\n\thint=\"Insert comment\"\n\tautocomplete=\"on\"\n\tshowon=\"\"\n\tonchange=\"\"\n\/>",
+    "xml": "<field\n\ttype=\"text\"\n\tname=\"heating_comments\"\n\tlabel=\"Comments about kitchen availability\"\n\tsize=\"128\"\n\tmaxlength=\"256\"\n\tdescription=\"Comments about kitchen availability\"\n\tclass=\"text_area\"\n\treadonly=\"false\"\n\tdisabled=\"false\"\n\trequired=\"false\"\n\tfilter=\"STRING\"\n\thint=\"Comment\"\n\tautocomplete=\"on\"\n\/>",
     "datalenght": "255",
     "javascript_view_footer": "",
     "css_views": "",
