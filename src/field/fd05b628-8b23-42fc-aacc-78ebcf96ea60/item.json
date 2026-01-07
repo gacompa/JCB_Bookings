@@ -8,7 +8,7 @@
     "on_get_model_field": null,
     "on_save_model_field": null,
     "initiator_on_get_model": "",
-    "xml": "<field\n\ttype=\"checkbox\"\n\tname=\"heating_checkbox\"\n\tlabel=\"Is there heating\"\n\tvalue=\"true\"\n\tdefault=\"1\"\n\trequired=\"\"\n\tdescription=\"Is there heating\"\n\tclass=\"inputbox\"\n\tshowon=\"\"\n\tonchange=\"\"\n\tvalidate=\"\"\n\/>",
+    "xml": "<field\n\ttype=\"checkbox\"\n\tname=\"heating_checkbox\"\n\tlabel=\"Is heating available\"\n\tvalue=\"true\"\n\tdefault=\"1\"\n\tdescription=\"Is heating available\"\n\tclass=\"inputbox\"\n\/>",
     "datalenght": "255",
     "javascript_view_footer": "",
     "css_views": "",
