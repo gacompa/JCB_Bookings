@@ -9,21 +9,12 @@
 	type="editor"
 	name="longdescription"
 	label="Long description"
-	default=""
 	description="Long description"
-	message=""
-	width=""
-	height=""
-	cols=""
 	rows="5"
 	buttons="no"
-	syntax=""
-	hide=""
 	editor="tinyMCE|none"
 	filter="raw"
 	required="false"
-	validate=""
-	showon=""
 />
 ```
 
