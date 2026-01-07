@@ -12,13 +12,9 @@
 	default="0"
 	description="Altitude (meters above sea level)"
 	class="text_area"
-	required=""
 	min="0"
 	max="8848"
 	step="1"
-	onchange=""
-	showon=""
-	validate=""
 />
 ```
 
