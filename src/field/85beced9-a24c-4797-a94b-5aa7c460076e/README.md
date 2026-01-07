@@ -8,15 +8,11 @@
 <field
 	type="checkbox"
 	name="electricity_checkbox"
-	label="Is there electricity"
+	label="Is electricity available"
 	value="1"
-	default=""
 	required="false"
-	description="Is there electricity"
+	description="Is electricity available"
 	class="inputbox"
-	showon=""
-	onchange=""
-	validate=""
 />
 ```
 
