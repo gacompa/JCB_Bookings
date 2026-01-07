@@ -16,8 +16,6 @@
 	min="1"
 	max="40"
 	step="5"
-	onchange=""
-	showon=""
 />
 ```
 
