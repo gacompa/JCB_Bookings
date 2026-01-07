@@ -5,6 +5,22 @@ Display of one location description, map and other info
 
 ## HTML:
 ```html
+<?php JustTEXT::_(' [Space for interactive map]'); ?>
+<?php JustTEXT::_('Detailed description'); ?>
+<?php JustTEXT::_('Parameter'); ?>
+<?php JustTEXT::_('Value'); ?>
+<?php JustTEXT::_('Outdoor'); ?>
+<?php JustTEXT::_('Sleeping places'); ?>
+<?php JustTEXT::_('Outdoor'); ?>
+<?php JustTEXT::_('Rest rooms'); ?>
+<?php JustTEXT::_('Yes'); ?>
+<?php JustTEXT::_('No'); ?>
+<?php JustTEXT::_('Water'); ?>
+<?php JustTEXT::_('Heating'); ?>
+<?php JustTEXT::_('Electricity'); ?>
+<?php JustTEXT::_('Kitchen'); ?>
+<?php JustTEXT::_('Camp fire'); ?>
+
 <?php 
 // Get the application object.
 $app = JFactory::getApplication();
@@ -130,77 +146,77 @@ $itemId = $jinput->getInt('id');
     <div class="main-content-container">
         
         <div class="image-column">
-        <img src="<?php echo $this->item->image ; ?>" alt="Immagine Principale">
+           <img src="<?php echo $this->item->image ; ?>" alt="Immagine Principale">
         </div>
 
         <div class="map-column">
-            [Spazio Riservato alla Mappa Interattiva]
+           <?php echo Text::_('COM_BOOKINGS_SPACE_FOR_INTERACTIVE_MAP') ; ?>
         </div>
 
         
     </div>
 
     <div class="detail-table-row">
-        <h2>Specifiche Dettagliate</h2>
+        <h2><?php echo Text::_('COM_BOOKINGS_DETAILED_DESCRIPTION') ; ?></h2>
         <table class="data-table">
             <thead>
                 <tr>
-                    <th>Parametro</th>
-                    <th>Valore</th>
+                    <th><?php echo Text::_('COM_BOOKINGS_PARAMETER') ; ?></th>
+                    <th><?php echo Text::_('COM_BOOKINGS_VALUE') ; ?></th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>Altitudine</td>
-                    <td><?php echo $this->item->place_altitude ; ?></td>
+                    <td><?php echo Text::_('COM_BOOKINGS_ALTITUDE') ; ?></td>
+                    <td><?php echo $this->item->place_altitude . " " .  Text::_('COM_BOOKINGS_M_ABOVE_SEA_LEVEL') ; ?></td>
                 </tr>
                 <tr>
-                    <td>Località</td>
+                    <td><?php echo Text::_('COM_BOOKINGS_LOCATION') ; ?></td>
                     <td><?php echo $this->item->location ; ?></td>
                 </tr>
                 <tr>
-                    <td>Posti Letto</td>
-                    <td><?php echo $this->item->places_indoor . " indoor | " . $this->item->places_outdoor . " outdoor" ; ?></td>
+                    <td><?php echo Text::_('COM_BOOKINGS_SLEEPING_PLACES') ; ?></td>
+                    <td><?php echo $this->item->places_indoor . " " . Text::_('COM_BOOKINGS_INDOOR') . " | " . $this->item->places_outdoor . " " . Text::_('COM_BOOKINGS_OUTDOOR') ; ?></td>
                 </tr>
                 <tr>
-                    <td>Rest rooms</td>
+                    <td><?php echo Text::_('COM_BOOKINGS_REST_ROOMS') ; ?></td>
                     <td>
-                        <?php echo (($this->item->rest_room_checkbox) ? "yes " : "no " ) ; ?>
+                        <?php echo (($this->item->rest_room_checkbox) ? Text::_('COM_BOOKINGS_YES') . " " : Text::_('COM_BOOKINGS_NO') . " ") ; ?>
                         <?php echo $this->item->rest_room_comments ;?>
                     </td>
                 </tr>
                 <tr>
-                    <td>water</td>
+                    <td><?php echo Text::_('COM_BOOKINGS_WATER') ; ?></td>
                     <td>
-                        <?php echo (($this->item->water_checkbox) ? "yes " : "no " ) ; ?>
+                        <?php echo (($this->item->water_checkbox) ? Text::_('COM_BOOKINGS_YES') . " " : Text::_('COM_BOOKINGS_NO') . " ") ; ?>
                         <?php echo $this->item->water_comments ;?>
                     </td>
                 </tr>
                 <tr>
-                    <td>heating</td>
+                    <td><?php echo Text::_('COM_BOOKINGS_HEATING') ; ?></td>
                     <td>
-                        <?php echo (($this->item->rest_room_checkbox) ? "yes " : "no " ) ; ?>
+                        <?php echo (($this->item->rest_room_checkbox) ? Text::_('COM_BOOKINGS_YES') . " " : Text::_('COM_BOOKINGS_NO') . " ") ; ?>
                         <?php echo $this->item->heating_comments ;?>
                     </td>
                 </tr>
                 <tr>
-                    <td>Electricity</td>
+                    <td><?php echo Text::_('COM_BOOKINGS_ELECTRICITY') ; ?></td>
                     <td>
-                        <?php echo (($this->item->electricity_checkbox) ? "yes " : "no " ) ; ?>
+                        <?php echo (($this->item->electricity_checkbox) ? Text::_('COM_BOOKINGS_YES') . " " : Text::_('COM_BOOKINGS_NO') . " ") ; ?>
                         <?php echo $this->item->electricity_comments ;?>
                     </td>
                 </tr>
                 <tr>
-                    <td>Kitchen</td>
+                    <td><?php echo Text::_('COM_BOOKINGS_KITCHEN') ; ?></td>
                     <td>
-                        <?php echo (($this->item->kitchen_checkbox) ? "yes " : "no " ) ; ?>
+                        <?php echo (($this->item->kitchen_checkbox) ? Text::_('COM_BOOKINGS_YES') . " " : Text::_('COM_BOOKINGS_NO') . " ") ; ?>
                         <?php echo $this->item->kitchen_comments ;?>
                     </td>
                 </tr>
                 <tr>
-                    <td>Camp fire</td>
+                    <td><?php echo Text::_('COM_BOOKINGS_CAMP_FIRE') ; ?></td>
                     <td>
-                        <?php echo (($this->item->camp_fire_checkbox) ? "yes " : "no " ) ; ?>
+                        <?php echo (($this->item->camp_fire_checkbox) ? Text::_('COM_BOOKINGS_YES') . " " : Text::_('COM_BOOKINGS_NO') . " ") ; ?>
                         <?php echo $this->item->camp_fire_comments ;?>
                     </td>
                 </tr>
