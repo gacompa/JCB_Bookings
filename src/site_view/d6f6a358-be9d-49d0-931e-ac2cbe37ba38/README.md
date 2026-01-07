@@ -5,6 +5,17 @@ Main view for Locations - blocks view
 
 ## HTML:
 ```html
+
+<?php JustTEXT::_('Altitude'); ?>
+<?php JustTEXT::_('Is a base'); ?>
+<?php JustTEXT::_('Is nota base'); ?>
+<?php JustTEXT::_('Is a stop'); ?>
+<?php JustTEXT::_('Is not a stop'); ?>
+<?php JustTEXT::_('m above sea level'); ?>
+<?php JustTEXT::_('Places indoor | places outdoor'); ?>
+<?php JustTEXT::_('Indoor'); ?>
+<?php JustTEXT::_('Outdoor'); ?>
+
 <?php echo $this->toolbar->render(); ?><form action="<?php echo Route::_('index.php?option=com_bookings'); ?>" method="post" name="adminForm" id="adminForm">
 <?php echo $this->toolbar->render(); ?>
 <?php echo LayoutHelper::render('rowslocations', []); ?>
@@ -26,9 +37,9 @@ Main view for Locations - blocks view
         }
 
         .custom-box {
-            width: 90%; /* Occupa il 90% della larghezza della finestra */
-            max-width: 850px; /* Limite massimo per schermi desktop */
-            min-width: 300px; /* Limite minimo per cellulari */
+            width: 90%; /* spans to 90% of the window width */
+            max-width: 850px; /* Maximum width for desktop */
+            min-width: 300px; /* Minimum width for smartphone */
             border: 1px solid #ccc;
             border-radius: 12px;
             overflow: hidden; 
@@ -37,10 +48,10 @@ Main view for Locations - blocks view
 
         /* --- PRIMA RIGA: BARRA SUPERIORE (Titolo) --- */
         .top-bar {
-            background-color: #4CAF50; /* Verde */
+            background-color: #4CAF50; /* Green */
             color: white;
             padding: 15px 20px;
-            font-size: 1.5em; /* Dimensione del testo responsiva */
+            font-size: 1.5em; /* Size of responsive text */
             font-weight: bold;
             text-align: center;
         }
@@ -48,14 +59,14 @@ Main view for Locations - blocks view
         /* --- SECONDA RIGA: IMMAGINE E TESTO (Flexbox) --- */
         .middle-content {
             padding: 20px;
-            display: flex; /* Attiva Flexbox */
-            gap: 20px; /* Spazio tra le colonne */
+            display: flex; /* Activate Flexbox */
+            gap: 20px; /* space between columns */
             border-bottom: 1px solid #eee;
         }
 
         /* Contenitore Immagine (35% su Desktop) */
         .image-container {
-            flex: 0 0 35%; /* Non crescere, non restringere, base 35% */
+            flex: 0 0 35%; /* Do not increase, do not squeeze, base is 35% */
             max-width: 35%;
         }
 
@@ -68,8 +79,8 @@ Main view for Locations - blocks view
 
         /* Contenitore Testo (65% su Desktop) */
         .text-content {
-            flex-grow: 1; /* Occupa lo spazio rimanente */
-            padding-right: 10px; /* Piccolo spazio a destra */
+            flex-grow: 1; /* fills the remaining space */
+            padding-right: 10px; /* little space on the right */
         }
 
         .text-content h3 {
@@ -136,16 +147,16 @@ Main view for Locations - blocks view
             background-color: #f9f9f9;
         }
 
-        /* --- MEDIA QUERY: Adattamento per Schermi Stretti (Mobile) --- */
+        /* --- MEDIA QUERY: adapt to small screens (Mobile) --- */
         @media (max-width: 600px) {
             
             .middle-content {
-                flex-direction: column; /* Impila immagine e testo verticalmente */
+                flex-direction: column; /* stacks image and text vertically */
                 gap: 15px;
             }
             
             .image-container {
-                /* L'immagine occupa l'intera larghezza disponibile */
+                /* The image spans to occupy all available space */
                 flex: 1 1 100%; 
                 max-width: 100%;
             }
@@ -155,12 +166,12 @@ Main view for Locations - blocks view
             }
 
             .data-table td {
-                /* Riduci padding per meno spazio su schermi piccoli */
+                /* REduce padding for small size screens */
                 padding: 8px 10px;
             }
 
             .data-table .label {
-                width: 50%; /* Etichetta occupa più spazio per evitare interruzioni di riga */
+                width: 50%; /* The label is larget to avoid breaking lines */
             }
         }
     </style>
@@ -184,7 +195,7 @@ Main view for Locations - blocks view
                 onclick="openLightbox('<?php echo htmlspecialchars($fullImageUrl); ?>')"
                 style="cursor: pointer; width: 300px; height: auto;" 
             />
-            <?php echo "Click image to enlarge" ; ?>
+            <?php echo JText::_('Click image to enlarge') ; ?>
         </div>
         <div id="lightbox-modal" class="lightbox" onclick="closeLightbox()">
             <span class="close-button">&times;</span>
@@ -199,17 +210,17 @@ Main view for Locations - blocks view
     <div class="bottom-content">
         <table class="data-table">
             <tr>
-                <td class="label"><?php echo JText::_('altitude'); ?> </td>
-                <td class="value"><?php echo $item->place_altitude ; ?> </td>
+                <td class="label"><?php echo Text::_('COM_BOOKINGS_ALTITUDE'); ?> </td>
+                <td class="value"><?php echo $item->place_altitude . " " . Text::_('COM_BOOKINGS_M_ABOVE_SEA_LEVEL') ?> </td>
             </tr>
             <tr>
-                <td class="label"><?php echo JText::_('type'); ?> </td>
-                <td class="value"><?php echo ($item->is_base) ? JText::_('is a base' ) : JText::_('is not a base' ); echo " | "; echo ($item->is_stop) ? JText::_('is a stop' ) : JText::_('is not a stop' ); ?> </td>
+                <td class="label"><?php echo JText::_('Type'); ?> </td>
+                <td class="value"><?php echo ($item->is_base) ? Text::_('COM_BOOKINGS_IS_A_BASE' ) : Text::_('COM_BOOKINGS_IS_NOT_A_BASE' ); echo " | "; echo ($item->is_stop) ? Text::_('COM_BOOKINGS_IS_A_STOP' ) : Text::_('COM_BOOKINGS_IS_NOT_A_STOP' ); ?> </td>
             </tr>
           <?php if ($item->is_stop) { ?>
             <tr>
-                <td class="label"><?php echo JText::_('places indoor | places outdoor'); ?> </td>
-                <td class="value"><?php echo $item->places_indoor . " indoor | " . $item->places_outdoor . " outdoor"; ?> </td>
+                <td class="label"><?php echo Text::_('COM_BOOKINGS_PLACES_INDOOR_PLACES_OUTDOOR'); ?> </td>
+                <td class="value"><?php echo $item->places_indoor .  " " . Text::_('COM_BOOKINGS_INDOOR') . " | " . $item->places_outdoor . " " . Text::_('COM_BOOKINGS_OUTDOOR'); ?> </td>
             </tr>
             <?php } ?>
         </table>
