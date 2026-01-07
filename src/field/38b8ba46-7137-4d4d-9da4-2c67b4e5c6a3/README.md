@@ -8,23 +8,16 @@
 <field
 	type="text"
 	name="place"
-	label="Place"
+	label="Place name"
 	size="128"
 	maxlength="256"
-	default="Some text"
-	description="Enter some description"
+	description="Enter place name"
 	class="text_area"
 	readonly="false"
 	disabled="false"
 	required="true"
 	filter="STRING"
-	validate=""
-	field=""
-	message="Error! Please add some text here."
-	hint="Your Name Here"
-	autocomplete="on"
-	showon=""
-	onchange=""
+	hint="Place name"
 />
 ```
 
