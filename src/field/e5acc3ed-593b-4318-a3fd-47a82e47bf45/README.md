@@ -8,24 +8,17 @@
 <field
 	type="url"
 	name="security_rules"
-	label="Security rules"
+	label="Security rules link"
 	size="10"
 	maxlength="50"
-	default=""
-	description="Enter website address"
+	description="Security rules link"
 	class="text_area"
-	readonly=""
-	disabled=""
-	required=""
 	relative="false"
 	filter="url"
 	validated="url"
 	scheme="http,https,mailto"
-	message="Error! Please add website here."
-	hint="Your Website Here"
+	hint="Security rules link"
 	autocomplete="on"
-	showon=""
-	onchange=""
 />
 ```
 
