@@ -11,20 +11,14 @@
 	label="Comments about water availability"
 	size="128"
 	maxlength="256"
-	default=""
 	description="Comments about water availability"
 	class="text_area"
 	readonly="false"
 	disabled="false"
 	required="false"
 	filter="STRING"
-	validate=""
-	field=""
-	message="Error! Please add some text here."
-	hint="Insert comment"
+	hint="Comment"
 	autocomplete="on"
-	showon=""
-	onchange=""
 />
 ```
 
