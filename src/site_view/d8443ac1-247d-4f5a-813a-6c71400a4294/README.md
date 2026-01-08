@@ -11,9 +11,6 @@ List of Footpaths
 <?php echo $this->toolbar->render(); ?>
 <?php echo LayoutHelper::render('rowslocations', []); ?>
 
-<!-- Put here the route for the one-footpath view, i.e. index.php/booking/footpath-single -->
-<?php $one_footpath_path = "index.php/booking/footpath-single"; ?>
-
 <table class="uk-table uk-table-hover">
     <thead>
         <tr>
@@ -23,7 +20,13 @@ List of Footpaths
     <tbody>
         <?php foreach ($this->items as $item): ?>
         <tr>
-            <td><?php echo "<a href=\"$one_footpath_path?id=$item->id\" > $item->footpath </a>"; ?></td>
+        <td>
+		<!-- Put here the route for the one-footpath view, i.e. index.php/booking/footpath-single -->
+    	<div class="top-bar">
+    	    <?php $link_singolo = Route::_('index.php?option=com_bookings&view=footpath_single&id='. $item->id); ?>
+    	    <?php echo "<a href=\"$link_singolo\"> $item->footpath</a>"; ?>  
+    	</div>
+        </td>
         </tr>
         <?php endforeach; ?>
     </tbody>
