@@ -5,10 +5,9 @@ Main view for Locations - blocks view
 
 ## HTML:
 ```html
-
 <?php JustTEXT::_('Altitude'); ?>
 <?php JustTEXT::_('Is a base'); ?>
-<?php JustTEXT::_('Is nota base'); ?>
+<?php JustTEXT::_('Is not a base'); ?>
 <?php JustTEXT::_('Is a stop'); ?>
 <?php JustTEXT::_('Is not a stop'); ?>
 <?php JustTEXT::_('m above sea level'); ?>
