@@ -15,7 +15,7 @@ $application->enqueueMessage(JText::_(JustTEXT::_('Login to access and modify th
 ?>
 <?php echo $this->toolbar->render(); ?>
 <?php foreach ($this->items as $item): ?>
-<?php $baseQuery = 'index.php/booking/location?id='; ?>
+        <?php $baseQuery = Route::_('index.php?option=com_bookings&view=location&layout=edit&id='); ?>
 	<?php echo "<a href=\"$baseQuery$item->id\"> $item->name</a>"; ?>    
 	<?php echo nl2br("\n") ; ?>
 <?php endforeach; ?>
