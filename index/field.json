@@ -304,5 +304,23 @@
         "path": "src\/field\/eee94b56-e5d2-4dbc-b576-8f0a676de8b4",
         "settings": "src\/field\/eee94b56-e5d2-4dbc-b576-8f0a676de8b4\/item.json",
         "guid": "eee94b56-e5d2-4dbc-b576-8f0a676de8b4"
+    },
+    "21b70996-751c-4351-bccb-17805ed80880": {
+        "name": "Ticket",
+        "path": "src\/field\/21b70996-751c-4351-bccb-17805ed80880",
+        "settings": "src\/field\/21b70996-751c-4351-bccb-17805ed80880\/item.json",
+        "guid": "21b70996-751c-4351-bccb-17805ed80880"
+    },
+    "b23d5436-7a95-4ec3-8548-782544a53883": {
+        "name": "Title",
+        "path": "src\/field\/b23d5436-7a95-4ec3-8548-782544a53883",
+        "settings": "src\/field\/b23d5436-7a95-4ec3-8548-782544a53883\/item.json",
+        "guid": "b23d5436-7a95-4ec3-8548-782544a53883"
+    },
+    "e55e3e80-f07f-4938-9b57-07a8ebe8e7da": {
+        "name": "Comment",
+        "path": "src\/field\/e55e3e80-f07f-4938-9b57-07a8ebe8e7da",
+        "settings": "src\/field\/e55e3e80-f07f-4938-9b57-07a8ebe8e7da\/item.json",
+        "guid": "e55e3e80-f07f-4938-9b57-07a8ebe8e7da"
     }
 }
