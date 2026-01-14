@@ -9,9 +9,6 @@ Site locations - table view
 <?php echo $this->toolbar->render(); ?>
 <?php echo LayoutHelper::render('rowslocations', []); ?>
 
-<!-- Put here the route for the one-location view, i.e. index.php/booking/location-single -->
-<?php $one_location_path = "index.php/booking/location-single"; ?>
-
 <table class="uk-table uk-table-hover">
     <caption><?php echo Text::_('LOCATIONS'); ?></caption>
     <thead>
@@ -28,7 +25,8 @@ Site locations - table view
         <?php foreach ($this->items as $item): ?>
         <tr>
             <td><img src="<?php echo $item->image; ?>" style="width: 100px; height: auto;"> </td>
-            <td><b><?php echo "<a href=\"$one_location_path?id=$item->id\" > $item->name </a>"; ?></b><br/><?php echo $item->description; ?></td>
+            <?php $link_singolo = Route::_('index.php?option=com_bookings&view=location_single&id='. $item->id); ?>
+            <td><b><?php echo "<a href=\"$link_singolo\"> $item->name</a>"; ?></b><br/><?php echo $item->description; ?></td>    
             <td><?php echo $item->location; ?></td>
             <td><?php echo $item->place_altitude." m"; ?></td>
             <td align="center"><?php if ($item->is_stop) {
