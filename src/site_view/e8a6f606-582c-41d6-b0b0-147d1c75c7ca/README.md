@@ -75,37 +75,41 @@ $itemId = $jinput->getInt('id');
             border-bottom: none;
         }
 
-        /* --- RESPONSIVENESS (Mobile View) --- */
-        @media (max-width: 800px) {
-            .main-content-container {
-                flex-direction: column; /* Stack columns vertically on small screens */
-            }
+/* --- RESPONSIVENESS (Mobile View) --- */
+@media (max-width: 800px) {
+    .main-content-container {
+        flex-direction: column !important; /* Forza la direzione verticale */
+        padding: 10px;
+    }
 
-            .image-column, .map-column {
-                flex: 1 1 100%; /* Each item takes 100% width */
-                max-width: 100%;
-            }
-        }
-    </style>
+    .image-column, .map-column {
+        /* Reset totale delle proprietà flex per occupare tutto lo spazio */
+        flex: 1 1 100% !important; 
+        max-width: 100% !important;
+        width: 100%;
+        margin-bottom: 20px; /* Aggiunge spazio tra i due box impilati */
+    }
+
+    .map-column {
+        height: 300px; /* Definisce un'altezza fissa per la mappa su mobile */
+    }
+}    </style>
 </head>
 <body>
     <div class="title-row">
-        <?php echo $this->item->footpath ; ?>
+        <?php echo $this->escape($this->item->location) ; ?>
     </div>
 
     <div class="detail-table-row">
-    <table>
-	    <tr>
-	    	<td style="width:60% ; vertical-align:top"> <?php echo $this->item->longdescription; ?> </td>
-                <td style="width:40%; vertical-align:top;"> 
-                    <p>
-                       <iframe <?php echo $this->item->komoot_embed_code; ?> width="100%" height="400"></iframe>
-                   </p> 
-                </td>
-	    </tr>
-	</table>
+        <div class="main-content-container">
+            <div class="image-column">
+                <?php echo $this->item->longdescription; ?>
+            </div>
+            <div class="map-column">
+                <iframe <?php echo $this->item->komoot_embed_code; ?> width="100%" height="400"></iframe>
+            </div>
+        </div>
     </div>
-
 </body>
 </form>
 ```
