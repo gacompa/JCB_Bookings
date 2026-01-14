@@ -56,6 +56,7 @@ This ensures maintainability while still allowing total customization per projec
  - **Places** | [Details](src/admin_view/55aac7da-e105-4ab2-9c34-6ee44e8b692c) | [Settings](src/admin_view/55aac7da-e105-4ab2-9c34-6ee44e8b692c/item.json) | Relevant places in the area
  - **Reservations** | [Details](src/admin_view/e42d4c2d-ccd3-4291-a886-6f958be29417) | [Settings](src/admin_view/e42d4c2d-ccd3-4291-a886-6f958be29417/item.json) | Reservation
  - **Reservations-edit** | [Details](src/admin_view/1f70dec6-20b6-4ef7-b4aa-e50b86cf98f3) | [Settings](src/admin_view/1f70dec6-20b6-4ef7-b4aa-e50b86cf98f3/item.json) | Reservation
+ - **Tickets** | [Details](src/admin_view/f9a01525-1db5-47ee-8ba7-8ce44a10bb99) | [Settings](src/admin_view/f9a01525-1db5-47ee-8ba7-8ce44a10bb99/item.json) | Tickets on the component
  - **Treks** | [Details](src/admin_view/5274216a-5a18-4e25-81e6-f006d1344781) | [Settings](src/admin_view/5274216a-5a18-4e25-81e6-f006d1344781/item.json) | Treks
  - **tas** | [Details](src/admin_view/f178a13e-e364-4d49-b39c-b77bac931787) | [Settings](src/admin_view/f178a13e-e364-4d49-b39c-b77bac931787/item.json) | ta
  - **tbs** | [Details](src/admin_view/33c892eb-470a-4424-bdb9-08c4e9c0c7b2) | [Settings](src/admin_view/33c892eb-470a-4424-bdb9-08c4e9c0c7b2/item.json) | tb
