@@ -26,7 +26,18 @@
     "php_before_getitems": "",
     "filter": null,
     "php_after_getitems": "",
-    "where": null,
+    "where": {
+        "where0": {
+            "table_key": "a.longitude",
+            "operator": 4,
+            "value_key": "0"
+        },
+        "where1": {
+            "table_key": "a.latitude",
+            "operator": 4,
+            "value_key": "0"
+        }
+    },
     "order": null,
     "addcalculation": 0,
     "group": null,
