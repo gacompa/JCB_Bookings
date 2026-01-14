@@ -9,7 +9,6 @@
 	type="number"
 	name="altitude"
 	label="Altitude (meters above sea level)"
-	default="120"
 	description="Altitude (meters above sea level)"
 	class="text_area"
 	required="true"
