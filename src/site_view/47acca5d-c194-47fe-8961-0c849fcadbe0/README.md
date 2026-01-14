@@ -140,13 +140,13 @@ $itemId = $jinput->getInt('id');
 <body>
 
     <div class="title-row">
-        <?php echo $this->item->name ; ?>
+        <?php echo $this->escape($this->item->name) ; ?>
     </div>
 
     <div class="main-content-container">
         
         <div class="image-column">
-           <img src="<?php echo $this->item->image ; ?>" alt="Immagine Principale">
+           <img src="<?php echo $this->escape($this->item->image) ; ?>" alt="Immagine Principale">
         </div>
 
         <div class="map-column">
@@ -168,56 +168,56 @@ $itemId = $jinput->getInt('id');
             <tbody>
                 <tr>
                     <td><?php echo Text::_('COM_BOOKINGS_ALTITUDE') ; ?></td>
-                    <td><?php echo $this->item->place_altitude . " " .  Text::_('COM_BOOKINGS_M_ABOVE_SEA_LEVEL') ; ?></td>
+                    <td><?php echo $this->escape($this->item->place_altitude) . " " .  Text::_('COM_BOOKINGS_M_ABOVE_SEA_LEVEL') ; ?></td>
                 </tr>
                 <tr>
                     <td><?php echo Text::_('COM_BOOKINGS_LOCATION') ; ?></td>
-                    <td><?php echo $this->item->location ; ?></td>
+                    <td><?php echo $this->escape($this->item->location) ; ?></td>
                 </tr>
                 <tr>
                     <td><?php echo Text::_('COM_BOOKINGS_SLEEPING_PLACES') ; ?></td>
-                    <td><?php echo $this->item->places_indoor . " " . Text::_('COM_BOOKINGS_INDOOR') . " | " . $this->item->places_outdoor . " " . Text::_('COM_BOOKINGS_OUTDOOR') ; ?></td>
+                    <td><?php echo $this->escape($this->item->places_indoor) . " " . Text::_('COM_BOOKINGS_INDOOR') . " | " . $this->escape($this->item->places_outdoor) . " " . Text::_('COM_BOOKINGS_OUTDOOR') ; ?></td>
                 </tr>
                 <tr>
                     <td><?php echo Text::_('COM_BOOKINGS_REST_ROOMS') ; ?></td>
                     <td>
-                        <?php echo (($this->item->rest_room_checkbox) ? Text::_('COM_BOOKINGS_YES') . " " : Text::_('COM_BOOKINGS_NO') . " ") ; ?>
-                        <?php echo $this->item->rest_room_comments ;?>
+                        <?php echo (($this->escape($this->item->rest_room_checkbox)) ? Text::_('COM_BOOKINGS_YES') . " " : Text::_('COM_BOOKINGS_NO') . " ") ; ?>
+                        <?php echo $this->escape($this->item->rest_room_comments) ;?>
                     </td>
                 </tr>
                 <tr>
                     <td><?php echo Text::_('COM_BOOKINGS_WATER') ; ?></td>
                     <td>
-                        <?php echo (($this->item->water_checkbox) ? Text::_('COM_BOOKINGS_YES') . " " : Text::_('COM_BOOKINGS_NO') . " ") ; ?>
-                        <?php echo $this->item->water_comments ;?>
+                        <?php echo (($this->escape($this->item->water_checkbox)) ? Text::_('COM_BOOKINGS_YES') . " " : Text::_('COM_BOOKINGS_NO') . " ") ; ?>
+                        <?php echo $this->escape($this->item->water_comments) ;?>
                     </td>
                 </tr>
                 <tr>
                     <td><?php echo Text::_('COM_BOOKINGS_HEATING') ; ?></td>
                     <td>
-                        <?php echo (($this->item->rest_room_checkbox) ? Text::_('COM_BOOKINGS_YES') . " " : Text::_('COM_BOOKINGS_NO') . " ") ; ?>
-                        <?php echo $this->item->heating_comments ;?>
+                        <?php echo (($this->escape($this->item->rest_room_checkbox)) ? Text::_('COM_BOOKINGS_YES') . " " : Text::_('COM_BOOKINGS_NO') . " ") ; ?>
+                        <?php echo $this->escape($this->item->heating_comments) ;?>
                     </td>
                 </tr>
                 <tr>
                     <td><?php echo Text::_('COM_BOOKINGS_ELECTRICITY') ; ?></td>
                     <td>
-                        <?php echo (($this->item->electricity_checkbox) ? Text::_('COM_BOOKINGS_YES') . " " : Text::_('COM_BOOKINGS_NO') . " ") ; ?>
-                        <?php echo $this->item->electricity_comments ;?>
+                        <?php echo (($this->escape($this->item->electricity_checkbox)) ? Text::_('COM_BOOKINGS_YES') . " " : Text::_('COM_BOOKINGS_NO') . " ") ; ?>
+                        <?php echo $this->escape($this->item->electricity_comments) ;?>
                     </td>
                 </tr>
                 <tr>
                     <td><?php echo Text::_('COM_BOOKINGS_KITCHEN') ; ?></td>
                     <td>
-                        <?php echo (($this->item->kitchen_checkbox) ? Text::_('COM_BOOKINGS_YES') . " " : Text::_('COM_BOOKINGS_NO') . " ") ; ?>
-                        <?php echo $this->item->kitchen_comments ;?>
+                        <?php echo (($this->escape($this->item->kitchen_checkbox)) ? Text::_('COM_BOOKINGS_YES') . " " : Text::_('COM_BOOKINGS_NO') . " ") ; ?>
+                        <?php echo $this->escape($this->item->kitchen_comments) ;?>
                     </td>
                 </tr>
                 <tr>
                     <td><?php echo Text::_('COM_BOOKINGS_CAMP_FIRE') ; ?></td>
                     <td>
-                        <?php echo (($this->item->camp_fire_checkbox) ? Text::_('COM_BOOKINGS_YES') . " " : Text::_('COM_BOOKINGS_NO') . " ") ; ?>
-                        <?php echo $this->item->camp_fire_comments ;?>
+                        <?php echo (($this->escape($this->item->camp_fire_checkbox)) ? Text::_('COM_BOOKINGS_YES') . " " : Text::_('COM_BOOKINGS_NO') . " ") ; ?>
+                        <?php echo $this->escape($this->item->camp_fire_comments) ;?>
                     </td>
                 </tr>
 
