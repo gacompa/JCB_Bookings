@@ -70,6 +70,7 @@ This ensures consistent updates while preserving your customizations and logic.
  - **Paths edit list** | [Details](src/site_view/13989926-5894-4344-83dc-fba6eff3b3af) | [Settings](src/site_view/13989926-5894-4344-83dc-fba6eff3b3af/item.json) | List for paths edit
  - **Paths list** | [Details](src/site_view/d8443ac1-247d-4f5a-813a-6c71400a4294) | [Settings](src/site_view/d8443ac1-247d-4f5a-813a-6c71400a4294/item.json) | Site view for Paths - list view
  - **Places** | [Details](src/site_view/6899baa6-4767-4a67-b584-55d5087a9a4f) | [Settings](src/site_view/6899baa6-4767-4a67-b584-55d5087a9a4f/item.json) | places
+ - **Tickets edit list** | [Details](src/site_view/0326cb3a-3639-4c99-a978-70f65652fe87) | [Settings](src/site_view/0326cb3a-3639-4c99-a978-70f65652fe87/item.json) | List of tickets for edit
 
 ### All used in [Joomla Component Builder](https://www.joomlacomponentbuilder.com) - [Source](https://git.vdm.dev/joomla/Component-Builder) - [Mirror](https://github.com/vdm-io/Joomla-Component-Builder) - [Download](https://git.vdm.dev/joomla/pkg-component-builder/releases)
 
