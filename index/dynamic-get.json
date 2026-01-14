@@ -52,5 +52,11 @@
         "path": "src\/dynamic_get\/80116b2d-791d-4128-94e0-76eba3b56590",
         "settings": "src\/dynamic_get\/80116b2d-791d-4128-94e0-76eba3b56590\/item.json",
         "guid": "80116b2d-791d-4128-94e0-76eba3b56590"
+    },
+    "af2e7c85-934e-4d8d-8af5-b6d745b465f8": {
+        "name": "Tickets",
+        "path": "src\/dynamic_get\/af2e7c85-934e-4d8d-8af5-b6d745b465f8",
+        "settings": "src\/dynamic_get\/af2e7c85-934e-4d8d-8af5-b6d745b465f8\/item.json",
+        "guid": "af2e7c85-934e-4d8d-8af5-b6d745b465f8"
     }
 }
