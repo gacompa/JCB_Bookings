@@ -37,6 +37,20 @@
             "filter": "2",
             "edit_create_site_view": "2",
             "order": "0"
+        },
+        "addadmin_views3": {
+            "adminview": "f9a01525-1db5-47ee-8ba7-8ce44a10bb99",
+            "icomoon": "joomla",
+            "mainmenu": "1",
+            "dashboard_add": "1",
+            "dashboard_list": "1",
+            "history": "1",
+            "access": "1",
+            "port": "1",
+            "add_api": "0",
+            "filter": "2",
+            "edit_create_site_view": "2",
+            "order": "0"
         }
     },
     "@dependencies": [
@@ -64,6 +78,13 @@
         {
             "key": "guid",
             "value": "858b0999-8350-46a5-9c4e-e0e715aa8b1a",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "f9a01525-1db5-47ee-8ba7-8ce44a10bb99",
             "entity": "admin_view",
             "table": "#__componentbuilder_admin_view",
             "direction": "out"
