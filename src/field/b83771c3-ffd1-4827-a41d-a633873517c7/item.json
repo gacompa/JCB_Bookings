@@ -8,7 +8,7 @@
     "on_get_model_field": null,
     "on_save_model_field": null,
     "initiator_on_get_model": "",
-    "xml": "<field\n\ttype=\"number\"\n\tname=\"latitude\"\n\tlabel=\"Latitude\"\n\tdefault=\"45.4628246\"\n\tdescription=\"Enter the Latitude\"\n\tclass=\"text_area\"\n\trequired=\"false\"\n\tmin=\"1\"\n\tmax=\"40\"\n\tstep=\"5\"\n\/>",
+    "xml": "<field\n\ttype=\"number\"\n\tname=\"latitude\"\n\tlabel=\"Latitude\"\n\tdefault=\"0\"\n\tdescription=\"Enter the Latitude (if 0 place will no show on map)\"\n\tclass=\"text_area\"\n\trequired=\"false\"\n\tmin=\"1\"\n\tmax=\"40\"\n\tstep=\"5\"\n\/>",
     "datalenght": "Other",
     "javascript_view_footer": "",
     "css_views": "",
