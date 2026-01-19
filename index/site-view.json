@@ -110,5 +110,12 @@
         "path": "src\/site_view\/0326cb3a-3639-4c99-a978-70f65652fe87",
         "settings": "src\/site_view\/0326cb3a-3639-4c99-a978-70f65652fe87\/item.json",
         "guid": "0326cb3a-3639-4c99-a978-70f65652fe87"
+    },
+    "7d637624-7dd1-4f4e-a7aa-cfc7d333ded0": {
+        "name": "Location map",
+        "desc": "Map of locations",
+        "path": "src\/site_view\/7d637624-7dd1-4f4e-a7aa-cfc7d333ded0",
+        "settings": "src\/site_view\/7d637624-7dd1-4f4e-a7aa-cfc7d333ded0\/item.json",
+        "guid": "7d637624-7dd1-4f4e-a7aa-cfc7d333ded0"
     }
 }
