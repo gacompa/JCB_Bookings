@@ -58,5 +58,11 @@
         "path": "src\/dynamic_get\/af2e7c85-934e-4d8d-8af5-b6d745b465f8",
         "settings": "src\/dynamic_get\/af2e7c85-934e-4d8d-8af5-b6d745b465f8\/item.json",
         "guid": "af2e7c85-934e-4d8d-8af5-b6d745b465f8"
+    },
+    "20b712a5-9e9f-4f68-8589-3d02df7fe142": {
+        "name": "Locations_map",
+        "path": "src\/dynamic_get\/20b712a5-9e9f-4f68-8589-3d02df7fe142",
+        "settings": "src\/dynamic_get\/20b712a5-9e9f-4f68-8589-3d02df7fe142\/item.json",
+        "guid": "20b712a5-9e9f-4f68-8589-3d02df7fe142"
     }
 }
