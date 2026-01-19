@@ -12,5 +12,12 @@
         "path": "src\/custom_code\/getOnePlaceAltitude",
         "settings": "src\/custom_code\/getOnePlaceAltitude\/item.json",
         "guid": "getOnePlaceAltitude"
+    },
+    "getPlaceCoordinates": {
+        "name": "Bookings",
+        "desc": "JCB (manual)",
+        "path": "src\/custom_code\/getPlaceCoordinates",
+        "settings": "src\/custom_code\/getPlaceCoordinates\/item.json",
+        "guid": "getPlaceCoordinates"
     }
 }
