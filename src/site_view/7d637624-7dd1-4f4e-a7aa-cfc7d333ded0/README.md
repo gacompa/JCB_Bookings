@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         );
         // You can still keep bindPopup for "click" behavior if you want both
-        marker.bindPopup(`Full details for ${place.place}...`);
+        marker.bindPopup(`<b>${place.name}</b><br>${place.description}`);
         markers.push(marker);
         }
         }
