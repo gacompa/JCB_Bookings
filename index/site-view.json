@@ -117,5 +117,12 @@
         "path": "src\/site_view\/7d637624-7dd1-4f4e-a7aa-cfc7d333ded0",
         "settings": "src\/site_view\/7d637624-7dd1-4f4e-a7aa-cfc7d333ded0\/item.json",
         "guid": "7d637624-7dd1-4f4e-a7aa-cfc7d333ded0"
+    },
+    "c2f82a6c-4733-4852-9f8a-8f3c18e2fc62": {
+        "name": "Fasciolo presenza",
+        "desc": "Registra una presenza all'inaugurazione del bivacco Fasciolo",
+        "path": "src\/site_view\/c2f82a6c-4733-4852-9f8a-8f3c18e2fc62",
+        "settings": "src\/site_view\/c2f82a6c-4733-4852-9f8a-8f3c18e2fc62\/item.json",
+        "guid": "c2f82a6c-4733-4852-9f8a-8f3c18e2fc62"
     }
 }
