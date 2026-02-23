@@ -124,5 +124,12 @@
         "settings": "src\/admin_view\/f9a01525-1db5-47ee-8ba7-8ce44a10bb99\/item.json",
         "guid": "f9a01525-1db5-47ee-8ba7-8ce44a10bb99",
         "desc": "Tickets on the component"
+    },
+    "e3cfdc97-5c5f-48b0-8580-f909639c2a21": {
+        "name": "Fasciolo presenze",
+        "path": "src\/admin_view\/e3cfdc97-5c5f-48b0-8580-f909639c2a21",
+        "settings": "src\/admin_view\/e3cfdc97-5c5f-48b0-8580-f909639c2a21\/item.json",
+        "guid": "e3cfdc97-5c5f-48b0-8580-f909639c2a21",
+        "desc": "Presenze Fasciolo"
     }
 }
