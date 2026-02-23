@@ -322,5 +322,35 @@
         "path": "src\/field\/e55e3e80-f07f-4938-9b57-07a8ebe8e7da",
         "settings": "src\/field\/e55e3e80-f07f-4938-9b57-07a8ebe8e7da\/item.json",
         "guid": "e55e3e80-f07f-4938-9b57-07a8ebe8e7da"
+    },
+    "00b0919f-2952-4f79-a24f-017b4b60b426": {
+        "name": "Numero di partecipanti",
+        "path": "src\/field\/00b0919f-2952-4f79-a24f-017b4b60b426",
+        "settings": "src\/field\/00b0919f-2952-4f79-a24f-017b4b60b426\/item.json",
+        "guid": "00b0919f-2952-4f79-a24f-017b4b60b426"
+    },
+    "87eeb263-755b-4eb5-8ac9-a2388ef732f0": {
+        "name": "Note",
+        "path": "src\/field\/87eeb263-755b-4eb5-8ac9-a2388ef732f0",
+        "settings": "src\/field\/87eeb263-755b-4eb5-8ac9-a2388ef732f0\/item.json",
+        "guid": "87eeb263-755b-4eb5-8ac9-a2388ef732f0"
+    },
+    "8cc3a33c-7e37-44c4-8993-4168cb0cb15a": {
+        "name": "email",
+        "path": "src\/field\/8cc3a33c-7e37-44c4-8993-4168cb0cb15a",
+        "settings": "src\/field\/8cc3a33c-7e37-44c4-8993-4168cb0cb15a\/item.json",
+        "guid": "8cc3a33c-7e37-44c4-8993-4168cb0cb15a"
+    },
+    "dc93581e-d403-4783-94fb-02a0434ee677": {
+        "name": "Nominativo",
+        "path": "src\/field\/dc93581e-d403-4783-94fb-02a0434ee677",
+        "settings": "src\/field\/dc93581e-d403-4783-94fb-02a0434ee677\/item.json",
+        "guid": "dc93581e-d403-4783-94fb-02a0434ee677"
+    },
+    "e3a70176-a60f-45fc-a27a-099c18887126": {
+        "name": "Consenso_GDPR",
+        "path": "src\/field\/e3a70176-a60f-45fc-a27a-099c18887126",
+        "settings": "src\/field\/e3a70176-a60f-45fc-a27a-099c18887126\/item.json",
+        "guid": "e3a70176-a60f-45fc-a27a-099c18887126"
     }
 }
