@@ -64,5 +64,11 @@
         "path": "src\/dynamic_get\/20b712a5-9e9f-4f68-8589-3d02df7fe142",
         "settings": "src\/dynamic_get\/20b712a5-9e9f-4f68-8589-3d02df7fe142\/item.json",
         "guid": "20b712a5-9e9f-4f68-8589-3d02df7fe142"
+    },
+    "91a02c87-ec0f-472c-98e6-86b3abb20894": {
+        "name": "Fasciolo presenza",
+        "path": "src\/dynamic_get\/91a02c87-ec0f-472c-98e6-86b3abb20894",
+        "settings": "src\/dynamic_get\/91a02c87-ec0f-472c-98e6-86b3abb20894\/item.json",
+        "guid": "91a02c87-ec0f-472c-98e6-86b3abb20894"
     }
 }
