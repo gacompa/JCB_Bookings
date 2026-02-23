@@ -56,6 +56,7 @@ This ensures consistent updates while preserving your customizations and logic.
 
 
  - **Default view** | [Details](src/site_view/715839f3-0de7-4b1f-a94e-aca0954d03b9) | [Settings](src/site_view/715839f3-0de7-4b1f-a94e-aca0954d03b9/item.json) | The default view
+ - **Fasciolo presenza** | [Details](src/site_view/c2f82a6c-4733-4852-9f8a-8f3c18e2fc62) | [Settings](src/site_view/c2f82a6c-4733-4852-9f8a-8f3c18e2fc62/item.json) | Registra una presenza all'inaugurazione del bivacco Fasciolo
  - **Location edit** | [Details](src/site_view/846a0ed0-db65-4915-b06e-fc108b7802f0) | [Settings](src/site_view/846a0ed0-db65-4915-b06e-fc108b7802f0/item.json) | Location edit
  - **Location edit list** | [Details](src/site_view/f1681276-fff6-4dab-bc58-2b229d83316f) | [Settings](src/site_view/f1681276-fff6-4dab-bc58-2b229d83316f/item.json) | List for location edit
  - **Location map** | [Details](src/site_view/7d637624-7dd1-4f4e-a7aa-cfc7d333ded0) | [Settings](src/site_view/7d637624-7dd1-4f4e-a7aa-cfc7d333ded0/item.json) | Map of locations
