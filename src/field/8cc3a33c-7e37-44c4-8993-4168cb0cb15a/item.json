@@ -1,0 +1,35 @@
+{
+    "name": "email",
+    "fieldtype": "35948af5-9e79-4454-8dfa-682ee4fdf650",
+    "datatype": "VARCHAR",
+    "indexes": "0",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": null,
+    "on_save_model_field": null,
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"email\"\n\tname=\"email\"\n\tlabel=\"Email di contatto\"\n\tsize=\"10\"\n\tmaxlength=\"50\"\n\tdefault=\"\"\n\tdescription=\"Enter some description\"\n\tclass=\"inputbox\"\n\treadonly=\"false\"\n\tdisabled=\"false\"\n\trequired=\"true\"\n\tfilter=\"STRING\"\n\tvalidate=\"email\"\n\tunique=\"false\"\n\tfield=\"\"\n\tmessage=\"Error! Please add some text here.\"\n\thint=\"your@email.com\"\n\tautocomplete=\"on\"\n\tshowon=\"\"\n\tonchange=\"\"\n\/>",
+    "datalenght": "50",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "8cc3a33c-7e37-44c4-8993-4168cb0cb15a",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "35948af5-9e79-4454-8dfa-682ee4fdf650",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}
