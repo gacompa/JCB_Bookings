@@ -9,6 +9,12 @@
 a.id AS id
 a.asset_id AS asset_id
 a.nominativo AS nominativo
+a.email AS email
+a.numero_di_partecipanti AS numero_di_partecipanti
+a.pernottamento AS pernottamento
+a.numero_di_tendine AS numero_di_tendine
+a.salita AS salita
+a.note AS note
 a.consenso_gdpr AS consenso_gdpr
 a.published AS published
 a.created_by AS created_by
