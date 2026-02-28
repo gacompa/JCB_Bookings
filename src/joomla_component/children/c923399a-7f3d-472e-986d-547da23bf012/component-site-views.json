@@ -4,6 +4,7 @@
         "addsite_views0": {
             "siteview": "c2f82a6c-4733-4852-9f8a-8f3c18e2fc62",
             "menu": "1",
+            "default_view": "1",
             "public_access": "1"
         }
     },
