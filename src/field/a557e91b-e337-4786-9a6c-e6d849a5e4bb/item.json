@@ -1,0 +1,35 @@
+{
+    "name": "Pernottamento",
+    "fieldtype": "ac10859b-58da-4584-9682-36a6c2c8d04d",
+    "datatype": "VARCHAR",
+    "indexes": "0",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": null,
+    "on_save_model_field": null,
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"checkboxes\"\n\tname=\"pernottamento\"\n\tlabel=\"Pernottamento\"\n\toption=\"Nessuno|Nessun pernottamento,Brasca|Rifugio Brasca,Bresciadega|Rifugio Bresciadega,Codera|Codera,Tenda|Tenda in Casera,Altro|Altro (note)\"\n\tdefault=\"\"\n\tdescription=\"Pernottamento\"\n\trequired=\"true\"\n\tclass=\"\"\n\tshowon=\"\"\n\/>",
+    "datalenght": "50",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "a557e91b-e337-4786-9a6c-e6d849a5e4bb",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "ac10859b-58da-4584-9682-36a6c2c8d04d",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}
