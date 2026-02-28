@@ -352,5 +352,23 @@
         "path": "src\/field\/e3a70176-a60f-45fc-a27a-099c18887126",
         "settings": "src\/field\/e3a70176-a60f-45fc-a27a-099c18887126\/item.json",
         "guid": "e3a70176-a60f-45fc-a27a-099c18887126"
+    },
+    "335a62e8-85bb-4100-b4a6-7a8766e2ef05": {
+        "name": "Salita",
+        "path": "src\/field\/335a62e8-85bb-4100-b4a6-7a8766e2ef05",
+        "settings": "src\/field\/335a62e8-85bb-4100-b4a6-7a8766e2ef05\/item.json",
+        "guid": "335a62e8-85bb-4100-b4a6-7a8766e2ef05"
+    },
+    "9b7182d1-5dd1-42b1-927e-f56990db2130": {
+        "name": "Numero di tendine",
+        "path": "src\/field\/9b7182d1-5dd1-42b1-927e-f56990db2130",
+        "settings": "src\/field\/9b7182d1-5dd1-42b1-927e-f56990db2130\/item.json",
+        "guid": "9b7182d1-5dd1-42b1-927e-f56990db2130"
+    },
+    "a557e91b-e337-4786-9a6c-e6d849a5e4bb": {
+        "name": "Pernottamento",
+        "path": "src\/field\/a557e91b-e337-4786-9a6c-e6d849a5e4bb",
+        "settings": "src\/field\/a557e91b-e337-4786-9a6c-e6d849a5e4bb\/item.json",
+        "guid": "a557e91b-e337-4786-9a6c-e6d849a5e4bb"
     }
 }
