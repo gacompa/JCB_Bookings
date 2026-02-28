@@ -1,5 +1,5 @@
 ### JCB! Joomla Component
-# Fasciolo presenze (v1.0.2)
+# Fasciolo presenze (v1.1.2)
 ## Fasciolo presenze (Fasciolopresenze)
 
 Raccolta di presenze all'inaugurazione del bivacco Fasciolo
