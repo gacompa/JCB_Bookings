@@ -21,7 +21,44 @@
     "php_after_delete": "",
     "source": 0,
     "php_getitem": "",
-    "addpermissions": null,
+    "addpermissions": {
+        "addpermissions0": {
+            "action": "view.create",
+            "implementation": 3
+        },
+        "addpermissions1": {
+            "action": "view.edit",
+            "implementation": 3
+        },
+        "addpermissions2": {
+            "action": "view.access",
+            "implementation": 3
+        },
+        "addpermissions3": {
+            "action": "view.edit.own",
+            "implementation": 3
+        },
+        "addpermissions4": {
+            "action": "view.edit.state",
+            "implementation": 3
+        },
+        "addpermissions5": {
+            "action": "view.edit.access",
+            "implementation": 3
+        },
+        "addpermissions6": {
+            "action": "view.edit.created_by",
+            "implementation": 3
+        },
+        "addpermissions7": {
+            "action": "view.edit.created",
+            "implementation": 3
+        },
+        "addpermissions8": {
+            "action": "view.delete",
+            "implementation": 3
+        }
+    },
     "php_getitems_after_all": "",
     "php_getform": "",
     "addtabs": null,
@@ -66,19 +103,11 @@
     "add_php_before_publish": 0,
     "javascript_views_footer": "",
     "add_php_after_publish": 0,
-    "add_custom_button": 1,
+    "add_custom_button": 0,
     "add_php_before_delete": 0,
-    "custom_button": {
-        "custom_button0": {
-            "icomoon": "joomla",
-            "name": "Submit",
-            "method": "Submit",
-            "target": 1,
-            "type": "0"
-        }
-    },
+    "custom_button": null,
     "add_php_after_delete": 0,
-    "php_controller": "",
+    "php_controller": "[CUSTOMCODE=formControllerEdit]",
     "add_php_document": 0,
     "php_model": "",
     "mysql_table_engine": "InnoDB",
@@ -97,6 +126,13 @@
             "entity": "admin_fields",
             "table": "#__componentbuilder_admin_fields",
             "direction": "in"
+        },
+        {
+            "key": "function_name",
+            "value": "formControllerEdit",
+            "entity": "custom_code",
+            "table": "#__componentbuilder_custom_code",
+            "direction": "out"
         }
     ]
 }
