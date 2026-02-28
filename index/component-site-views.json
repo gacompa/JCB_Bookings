@@ -10,5 +10,11 @@
         "path": "src\/joomla_component\/children\/c923399a-7f3d-472e-986d-547da23bf012",
         "settings": "src\/joomla_component\/children\/c923399a-7f3d-472e-986d-547da23bf012\/component-site-views.json",
         "guid": "c923399a-7f3d-472e-986d-547da23bf012"
+    },
+    "726a11af-27ff-4836-b81f-cd72752df10f": {
+        "name": "726a11af-27ff-4836-b81f-cd72752df10f",
+        "path": "src\/joomla_component\/children\/726a11af-27ff-4836-b81f-cd72752df10f",
+        "settings": "src\/joomla_component\/children\/726a11af-27ff-4836-b81f-cd72752df10f\/component-site-views.json",
+        "guid": "726a11af-27ff-4836-b81f-cd72752df10f"
     }
 }
