@@ -370,5 +370,53 @@
         "path": "src\/field\/a557e91b-e337-4786-9a6c-e6d849a5e4bb",
         "settings": "src\/field\/a557e91b-e337-4786-9a6c-e6d849a5e4bb\/item.json",
         "guid": "a557e91b-e337-4786-9a6c-e6d849a5e4bb"
+    },
+    "2a0bda5d-0076-4f48-9f95-51742c73b564": {
+        "name": "Ninth stop",
+        "path": "src\/field\/2a0bda5d-0076-4f48-9f95-51742c73b564",
+        "settings": "src\/field\/2a0bda5d-0076-4f48-9f95-51742c73b564\/item.json",
+        "guid": "2a0bda5d-0076-4f48-9f95-51742c73b564"
+    },
+    "7f496a03-f125-4379-af46-1cec6b335b13": {
+        "name": "Participants",
+        "path": "src\/field\/7f496a03-f125-4379-af46-1cec6b335b13",
+        "settings": "src\/field\/7f496a03-f125-4379-af46-1cec6b335b13\/item.json",
+        "guid": "7f496a03-f125-4379-af46-1cec6b335b13"
+    },
+    "a43b487c-51d6-4264-8925-067e3368bcbe": {
+        "name": "Tenth stop",
+        "path": "src\/field\/a43b487c-51d6-4264-8925-067e3368bcbe",
+        "settings": "src\/field\/a43b487c-51d6-4264-8925-067e3368bcbe\/item.json",
+        "guid": "a43b487c-51d6-4264-8925-067e3368bcbe"
+    },
+    "aae1f2fc-19c1-420d-af91-b79efa778ba2": {
+        "name": "Seventh stop",
+        "path": "src\/field\/aae1f2fc-19c1-420d-af91-b79efa778ba2",
+        "settings": "src\/field\/aae1f2fc-19c1-420d-af91-b79efa778ba2\/item.json",
+        "guid": "aae1f2fc-19c1-420d-af91-b79efa778ba2"
+    },
+    "adc03eca-4944-4244-a993-a6c30692fc23": {
+        "name": "Sixth stop",
+        "path": "src\/field\/adc03eca-4944-4244-a993-a6c30692fc23",
+        "settings": "src\/field\/adc03eca-4944-4244-a993-a6c30692fc23\/item.json",
+        "guid": "adc03eca-4944-4244-a993-a6c30692fc23"
+    },
+    "b3974c81-418c-4117-8403-4463c492c69f": {
+        "name": "Eight stop",
+        "path": "src\/field\/b3974c81-418c-4117-8403-4463c492c69f",
+        "settings": "src\/field\/b3974c81-418c-4117-8403-4463c492c69f\/item.json",
+        "guid": "b3974c81-418c-4117-8403-4463c492c69f"
+    },
+    "e9cd8058-7643-43d4-9738-d7138ed7039e": {
+        "name": "Fourth stop",
+        "path": "src\/field\/e9cd8058-7643-43d4-9738-d7138ed7039e",
+        "settings": "src\/field\/e9cd8058-7643-43d4-9738-d7138ed7039e\/item.json",
+        "guid": "e9cd8058-7643-43d4-9738-d7138ed7039e"
+    },
+    "ed30c695-5d2c-41b1-8849-6e75d2a7554a": {
+        "name": "Fifth stop",
+        "path": "src\/field\/ed30c695-5d2c-41b1-8849-6e75d2a7554a",
+        "settings": "src\/field\/ed30c695-5d2c-41b1-8849-6e75d2a7554a\/item.json",
+        "guid": "ed30c695-5d2c-41b1-8849-6e75d2a7554a"
     }
 }
