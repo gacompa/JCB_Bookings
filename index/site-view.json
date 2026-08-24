@@ -124,5 +124,12 @@
         "path": "src\/site_view\/c2f82a6c-4733-4852-9f8a-8f3c18e2fc62",
         "settings": "src\/site_view\/c2f82a6c-4733-4852-9f8a-8f3c18e2fc62\/item.json",
         "guid": "c2f82a6c-4733-4852-9f8a-8f3c18e2fc62"
+    },
+    "ba21a497-c1a5-40c2-a486-3d637bb1a9a5": {
+        "name": "Occupancy map",
+        "desc": "Map of occupancy of locations",
+        "path": "src\/site_view\/ba21a497-c1a5-40c2-a486-3d637bb1a9a5",
+        "settings": "src\/site_view\/ba21a497-c1a5-40c2-a486-3d637bb1a9a5\/item.json",
+        "guid": "ba21a497-c1a5-40c2-a486-3d637bb1a9a5"
     }
 }
