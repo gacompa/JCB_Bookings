@@ -7,7 +7,7 @@
 ```xml
 <field
 	type="ModalSelect"
-	name="second_stop"
+	name="stop_02"
 	label="Second stop"
 	sql_title_table="#__###component###_location"
 	sql_title_column="name"
