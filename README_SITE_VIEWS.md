@@ -65,6 +65,7 @@ This ensures consistent updates while preserving your customizations and logic.
  - **Locations list** | [Details](src/site_view/379b089a-e018-4fa9-9c42-c792a414beff) | [Settings](src/site_view/379b089a-e018-4fa9-9c42-c792a414beff/item.json) | Site view for Locations - list view
  - **Locations table view** | [Details](src/site_view/df889519-71e3-40be-b74a-5abdbff5c003) | [Settings](src/site_view/df889519-71e3-40be-b74a-5abdbff5c003/item.json) | Site locations - table view
  - **Map** | [Details](src/site_view/e6bc3a5f-909e-493c-ba8a-6a79b555b2f7) | [Settings](src/site_view/e6bc3a5f-909e-493c-ba8a-6a79b555b2f7/item.json) | Map of locations
+ - **Occupancy map** | [Details](src/site_view/ba21a497-c1a5-40c2-a486-3d637bb1a9a5) | [Settings](src/site_view/ba21a497-c1a5-40c2-a486-3d637bb1a9a5/item.json) | Map of occupancy of locations
  - **One** | [Details](src/site_view/8dcfb3ab-04d1-460d-8809-0036634969a4) | [Settings](src/site_view/8dcfb3ab-04d1-460d-8809-0036634969a4/item.json) | one
  - **OneLocation** | [Details](src/site_view/47acca5d-c194-47fe-8961-0c849fcadbe0) | [Settings](src/site_view/47acca5d-c194-47fe-8961-0c849fcadbe0/item.json) | One site location
  - **Path edit** | [Details](src/site_view/2ca79169-0042-4a6a-8ffa-54cf03df30f8) | [Settings](src/site_view/2ca79169-0042-4a6a-8ffa-54cf03df30f8/item.json) | Path edit
