@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Use bindTooltip for "hover" behavior
         // 'sticky: true' makes the tooltip follow the mouse cursor
-        marker.bindTooltip(`<b>${place.name}</b><br>${place.description}`, {
+        marker.bindTooltip(`<b>${escapeHtml(place.name)}</b><br>${escapeHtml(place.description)}`, {
             permanent: false, 
             direction: 'top',
             sticky: true,
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         );
         // You can still keep bindPopup for "click" behavior if you want both
-        marker.bindPopup(`<b>${place.name}</b><br>${place.description}`);
+        marker.bindPopup(`<b>${escapeHtml(place.name)}</b><br>${escapeHtml(place.description)}`);
         markers.push(marker);
         }
         }
@@ -82,6 +82,12 @@ document.addEventListener('DOMContentLoaded', function() {
         map.fitBounds(group.getBounds().pad(0.5));
     }
 });
+function escapeHtml(text) {
+    if (!text) return text;
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+}
 </script>
 ```
 
