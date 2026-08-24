@@ -1,5 +1,5 @@
 {
-    "name": "Date (required)",
+    "name": "DateFirstStop",
     "fieldtype": "6cf5a33f-cb25-4a58-bfec-7e1511896402",
     "datatype": "DATE",
     "indexes": "0",
