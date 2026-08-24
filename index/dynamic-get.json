@@ -70,5 +70,17 @@
         "path": "src\/dynamic_get\/91a02c87-ec0f-472c-98e6-86b3abb20894",
         "settings": "src\/dynamic_get\/91a02c87-ec0f-472c-98e6-86b3abb20894\/item.json",
         "guid": "91a02c87-ec0f-472c-98e6-86b3abb20894"
+    },
+    "644bb7c7-eb28-4a5e-8955-5d707d3b638d": {
+        "name": "Footpaths_published",
+        "path": "src\/dynamic_get\/644bb7c7-eb28-4a5e-8955-5d707d3b638d",
+        "settings": "src\/dynamic_get\/644bb7c7-eb28-4a5e-8955-5d707d3b638d\/item.json",
+        "guid": "644bb7c7-eb28-4a5e-8955-5d707d3b638d"
+    },
+    "b9f88c0d-c1e5-470e-8f30-b0394ee1aff6": {
+        "name": "Presences",
+        "path": "src\/dynamic_get\/b9f88c0d-c1e5-470e-8f30-b0394ee1aff6",
+        "settings": "src\/dynamic_get\/b9f88c0d-c1e5-470e-8f30-b0394ee1aff6\/item.json",
+        "guid": "b9f88c0d-c1e5-470e-8f30-b0394ee1aff6"
     }
 }
