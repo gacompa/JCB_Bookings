@@ -8,5 +8,25 @@
         "name": "images\/com_bookings\/Icons\/exclamation-warning-round-red-icon.png",
         "path": "src\/file_folder\/99efba90-738c-5eb7-a6ae-d4909e0fab25.png",
         "guid": "99efba90-738c-5eb7-a6ae-d4909e0fab25.png"
+    },
+    "13b6d5e9-40c8-5c93-9449-eb222b0b1805.png": {
+        "name": "images\/com_bookings\/Icons\/group-icon.png",
+        "path": "src\/file_folder\/13b6d5e9-40c8-5c93-9449-eb222b0b1805.png",
+        "guid": "13b6d5e9-40c8-5c93-9449-eb222b0b1805.png"
+    },
+    "726d526c-5f00-5a91-8876-7249bdb2ba88.png": {
+        "name": "images\/com_bookings\/Icons\/create-group-icon.png",
+        "path": "src\/file_folder\/726d526c-5f00-5a91-8876-7249bdb2ba88.png",
+        "guid": "726d526c-5f00-5a91-8876-7249bdb2ba88.png"
+    },
+    "75b08e97-950b-5e4e-a1ff-978c3da9fc64.png": {
+        "name": "images\/com_bookings\/Icons\/reserved-icon.png",
+        "path": "src\/file_folder\/75b08e97-950b-5e4e-a1ff-978c3da9fc64.png",
+        "guid": "75b08e97-950b-5e4e-a1ff-978c3da9fc64.png"
+    },
+    "6a1dc88f-d56f-5af7-a99a-e1c31f83467b.png": {
+        "name": "images\/com_bookings\/Icons\/reserve-icon.png",
+        "path": "src\/file_folder\/6a1dc88f-d56f-5af7-a99a-e1c31f83467b.png",
+        "guid": "6a1dc88f-d56f-5af7-a99a-e1c31f83467b.png"
     }
 }
