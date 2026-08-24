@@ -1,5 +1,5 @@
 ### JCB! Field
-# Group
+# Group_name
 
 > Field Type: Text
 
@@ -7,10 +7,10 @@
 ```xml
 <field
 	type="text"
-	name="group"
-	label="Group"
-	size="10"
-	maxlength="50"
+	name="group_name"
+	label="Group_name"
+	size=""
+	maxlength="128"
 	default="Some text"
 	description="Enter the name of the group"
 	class="text_area"
@@ -30,7 +30,7 @@
 
 ## Database:
 - Data type: VARCHAR
-- Data length: 10
+- Data length: 255
 - Data default: 
 - Null switch: NULL
 - Index: NOT INDEX
