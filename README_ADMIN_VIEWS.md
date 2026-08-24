@@ -55,7 +55,9 @@ This ensures maintainability while still allowing total customization per projec
  - **Locations** | [Details](src/admin_view/eafd26f7-b13c-4c36-b8a3-ae7d71febb24) | [Settings](src/admin_view/eafd26f7-b13c-4c36-b8a3-ae7d71febb24/item.json) | List of the locations in the area
  - **Paths** | [Details](src/admin_view/858b0999-8350-46a5-9c4e-e0e715aa8b1a) | [Settings](src/admin_view/858b0999-8350-46a5-9c4e-e0e715aa8b1a/item.json) | Paths
  - **Places** | [Details](src/admin_view/55aac7da-e105-4ab2-9c34-6ee44e8b692c) | [Settings](src/admin_view/55aac7da-e105-4ab2-9c34-6ee44e8b692c/item.json) | Relevant places in the area
+ - **Presences** | [Details](src/admin_view/68afc434-c4fc-48e6-8133-ddf9b5997ca5) | [Settings](src/admin_view/68afc434-c4fc-48e6-8133-ddf9b5997ca5/item.json) | The *actual* number o f people sleeping in one location
  - **Reservations** | [Details](src/admin_view/e42d4c2d-ccd3-4291-a886-6f958be29417) | [Settings](src/admin_view/e42d4c2d-ccd3-4291-a886-6f958be29417/item.json) | Reservation
+ - **Reservations** | [Details](src/admin_view/e2a073f0-4550-4e45-93a0-973c2b7c5732) | [Settings](src/admin_view/e2a073f0-4550-4e45-93a0-973c2b7c5732/item.json) | Paths
  - **Reservations-edit** | [Details](src/admin_view/1f70dec6-20b6-4ef7-b4aa-e50b86cf98f3) | [Settings](src/admin_view/1f70dec6-20b6-4ef7-b4aa-e50b86cf98f3/item.json) | Reservation
  - **Tickets** | [Details](src/admin_view/f9a01525-1db5-47ee-8ba7-8ce44a10bb99) | [Settings](src/admin_view/f9a01525-1db5-47ee-8ba7-8ce44a10bb99/item.json) | Tickets on the component
  - **Treks** | [Details](src/admin_view/5274216a-5a18-4e25-81e6-f006d1344781) | [Settings](src/admin_view/5274216a-5a18-4e25-81e6-f006d1344781/item.json) | Treks
