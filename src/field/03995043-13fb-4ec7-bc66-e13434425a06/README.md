@@ -1,5 +1,5 @@
 ### JCB! Field
-# Date (required)
+# DateFirstStop
 
 > Field Type: Calendar
 
