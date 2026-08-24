@@ -1,5 +1,5 @@
 {
-    "name": "Stop",
+    "name": "Is a Stop",
     "fieldtype": "10066262-b6e3-4f82-941e-cbe4f61ddd6c",
     "datatype": "VARCHAR",
     "indexes": "0",
