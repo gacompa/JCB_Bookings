@@ -27,10 +27,10 @@ List of locations
     <tbody>
         <?php foreach ($this->items as $item): ?>
         <tr>
-            <td><img src="<?php echo $item->image; ?>" style="width: 100px; height: auto;"> </td>
-            <td><b><?php echo "<a href=\"$one_location_path?id=$item->id\" > $item->name </a>"; ?></b><br/><?php echo $item->description; ?></td>
-            <td><?php echo $item->location; ?></td>
-            <td><?php echo $item->place_altitude." m"; ?></td>
+            <td><img src="<?php echo $this->escape($item->image); ?>" style="width: 100px; height: auto;"> </td>
+            <td><b><?php echo "<a href=\"" . $this->escape($one_location_path) . "?id=" . (int)$item->id . "\" > " . $this->escape($item->name) . " </a>"; ?></b><br/><?php echo $this->escape($item->description); ?></td>
+            <td><?php echo $this->escape($item->location); ?></td>
+            <td><?php echo $this->escape($item->altitude); ?></td>
             <td align="center"><?php if ($item->is_stop) {
               // check icon by Free Icons (https://free-icons.github.io/free-icons/)
               echo '<svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
