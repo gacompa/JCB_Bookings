@@ -112,5 +112,17 @@
         "path": "src\/admin_view\/children\/e3cfdc97-5c5f-48b0-8580-f909639c2a21",
         "settings": "src\/admin_view\/children\/e3cfdc97-5c5f-48b0-8580-f909639c2a21\/admin-fields.json",
         "guid": "e3cfdc97-5c5f-48b0-8580-f909639c2a21"
+    },
+    "68afc434-c4fc-48e6-8133-ddf9b5997ca5": {
+        "name": "68afc434-c4fc-48e6-8133-ddf9b5997ca5",
+        "path": "src\/admin_view\/children\/68afc434-c4fc-48e6-8133-ddf9b5997ca5",
+        "settings": "src\/admin_view\/children\/68afc434-c4fc-48e6-8133-ddf9b5997ca5\/admin-fields.json",
+        "guid": "68afc434-c4fc-48e6-8133-ddf9b5997ca5"
+    },
+    "e2a073f0-4550-4e45-93a0-973c2b7c5732": {
+        "name": "e2a073f0-4550-4e45-93a0-973c2b7c5732",
+        "path": "src\/admin_view\/children\/e2a073f0-4550-4e45-93a0-973c2b7c5732",
+        "settings": "src\/admin_view\/children\/e2a073f0-4550-4e45-93a0-973c2b7c5732\/admin-fields.json",
+        "guid": "e2a073f0-4550-4e45-93a0-973c2b7c5732"
     }
 }
