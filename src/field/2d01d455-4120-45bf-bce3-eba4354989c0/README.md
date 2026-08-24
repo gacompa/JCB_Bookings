@@ -1,5 +1,5 @@
 ### JCB! Field
-# Stop
+# Is a Stop
 
 > Field Type: Checkbox
 
