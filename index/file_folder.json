@@ -28,5 +28,20 @@
         "name": "images\/com_bookings\/Icons\/reserve-icon.png",
         "path": "src\/file_folder\/6a1dc88f-d56f-5af7-a99a-e1c31f83467b.png",
         "guid": "6a1dc88f-d56f-5af7-a99a-e1c31f83467b.png"
+    },
+    "cc45985c-e21f-59bf-938f-3dd2666088ca.txt": {
+        "name": "joomla_basic.txt",
+        "path": "src\/file_folder\/cc45985c-e21f-59bf-938f-3dd2666088ca.txt",
+        "guid": "cc45985c-e21f-59bf-938f-3dd2666088ca.txt"
+    },
+    "577f539e-a34d-56b3-a0f0-5edb6378ed96.png": {
+        "name": "images\/com_bookings\/Icons\/trek-icon.png",
+        "path": "src\/file_folder\/577f539e-a34d-56b3-a0f0-5edb6378ed96.png",
+        "guid": "577f539e-a34d-56b3-a0f0-5edb6378ed96.png"
+    },
+    "623cc287-54de-55f5-9b9b-0437d0d34b01.png": {
+        "name": "images\/com_bookings\/Icons\/trek-add-icon.png",
+        "path": "src\/file_folder\/623cc287-54de-55f5-9b9b-0437d0d34b01.png",
+        "guid": "623cc287-54de-55f5-9b9b-0437d0d34b01.png"
     }
 }
