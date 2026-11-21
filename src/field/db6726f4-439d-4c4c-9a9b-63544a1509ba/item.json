@@ -1,0 +1,35 @@
+{
+    "name": "Region",
+    "fieldtype": "a51dfc06-1b9b-4d0a-86ba-f705bcd40d4d",
+    "datatype": "VARCHAR",
+    "indexes": "0",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"list\"\n\tname=\"region\"\n\tlabel=\"Region\"\n\tdescription=\"Select the region of the group\"\n\tmessage=\"Please select a region\"\n\tclass=\"list_class\"\n\tlayout=\"joomla.form.field.list-fancy-select\"\n\tmultiple=\"false\"\n\tfilter=\"\"\n\trequired=\"\"\n\tvalidate=\"\"\n\toption=\"0|Italia,\r\n1|Piemonte,\r\n2|Valle d'Aosta,\r\n3|Lombardia\"\n\tuseglobal=\"\"\n\tdefault=\"0\"\n\tshowon=\"\"\n\tonchange=\"\"\n\/>",
+    "datalenght": "7",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "db6726f4-439d-4c4c-9a9b-63544a1509ba",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "a51dfc06-1b9b-4d0a-86ba-f705bcd40d4d",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}
