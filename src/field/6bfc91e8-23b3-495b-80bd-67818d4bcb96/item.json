@@ -1,0 +1,35 @@
+{
+    "name": "GDPR consent note",
+    "fieldtype": "f9ecacd0-8481-4157-8c71-d7aaefc2b7c3",
+    "datatype": "VARCHAR",
+    "indexes": "0",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"note\"\n\tname=\"gdpr_consent_note\"\n\tlabel=\"Consent to the processing of personal data. By selecting this checkbox the applicant states that he\/she is at least 14 years old and is authorized to share the personal data in this form. Personal data will be used to manage this reservation and to collect feedbacks. More information about personal data management are in the PRIVACY section.\"\n\tdescription=\"The notice description\"\n\theading=\"h4\"\n\tclass=\"alert\"\n\tclose=\"true\"\n\tshowon=\"\"\n\/>",
+    "datalenght": "255",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "6bfc91e8-23b3-495b-80bd-67818d4bcb96",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "f9ecacd0-8481-4157-8c71-d7aaefc2b7c3",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}
