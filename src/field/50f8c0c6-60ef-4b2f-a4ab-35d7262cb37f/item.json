@@ -1,0 +1,35 @@
+{
+    "name": "Unit type",
+    "fieldtype": "a51dfc06-1b9b-4d0a-86ba-f705bcd40d4d",
+    "datatype": "VARCHAR",
+    "indexes": "0",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"list\"\n\tname=\"unit_type\"\n\tlabel=\"Select a unit type\"\n\tdescription=\"\"\n\tmessage=\"\"\n\tclass=\"list_class\"\n\tlayout=\"joomla.form.field.list-fancy-select\"\n\tmultiple=\"false\"\n\tfilter=\"\"\n\trequired=\"\"\n\tvalidate=\"\"\n\toption=\"0|Clan \/ Fuoco,\r\n1|Noviziato,\r\n2|Campo Scuola,\r\n3|Squadriglia \/ A. Squadriglia,\r\n4|Reparto,\r\n5|Comunit\u00e0 Capi,\r\n6|Altro (specificare in note)\"\n\tuseglobal=\"\"\n\tdefault=\"0\"\n\tshowon=\"\"\n\tonchange=\"\"\n\/>",
+    "datalenght": "7",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "50f8c0c6-60ef-4b2f-a4ab-35d7262cb37f",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "a51dfc06-1b9b-4d0a-86ba-f705bcd40d4d",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}
