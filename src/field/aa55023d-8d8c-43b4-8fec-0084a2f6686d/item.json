@@ -1,0 +1,42 @@
+{
+    "name": "Chief Phone",
+    "fieldtype": "1c6c519c-3bc8-4914-8940-3e9591b0bce6",
+    "datatype": "VARCHAR",
+    "indexes": "0",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"text\"\n\tname=\"chief_phone\"\n\tlabel=\"Chief Phone number\"\n\tsize=\"10\"\n\tmaxlength=\"50\"\n\tdefault=\"\"\n\tdescription=\"Enter some description\"\n\tclass=\"text_area\"\n\treadonly=\"false\"\n\tdisabled=\"false\"\n\trequired=\"false\"\n\tfilter=\"STRING\"\n\tvalidated=\"tel\"\n\tmessage=\"Error! Please add some text here.\"\n\thint=\"333 1234567\"\n\tshowon=\"\"\n\tonchange=\"\"\n\tvalidate=\"email\"\n\/>",
+    "datalenght": "255",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "aa55023d-8d8c-43b4-8fec-0084a2f6686d",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "1c6c519c-3bc8-4914-8940-3e9591b0bce6",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        },
+        {
+            "key": "name",
+            "value": "email",
+            "entity": "validation_rule",
+            "table": "#__componentbuilder_validation_rule",
+            "direction": "out"
+        }
+    ]
+}
