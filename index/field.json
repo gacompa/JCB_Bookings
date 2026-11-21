@@ -418,5 +418,83 @@
         "path": "src\/field\/ed30c695-5d2c-41b1-8849-6e75d2a7554a",
         "settings": "src\/field\/ed30c695-5d2c-41b1-8849-6e75d2a7554a\/item.json",
         "guid": "ed30c695-5d2c-41b1-8849-6e75d2a7554a"
+    },
+    "db6726f4-439d-4c4c-9a9b-63544a1509ba": {
+        "name": "Region",
+        "path": "src\/field\/db6726f4-439d-4c4c-9a9b-63544a1509ba",
+        "settings": "src\/field\/db6726f4-439d-4c4c-9a9b-63544a1509ba\/item.json",
+        "guid": "db6726f4-439d-4c4c-9a9b-63544a1509ba"
+    },
+    "50f8c0c6-60ef-4b2f-a4ab-35d7262cb37f": {
+        "name": "Unit type",
+        "path": "src\/field\/50f8c0c6-60ef-4b2f-a4ab-35d7262cb37f",
+        "settings": "src\/field\/50f8c0c6-60ef-4b2f-a4ab-35d7262cb37f\/item.json",
+        "guid": "50f8c0c6-60ef-4b2f-a4ab-35d7262cb37f"
+    },
+    "894ecad8-4aa1-4a83-b1c3-06b90eadfe3a": {
+        "name": "Applicant Name",
+        "path": "src\/field\/894ecad8-4aa1-4a83-b1c3-06b90eadfe3a",
+        "settings": "src\/field\/894ecad8-4aa1-4a83-b1c3-06b90eadfe3a\/item.json",
+        "guid": "894ecad8-4aa1-4a83-b1c3-06b90eadfe3a"
+    },
+    "db118eab-2919-48cf-94ca-1d2e463949fd": {
+        "name": "Applicant Email",
+        "path": "src\/field\/db118eab-2919-48cf-94ca-1d2e463949fd",
+        "settings": "src\/field\/db118eab-2919-48cf-94ca-1d2e463949fd\/item.json",
+        "guid": "db118eab-2919-48cf-94ca-1d2e463949fd"
+    },
+    "b2ac1646-482e-4c2d-a76a-cbef6ab0d285": {
+        "name": "Applicant Phone",
+        "path": "src\/field\/b2ac1646-482e-4c2d-a76a-cbef6ab0d285",
+        "settings": "src\/field\/b2ac1646-482e-4c2d-a76a-cbef6ab0d285\/item.json",
+        "guid": "b2ac1646-482e-4c2d-a76a-cbef6ab0d285"
+    },
+    "8ebec6c6-2632-4908-9e87-c4a3f4b11979": {
+        "name": "Chief Name",
+        "path": "src\/field\/8ebec6c6-2632-4908-9e87-c4a3f4b11979",
+        "settings": "src\/field\/8ebec6c6-2632-4908-9e87-c4a3f4b11979\/item.json",
+        "guid": "8ebec6c6-2632-4908-9e87-c4a3f4b11979"
+    },
+    "d1ae97bb-4605-4fdf-9231-15f719a9911b": {
+        "name": "Chief Email",
+        "path": "src\/field\/d1ae97bb-4605-4fdf-9231-15f719a9911b",
+        "settings": "src\/field\/d1ae97bb-4605-4fdf-9231-15f719a9911b\/item.json",
+        "guid": "d1ae97bb-4605-4fdf-9231-15f719a9911b"
+    },
+    "aa55023d-8d8c-43b4-8fec-0084a2f6686d": {
+        "name": "Chief Phone",
+        "path": "src\/field\/aa55023d-8d8c-43b4-8fec-0084a2f6686d",
+        "settings": "src\/field\/aa55023d-8d8c-43b4-8fec-0084a2f6686d\/item.json",
+        "guid": "aa55023d-8d8c-43b4-8fec-0084a2f6686d"
+    },
+    "92b85695-4029-45fb-af26-74d16a4e4e0f": {
+        "name": "Assistant presence",
+        "path": "src\/field\/92b85695-4029-45fb-af26-74d16a4e4e0f",
+        "settings": "src\/field\/92b85695-4029-45fb-af26-74d16a4e4e0f\/item.json",
+        "guid": "92b85695-4029-45fb-af26-74d16a4e4e0f"
+    },
+    "9d0d2d16-9217-4b0f-af59-7eec860a1d53": {
+        "name": "Notes",
+        "path": "src\/field\/9d0d2d16-9217-4b0f-af59-7eec860a1d53",
+        "settings": "src\/field\/9d0d2d16-9217-4b0f-af59-7eec860a1d53\/item.json",
+        "guid": "9d0d2d16-9217-4b0f-af59-7eec860a1d53"
+    },
+    "14f0e1fc-a23a-4a69-a4c0-b494cbbe6ea7": {
+        "name": "HPMail",
+        "path": "src\/field\/14f0e1fc-a23a-4a69-a4c0-b494cbbe6ea7",
+        "settings": "src\/field\/14f0e1fc-a23a-4a69-a4c0-b494cbbe6ea7\/item.json",
+        "guid": "14f0e1fc-a23a-4a69-a4c0-b494cbbe6ea7"
+    },
+    "4f0010ab-f9e5-473a-baa1-04a563d15769": {
+        "name": "GDPR consent",
+        "path": "src\/field\/4f0010ab-f9e5-473a-baa1-04a563d15769",
+        "settings": "src\/field\/4f0010ab-f9e5-473a-baa1-04a563d15769\/item.json",
+        "guid": "4f0010ab-f9e5-473a-baa1-04a563d15769"
+    },
+    "6bfc91e8-23b3-495b-80bd-67818d4bcb96": {
+        "name": "GDPR consent note",
+        "path": "src\/field\/6bfc91e8-23b3-495b-80bd-67818d4bcb96",
+        "settings": "src\/field\/6bfc91e8-23b3-495b-80bd-67818d4bcb96\/item.json",
+        "guid": "6bfc91e8-23b3-495b-80bd-67818d4bcb96"
     }
 }
