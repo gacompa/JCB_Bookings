@@ -1,5 +1,5 @@
 ### JCB! Field
-# Status
+# Reservation Status
 
 > Field Type: List
 
@@ -7,11 +7,11 @@
 ```xml
 <field
 	type="list"
-	name="status"
+	name="reservation_status"
 	label="Reservation status"
 	description=""
 	message=""
-	class="list_class"
+	class="hide-field "
 	layout="joomla.form.field.list-fancy-select"
 	multiple="false"
 	filter=""
