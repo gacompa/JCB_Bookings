@@ -13,7 +13,7 @@
 	maxlength="50"
 	default=""
 	description="Enter some description"
-	class="inputbox"
+	class="dedicated-field"
 	readonly="false"
 	disabled="false"
 	required="false"
