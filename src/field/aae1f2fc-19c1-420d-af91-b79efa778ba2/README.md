@@ -1,35 +1,23 @@
 ### JCB! Field
 # Stop 07
 
-> Field Type: ModalSelect
+> Field Type: SQL
 
 ## Field XML:
 ```xml
 <field
-	type="ModalSelect"
+	type="sql"
 	name="stop_07"
 	label="Stop 07"
-	sql_title_table="#__###component###_location"
-	sql_title_column="name"
-	sql_title_key="id"
-	urlSelect="index.php?option=com_###component###&amp;view=locations&amp;layout=modal&amp;tmpl=component&amp;titleKey=id"
-	urlNew="index.php?option=com_###component###&amp;task=targetview.add&amp;layout=modal&amp;tmpl=component"
-	urlEdit="index.php?option=com_###component###&amp;task=targetview.edit&amp;id={id}&amp;layout=modal&amp;tmpl=component"
-	titleSelect="Select Targetview"
-	titleNew="New Targetview"
-	titleEdit="Edit Targetview"
-	iconSelect="icon-copy"
-	select="true"
-	new="false"
-	edit="false"
-	clear="true"
-	required="false"
-	class="input-large"
-	description="Enter some description"
-	hint="Select a Targetview"
+	query="SELECT id, name FROM #__###component###_location WHERE published = 1 ORDER BY name ASC"
 	default=""
+	required="false"
 	readonly="false"
 	disabled="false"
+	description="Enter some description"
+	key_field="name"
+	value_field="name"
+	translate=""
 	showon=""
 />
 ```
