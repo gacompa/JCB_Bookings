@@ -11,13 +11,13 @@
 	label="Type of reservation"
 	description=""
 	message=""
-	class="list_class"
+	class="hide-field"
 	layout="joomla.form.field.list-fancy-select"
 	multiple="false"
 	filter=""
 	required=""
 	validate=""
-	option="0|Hyke,
+	option="0|Hike,
 1|Trek"
 	useglobal=""
 	default="0"
