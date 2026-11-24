@@ -1,0 +1,35 @@
+{
+    "name": "Reservation type",
+    "fieldtype": "a51dfc06-1b9b-4d0a-86ba-f705bcd40d4d",
+    "datatype": "VARCHAR",
+    "indexes": "0",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"list\"\n\tname=\"reservation_type\"\n\tlabel=\"Type of reservation\"\n\tdescription=\"\"\n\tmessage=\"\"\n\tclass=\"list_class\"\n\tlayout=\"joomla.form.field.list-fancy-select\"\n\tmultiple=\"false\"\n\tfilter=\"\"\n\trequired=\"\"\n\tvalidate=\"\"\n\toption=\"0|Hyke,\r\n1|Trek\"\n\tuseglobal=\"\"\n\tdefault=\"0\"\n\tshowon=\"\"\n\tonchange=\"\"\n\/>",
+    "datalenght": "255",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "3e4b3b64-2397-4ce3-9ae8-568c174bd576",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "a51dfc06-1b9b-4d0a-86ba-f705bcd40d4d",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}
