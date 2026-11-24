@@ -1,5 +1,5 @@
 {
-    "name": "HPMail",
+    "name": "EmailHP",
     "fieldtype": "35948af5-9e79-4454-8dfa-682ee4fdf650",
     "datatype": "VARCHAR",
     "indexes": "0",
@@ -8,7 +8,7 @@
     "on_get_model_field": "",
     "on_save_model_field": "",
     "initiator_on_get_model": "",
-    "xml": "<field\n\ttype=\"email\"\n\tname=\"hpmail\"\n\tlabel=\"HighPriority email\"\n\tsize=\"10\"\n\tmaxlength=\"50\"\n\tdefault=\"\"\n\tdescription=\"Enter some description\"\n\tclass=\"inputbox\"\n\treadonly=\"false\"\n\tdisabled=\"false\"\n\trequired=\"false\"\n\tfilter=\"STRING\"\n\tvalidate=\"email\"\n\tunique=\"false\"\n\tfield=\"\"\n\tmessage=\"Error! Please add some text here.\"\n\thint=\"your@email.com\"\n\tautocomplete=\"on\"\n\tshowon=\"\"\n\tonchange=\"\"\n\/>",
+    "xml": "<field\n\ttype=\"email\"\n\tname=\"emailhp\"\n\tlabel=\"HighPriority email\"\n\tsize=\"10\"\n\tmaxlength=\"50\"\n\tdefault=\"\"\n\tdescription=\"Enter some description\"\n\tclass=\"inputbox\"\n\treadonly=\"false\"\n\tdisabled=\"false\"\n\trequired=\"false\"\n\tfilter=\"STRING\"\n\tvalidate=\"email\"\n\tunique=\"false\"\n\tfield=\"\"\n\tmessage=\"Error! Please add some text here.\"\n\thint=\"your@email.com\"\n\tautocomplete=\"on\"\n\tshowon=\"\"\n\tonchange=\"\"\n\/>",
     "datalenght": "255",
     "javascript_view_footer": "",
     "css_views": "",
