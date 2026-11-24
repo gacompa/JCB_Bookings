@@ -1,5 +1,5 @@
 ### JCB! Field
-# HPMail
+# EmailHP
 
 > Field Type: Email
 
@@ -7,7 +7,7 @@
 ```xml
 <field
 	type="email"
-	name="hpmail"
+	name="emailhp"
 	label="HighPriority email"
 	size="10"
 	maxlength="50"
