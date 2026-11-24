@@ -8,7 +8,7 @@
     "on_get_model_field": "",
     "on_save_model_field": "",
     "initiator_on_get_model": "",
-    "xml": "<field\n\ttype=\"text\"\n\tname=\"group_name\"\n\tlabel=\"Group name\"\n\tsize=\"\"\n\tmaxlength=\"128\"\n\tdefault=\"Some text\"\n\tdescription=\"Enter the name of the group\"\n\tclass=\"text_area\"\n\treadonly=\"false\"\n\tdisabled=\"false\"\n\trequired=\"false\"\n\tfilter=\"STRING\"\n\tvalidate=\"\"\n\tfield=\"\"\n\tmessage=\"Error! Please add some text here.\"\n\thint=\"Your Name Here\"\n\tautocomplete=\"on\"\n\tshowon=\"\"\n\tonchange=\"\"\n\/>",
+    "xml": "<field\n\ttype=\"text\"\n\tname=\"group_name\"\n\tlabel=\"Group name\"\n\tsize=\"\"\n\tmaxlength=\"128\"\n\tdefault=\"Group name\"\n\tdescription=\"Enter the name of the group\"\n\tclass=\"text_area\"\n\treadonly=\"false\"\n\tdisabled=\"false\"\n\trequired=\"true\"\n\tfilter=\"STRING\"\n\tvalidate=\"\"\n\tfield=\"\"\n\tmessage=\"Error! Please add some text here.\"\n\thint=\"Group name\"\n\tautocomplete=\"off\"\n\tshowon=\"\"\n\tonchange=\"\"\n\/>",
     "datalenght": "255",
     "javascript_view_footer": "",
     "css_views": "",
