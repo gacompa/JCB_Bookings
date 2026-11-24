@@ -496,5 +496,23 @@
         "path": "src\/field\/6bfc91e8-23b3-495b-80bd-67818d4bcb96",
         "settings": "src\/field\/6bfc91e8-23b3-495b-80bd-67818d4bcb96\/item.json",
         "guid": "6bfc91e8-23b3-495b-80bd-67818d4bcb96"
+    },
+    "4e1c0103-430b-4772-96ed-746e0c9beb19": {
+        "name": "GDPR consent note",
+        "path": "src\/field\/4e1c0103-430b-4772-96ed-746e0c9beb19",
+        "settings": "src\/field\/4e1c0103-430b-4772-96ed-746e0c9beb19\/item.json",
+        "guid": "4e1c0103-430b-4772-96ed-746e0c9beb19"
+    },
+    "91b16b60-83b0-4eb5-8a0b-3300158962ce": {
+        "name": "Status",
+        "path": "src\/field\/91b16b60-83b0-4eb5-8a0b-3300158962ce",
+        "settings": "src\/field\/91b16b60-83b0-4eb5-8a0b-3300158962ce\/item.json",
+        "guid": "91b16b60-83b0-4eb5-8a0b-3300158962ce"
+    },
+    "3e4b3b64-2397-4ce3-9ae8-568c174bd576": {
+        "name": "Reservation type",
+        "path": "src\/field\/3e4b3b64-2397-4ce3-9ae8-568c174bd576",
+        "settings": "src\/field\/3e4b3b64-2397-4ce3-9ae8-568c174bd576\/item.json",
+        "guid": "3e4b3b64-2397-4ce3-9ae8-568c174bd576"
     }
 }
