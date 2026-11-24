@@ -9,13 +9,18 @@
 	type="sql"
 	name="stop_01"
 	label="Stop 01"
-	query="SELECT id, name FROM #__###component###_location WHERE published = 1 ORDER BY name ASC"
+	query="SELECT '' AS id, '' AS name, 0 AS sort_order
+UNION ALL
+SELECT id, name, 1 AS sort_order
+FROM #__###component###_location
+WHERE published = 1
+ORDER BY sort_order ASC, name ASC"
 	default="Centralina"
 	required="false"
 	readonly="false"
 	disabled="false"
 	description="Select a stop location"
-	key_field="name"
+	key_field="id"
 	value_field="name"
 	translate=""
 	showon=""
